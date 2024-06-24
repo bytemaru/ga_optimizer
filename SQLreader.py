@@ -2,6 +2,7 @@ import sqlparse
 from sqlparse.sql import IdentifierList, Identifier
 from sqlparse.tokens import Keyword, DML
 import itertools
+import pandas as pd
 
 def is_subselect(parsed):
     if not parsed.is_group:
@@ -84,61 +85,57 @@ def parse_sql(sql):
 
     return query_dict
 
-# Mock cost function for joins
-def join_cost(tables, stats):
-    cost = 0
-    for i in range(1, len(tables)):
-        cost += stats[tables[i-1]] * stats[tables[i]]
-    return cost
+# Function to read SQL from a file
+def read_sql_from_file(file_path):
+    with open(file_path, 'r') as file:
+        sql_query = file.read()
+    return sql_query
+
+# Function to read join statistics from an Excel file without labeled columns
+def read_join_stats_from_excel(file_path):
+    df = pd.read_excel(file_path, header=None, usecols=[0, 1, 2, 3, 4])
+    df.columns = ['table1_name', 'table2_name', 'table1_size', 'table2_size', 'selectivity']
+    join_stats = {}
+    for _, row in df.iterrows():
+        table1 = row['table1_name']
+        table2 = row['table2_name']
+        size1 = row['table1_size']
+        size2 = row['table2_size']
+        selectivity = row['selectivity']
+        cost = (size1 + size2) * selectivity
+        join_stats[(table1, table2)] = cost
+        join_stats[(table2, table1)] = cost  # Assuming join cost is symmetric
+    return join_stats
 
 # Function to find the optimal join order
-def find_optimal_join_order(tables, stats):
+def find_optimal_join_order(tables, join_stats):
     min_cost = float('inf')
     best_order = None
     for perm in itertools.permutations(tables):
-        cost = join_cost(perm, stats)
+        cost = 0
+        for i in range(1, len(perm)):
+            cost += join_stats.get((perm[i-1], perm[i]), float('inf'))
         if cost < min_cost:
             min_cost = cost
             best_order = perm
     return best_order, min_cost
 
-# Define your SQL query
-sql_query = """
-SELECT MIN(mc.note) AS production_note,
-       MIN(t.title) AS movie_title,
-       MIN(t.production_year) AS movie_year
-FROM company_type AS ct,
-     info_type AS it,
-     movie_companies AS mc,
-     movie_info_idx AS mi_idx,
-     title AS t
-WHERE ct.kind = 'production companies'
-  AND it.info = 'top 250 rank'
-  AND mc.note NOT LIKE '%(as Metro-Goldwyn-Mayer Pictures)%'
-  AND (mc.note LIKE '%(co-production)%'
-       OR mc.note LIKE '%(presents)%')
-  AND ct.id = mc.company_type_id
-  AND t.id = mc.movie_id
-  AND t.id = mi_idx.movie_id
-  AND mc.movie_id = mi_idx.movie_id
-  AND it.id = mi_idx.info_type_id;
-"""
+# Paths to the SQL file and Excel file
+sql_file_path = 'join-order-benchmark/1a.sql'
+excel_file_path = 'Join-Selectivities.xlsx'
+
+# Read the SQL query from the file
+sql_query = read_sql_from_file(sql_file_path)
 
 # Parse the query
 parsed_query = parse_sql(sql_query)
 for key, value in parsed_query.items():
     print(f"{key}: {value}")
 
-# Define mock table statistics
-table_stats = {
-    "company_type": 1000,
-    "info_type": 500,
-    "movie_companies": 2000,
-    "movie_info_idx": 1500,
-    "title": 1000
-}
+# Read the join statistics from the Excel file
+join_stats = read_join_stats_from_excel(excel_file_path)
 
 # Find and print the optimal join order and its cost
-optimal_order, cost = find_optimal_join_order(parsed_query["FROM"], table_stats)
+optimal_order, cost = find_optimal_join_order(parsed_query["FROM"], join_stats)
 print(f"Optimal Join Order: {optimal_order}")
 print(f"Cost: {cost}")
