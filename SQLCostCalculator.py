@@ -19,5 +19,5 @@ def read_join_stats_from_excel(file_path):
 def evaluate(individual):
     cost = 0
     for i in range(1, len(individual)):
-        cost += join_stats.get((individual[i-1], individual[i]), float('inf'))
+        cost += join_stats.get((individual[i-1], individual[i]), float(1))
     return (cost,)
