@@ -4,6 +4,33 @@ import random
 from deap import creator, base, algorithms, tools
 from SQLCostCalculator import evaluate
 
+def part_matched_cx(ind1, ind2):
+    size = len(ind1)
+    p1, p2 = {}, {}
+
+    # Initialize the position of each index in the individuals
+    for i in range(size):
+        p1[ind1[i]] = i
+        p2[ind2[i]] = i
+
+    # Choose crossover points
+    cxpoint1, cxpoint2 = sorted(random.sample(range(size), 2))
+
+    # Apply crossover between cx points
+    for i in range(cxpoint1, cxpoint2):
+        # Swap the matched value
+        temp1 = ind1[i]
+        temp2 = ind2[i]
+        ind1[i], ind1[p1[temp2]] = temp2, temp1
+        ind2[i], ind2[p2[temp1]] = temp1, temp2
+
+        # Position bookkeeping
+        p1[temp1], p1[temp2] = p1[temp2], p1[temp1]
+        p2[temp1], p2[temp2] = p2[temp2], p2[temp1]
+
+    return ind1, ind2 
+
+
 def genetic_algorithm(joins):
     
     tables = list(joins["FROM"])
@@ -19,8 +46,8 @@ def genetic_algorithm(joins):
     toolbox.register("population", tools.initRepeat, list, toolbox.individual)
 
     toolbox.register("evaluate", evaluate)
-    toolbox.register("mate", tools.cxTwoPoint)
-    toolbox.register("mutate", tools.mutShuffleIndexes, indpb=0.2)
+    toolbox.register("mate", part_matched_cx)
+    #toolbox.register("mutate", tools.mutShuffleIndexes, indpb=0.2)
     toolbox.register("select", tools.selTournament, tournsize=3)
 
     population = toolbox.population(n=100)
@@ -42,10 +69,10 @@ def genetic_algorithm(joins):
                 del child1.fitness.values
                 del child2.fitness.values
 
-        for mutant in offspring:
-            if random.random() < mutpb:
-                toolbox.mutate(mutant)
-                del mutant.fitness.values
+        # for mutant in offspring:
+        #     if random.random() < mutpb:
+        #         toolbox.mutate(mutant)
+        #         del mutant.fitness.values
 
         # Evaluate the individuals with an invalid fitness
         invalid_ind = [ind for ind in offspring if not ind.fitness.valid]
