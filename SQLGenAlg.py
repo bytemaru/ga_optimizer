@@ -4,6 +4,7 @@ import random
 from deap import creator, base, algorithms, tools
 from SQLCostCalculator import evaluate
 
+#function for partially matched crossover
 def part_matched_cx(ind1, ind2):
     size = len(ind1)
     p1, p2 = {}, {}
@@ -29,6 +30,17 @@ def part_matched_cx(ind1, ind2):
         p2[temp1], p2[temp2] = p2[temp2], p2[temp1]
 
     return ind1, ind2 
+
+#function for swap mutation
+def swapmut(individual, indpb):
+    """Mutate an individual by swapping two of its attributes."""
+    size = len(individual)
+    for i in range(size):
+        if random.random() < indpb:
+            swap_idx = random.randrange(size)
+            # Swap the elements
+            individual[i], individual[swap_idx] = individual[swap_idx], individual[i]
+    return individual,
 
 
 def genetic_algorithm(joins):
