@@ -8,6 +8,5 @@ FROM title AS t,
      complete_cast AS cc
 WHERE t.production_year BETWEEN 2005 AND 2010
   AND t.id = mi_idx.movie_id
-  AND t.id = mi.movie_id
-  AND t.id = ml.movie_id
+  AND ml.movie_id = mi.movie_id
   AND t.id = cc.movie_id
