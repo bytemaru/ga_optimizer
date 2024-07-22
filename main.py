@@ -23,7 +23,7 @@ def main():
 
     #validate GA result
     best, cost = calculate_all_permutations_cost(SQLJoins["FROM"])
-    print("Real Optimal Join Order: ", best)
+    print("Best Join Order: ", best)
     print("Optimal Cost: ", cost)
 
 
