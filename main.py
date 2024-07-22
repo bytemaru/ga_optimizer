@@ -1,10 +1,5 @@
 import sys
-import SQLParser 
-import SQLGenAlg
-import SQLCostCalculator
-import validate
-from os import listdir
-from os.path import isfile, join
+import os
 from SQLParser import parse_sql
 from SQLGenAlg import genetic_algorithm
 from SQLCostCalculator import read_join_stats_from_excel
@@ -14,14 +9,19 @@ def main():
     SQLfilepath = sys.argv[1]
     join_selectivity_file = sys.argv[2]
 
-    SQLfiles = [f for f in listdir(SQLfilepath) if isfile(join(SQLfilepath, f))]
+    path = "C://Users//Vanshi//Desktop//gfg"
+    dir_list = os.listdir(SQLfilepath)
+    print("Files and directories in '", SQLfilepath, "' :")
+    # prints all files
+    print(dir_list)
 
     #load table sizes and join selectivities
     read_join_stats_from_excel(join_selectivity_file)
 
-    for f in SQLfiles: 
+    for f in dir_list: 
+        print(f)
         #parse SQL file
-        SQLJoins = parse_sql(SQLfilename)
+        SQLJoins = parse_sql(f)
 
         #run GA on joins
         genetic_algorithm(SQLJoins)
@@ -30,7 +30,6 @@ def main():
         best, cost = calculate_all_permutations_cost(SQLJoins["FROM"])
         print("Best Join Order: ", best)
         print("Optimal Cost: ", cost)
-
 
 if __name__ == "__main__":
     main()
