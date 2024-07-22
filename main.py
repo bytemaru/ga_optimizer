@@ -9,7 +9,6 @@ def main():
     SQLfilepath = sys.argv[1]
     join_selectivity_file = sys.argv[2]
 
-    path = "C://Users//Vanshi//Desktop//gfg"
     dir_list = os.listdir(SQLfilepath)
     print("Files and directories in '", SQLfilepath, "' :")
     # prints all files
