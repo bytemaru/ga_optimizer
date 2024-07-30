@@ -1,7 +1,8 @@
+from functools import partial
 import deap
 import SQLCostCalculator
 import random
-from deap import creator, base, algorithms, tools
+from deap import creator, base, tools
 from SQLCostCalculator import evaluate
 
 #function for partially matched crossover
@@ -42,33 +43,35 @@ def swapmut(individual, indpb):
             individual[i], individual[swap_idx] = individual[swap_idx], individual[i]
     return individual,
 
+def evaluate(joins, join_stats):
+    return SQLCostCalculator.evaluate(joins, join_stats)
 
-def genetic_algorithm(joins):
-    
-    tables = list(joins["FROM"])
-    print(tables)
+
+def genetic_algorithm(joins, join_stats):
 
     # DEAP setup
     creator.create("FitnessMin", base.Fitness, weights=(-1.0,))
     creator.create("Individual", list, fitness=creator.FitnessMin)
 
     toolbox = base.Toolbox()
-    toolbox.register("indices", random.sample, tables, len(tables))
+    toolbox.register("indices", random.sample, joins, len(joins))
     toolbox.register("individual", tools.initIterate, creator.Individual, toolbox.indices)
     toolbox.register("population", tools.initRepeat, list, toolbox.individual)
 
-    toolbox.register("evaluate", evaluate)
+    toolbox.register("evaluate", partial(evaluate, join_stats=join_stats))
     toolbox.register("mate", part_matched_cx)
-    #toolbox.register("mutate", tools.mutShuffleIndexes, indpb=0.2)
+    toolbox.register("mutate", swapmut)
     toolbox.register("select", tools.selTournament, tournsize=3)
 
     population = toolbox.population(n=100)
     ngen = 40
     cxpb = 0.8
-    mutpb = 0.2
+    mutpb = 0.4
     elitism_size = 5 
 
     for gen in range(ngen):
+
+        print("Generation: ", gen)
         # Select the next generation individuals
         offspring = toolbox.select(population, len(population) - elitism_size)
         # Clone the selected individuals
@@ -81,14 +84,12 @@ def genetic_algorithm(joins):
                 del child1.fitness.values
                 del child2.fitness.values
 
-        # for mutant in offspring:
-        #     if random.random() < mutpb:
-        #         toolbox.mutate(mutant)
-        #         del mutant.fitness.values
+            toolbox.mutate(offspring, mutpb)
+
 
         # Evaluate the individuals with an invalid fitness
         invalid_ind = [ind for ind in offspring if not ind.fitness.valid]
-        fitnesses = map(toolbox.evaluate, invalid_ind)
+        fitnesses = list(map(toolbox.evaluate, invalid_ind))
         for ind, fit in zip(invalid_ind, fitnesses):
             ind.fitness.values = fit
 
@@ -100,7 +101,13 @@ def genetic_algorithm(joins):
         # The population is entirely replaced by the offspring + elites
         population[:] = offspring
 
+        curr_ind = tools.selBest(population, 1)[0]
+        print(f"Cost: {evaluate(curr_ind, join_stats)[0]}")
+
+    del creator.Individual
+    del creator.FitnessMin
+
     # Print the best solution
     best_ind = tools.selBest(population, 1)[0]
     print(f"Optimal Join Order: {best_ind}")
-    print(f"Cost: {evaluate(best_ind)[0]}")
+    print(f"Cost: {evaluate(best_ind, join_stats)[0]}")
