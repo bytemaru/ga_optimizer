@@ -10,23 +10,23 @@ def main():
     join_selectivity_file = sys.argv[2]
 
     dir_list = os.listdir(SQLfilepath)
-    print("Files and directories in '", SQLfilepath, "' :")
-    # prints all files
-    print(dir_list)
+    SQLfiles = []
+    for f in dir_list:
+        abs_file_path = os.path.join(SQLfilepath, f)
+        SQLfiles.append(abs_file_path)
 
     #load table sizes and join selectivities
-    read_join_stats_from_excel(join_selectivity_file)
+    join_stats = read_join_stats_from_excel(join_selectivity_file)
 
-    for f in dir_list: 
-        print(f)
+    for f in SQLfiles: 
         #parse SQL file
         SQLJoins = parse_sql(f)
 
         #run GA on joins
-        genetic_algorithm(SQLJoins)
+        genetic_algorithm(SQLJoins["FROM"], join_stats)
 
         #validate GA result
-        best, cost = calculate_all_permutations_cost(SQLJoins["FROM"])
+        best, cost = calculate_all_permutations_cost(SQLJoins["FROM"], join_stats)
         print("Best Join Order: ", best)
         print("Optimal Cost: ", cost)
 
