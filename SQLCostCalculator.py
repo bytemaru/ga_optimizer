@@ -56,8 +56,6 @@ def calculate_join_cost(join1, join2, join_stats):
         selectivity = 1 # Selecticity = 1 if no join is found - KeyError occurs
     
     cost = (size1 + size2) * float(selectivity)
-    #print(f"Join cost: {size1}, Type: {type(size1)}")
-    #print("TESTIES: ", size1, size2, selectivity)
     return cost
 
 
@@ -66,5 +64,4 @@ def evaluate(individual, join_stats):
     cost = 0
     for i in range(1, len(individual)):
         cost += calculate_join_cost(str(individual[i-1]), str(individual[i]), join_stats)
-        #print(f"Type of cost before conversion: {type(cost)}")
     return (float(cost),)

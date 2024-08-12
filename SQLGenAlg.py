@@ -5,8 +5,18 @@ import random
 from deap import creator, base, tools
 from SQLCostCalculator import evaluate
 
+# function that creates an individual as a permutation of a range of numbers
+def create_permutation(size):
+    return random.sample(range(size), size)
+
+# Convert the permutation back to the original sequence
+def convert_permutation_to_original(individual, original_sequence):
+    return [original_sequence[i] for i in individual]
+
 #function for partially matched crossover
 def part_matched_cx(ind1, ind2):
+
+    #print("TESTING", ind1, "STILL TESTING:  ", ind2)
     size = len(ind1)
     p1, p2 = {}, {}
 
@@ -43,7 +53,8 @@ def swapmut(individual, indpb):
             individual[i], individual[swap_idx] = individual[swap_idx], individual[i]
     return individual,
 
-def evaluate(joins, join_stats):
+def evaluate(sequence, join_stats, original_sequence):
+    joins = convert_permutation_to_original(sequence, original_sequence)
     return SQLCostCalculator.evaluate(joins, join_stats)
 
 
@@ -51,14 +62,14 @@ def genetic_algorithm(joins, join_stats):
 
     # DEAP setup
     creator.create("FitnessMin", base.Fitness, weights=(-1.0,))
-    creator.create("Individual", list, fitness=creator.FitnessMin)
+    creator.create("Individual", list, fitness=creator.FitnessMin)  
 
     toolbox = base.Toolbox()
-    toolbox.register("indices", random.sample, joins, len(joins))
+    toolbox.register("indices", create_permutation, len(joins))
     toolbox.register("individual", tools.initIterate, creator.Individual, toolbox.indices)
     toolbox.register("population", tools.initRepeat, list, toolbox.individual)
 
-    toolbox.register("evaluate", partial(evaluate, join_stats=join_stats))
+    toolbox.register("evaluate", partial(evaluate, join_stats=join_stats, original_sequence=joins))
     toolbox.register("mate", part_matched_cx)
     toolbox.register("mutate", swapmut)
     toolbox.register("select", tools.selTournament, tournsize=3)
@@ -71,7 +82,7 @@ def genetic_algorithm(joins, join_stats):
 
     for gen in range(ngen):
 
-        print("Generation: ", gen)
+        #print("Generation: ", gen)
         # Select the next generation individuals
         offspring = toolbox.select(population, len(population) - elitism_size)
         # Clone the selected individuals
@@ -85,7 +96,6 @@ def genetic_algorithm(joins, join_stats):
                 del child2.fitness.values
 
             toolbox.mutate(offspring, mutpb)
-
 
         # Evaluate the individuals with an invalid fitness
         invalid_ind = [ind for ind in offspring if not ind.fitness.valid]
@@ -101,13 +111,11 @@ def genetic_algorithm(joins, join_stats):
         # The population is entirely replaced by the offspring + elites
         population[:] = offspring
 
-        curr_ind = tools.selBest(population, 1)[0]
-        print(f"Cost: {evaluate(curr_ind, join_stats)[0]}")
-
     del creator.Individual
     del creator.FitnessMin
 
     # Print the best solution
     best_ind = tools.selBest(population, 1)[0]
-    print(f"Optimal Join Order: {best_ind}")
-    print(f"Cost: {evaluate(best_ind, join_stats)[0]}")
+    best_seq = convert_permutation_to_original(best_ind, joins)
+    print(f"Optimal Join Order: {best_seq}")
+    print(f"Cost: {evaluate(best_ind, join_stats, joins)[0]}")

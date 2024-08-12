@@ -19,6 +19,7 @@ def main():
     join_stats = read_join_stats_from_excel(join_selectivity_file)
 
     for f in SQLfiles: 
+        print("Query: ", f)
         #parse SQL file
         SQLJoins = parse_sql(f)
 
@@ -26,9 +27,9 @@ def main():
         genetic_algorithm(SQLJoins["FROM"], join_stats)
 
         #validate GA result
-        best, cost = calculate_all_permutations_cost(SQLJoins["FROM"], join_stats)
-        print("Best Join Order: ", best)
-        print("Optimal Cost: ", cost)
+        #best, cost = calculate_all_permutations_cost(SQLJoins["FROM"], join_stats)
+        #print("Best Join Order: ", best)
+        #print("Optimal Cost: ", cost)
 
 if __name__ == "__main__":
     main()
