@@ -58,7 +58,7 @@ def evaluate(sequence, join_stats, original_sequence):
     return SQLCostCalculator.evaluate(joins, join_stats)
 
 
-def genetic_algorithm(joins, join_stats):
+def genetic_algorithm(joins, join_stats, result_file):
 
     # DEAP setup
     creator.create("FitnessMin", base.Fitness, weights=(-1.0,))
@@ -117,5 +117,5 @@ def genetic_algorithm(joins, join_stats):
     # Print the best solution
     best_ind = tools.selBest(population, 1)[0]
     best_seq = convert_permutation_to_original(best_ind, joins)
-    print(f"Optimal Join Order: {best_seq}")
-    print(f"Cost: {evaluate(best_ind, join_stats, joins)[0]}")
+    result_file.write(f"Optimal Join Order: {best_seq} \n")
+    result_file.write(f"Cost: {evaluate(best_ind, join_stats, joins)[0]} \n")
