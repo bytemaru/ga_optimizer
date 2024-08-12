@@ -9,6 +9,8 @@ def main():
     SQLfilepath = sys.argv[1]
     join_selectivity_file = sys.argv[2]
 
+    result_file = open("output.txt", "w")
+
     dir_list = os.listdir(SQLfilepath)
     SQLfiles = []
     for f in dir_list:
@@ -19,17 +21,20 @@ def main():
     join_stats = read_join_stats_from_excel(join_selectivity_file)
 
     for f in SQLfiles: 
-        print("Query: ", f)
+        result_file.write("Query: ", f)
         #parse SQL file
         SQLJoins = parse_sql(f)
-
-        #run GA on joins
-        genetic_algorithm(SQLJoins["FROM"], join_stats)
-
+        for i in range(30):
+            result_file.write("Iteration: ", i)
+            #run GA on joins
+            genetic_algorithm(SQLJoins["FROM"], join_stats)
+        
         #validate GA result
-        #best, cost = calculate_all_permutations_cost(SQLJoins["FROM"], join_stats)
-        #print("Best Join Order: ", best)
-        #print("Optimal Cost: ", cost)
+        best, cost = calculate_all_permutations_cost(SQLJoins["FROM"], join_stats)
+        print("Best Join Order: ", best)
+        print("Optimal Cost: ", cost)
+
+    result_file.close()
 
 if __name__ == "__main__":
     main()
