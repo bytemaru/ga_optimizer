@@ -1,0 +1,11 @@
+Query: testqueries\10a.sql
+Iteration: 0 
+Optimal Join Order: ['role_type', 'company_type', 'char_name', 'cast_info', 'title', 'movie_companies', 'company_name'] 
+Cost: 2763231.078749103 
+Iteration: 1 
+Optimal Join Order: ['char_name', 'cast_info', 'title', 'movie_companies', 'company_name', 'company_type', 'role_type'] 
+Cost: 352621.078749103 
+Iteration: 2 
+Optimal Join Order: ['char_name', 'cast_info', 'title', 'movie_companies', 'company_name', 'company_type', 'role_type'] 
+Cost: 352621.078749103 
+Iteration: 3 
