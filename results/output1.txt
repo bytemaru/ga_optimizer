@@ -1,0 +1,3003 @@
+Query: ./ENGR489-Project/TestQueries/10a.sql
+Iteration: 0 
+Optimal Join Order: ['char_name', 'cast_info', 'title', 'movie_companies', 'company_name', 'company_type', 'role_type'] 
+Cost: 352621.078749103 
+Iteration: 1 
+Optimal Join Order: ['role_type', 'company_type', 'company_name', 'movie_companies', 'title', 'cast_info', 'char_name'] 
+Cost: 352621.078749103 
+Iteration: 2 
+Optimal Join Order: ['char_name', 'cast_info', 'role_type', 'company_type', 'company_name', 'movie_companies', 'title'] 
+Cost: 552691.364027741 
+Iteration: 3 
+Optimal Join Order: ['role_type', 'company_type', 'company_name', 'movie_companies', 'title', 'cast_info', 'char_name'] 
+Cost: 352621.078749103 
+Iteration: 4 
+Optimal Join Order: ['char_name', 'cast_info', 'title', 'movie_companies', 'company_name', 'role_type', 'company_type'] 
+Cost: 352629.078749103 
+Iteration: 5 
+Optimal Join Order: ['company_type', 'role_type', 'company_name', 'movie_companies', 'title', 'cast_info', 'char_name'] 
+Cost: 352629.078749103 
+Iteration: 6 
+Optimal Join Order: ['char_name', 'cast_info', 'title', 'movie_companies', 'company_name', 'company_type', 'role_type'] 
+Cost: 352621.078749103 
+Iteration: 7 
+Optimal Join Order: ['company_name', 'movie_companies', 'title', 'cast_info', 'char_name', 'company_type', 'role_type'] 
+Cost: 2763231.078749103 
+Iteration: 8 
+Optimal Join Order: ['role_type', 'company_type', 'company_name', 'movie_companies', 'title', 'cast_info', 'char_name'] 
+Cost: 352621.078749103 
+Iteration: 9 
+Optimal Join Order: ['company_name', 'movie_companies', 'title', 'cast_info', 'char_name', 'company_type', 'role_type'] 
+Cost: 2763231.078749103 
+Iteration: 10 
+Optimal Join Order: ['role_type', 'company_type', 'company_name', 'movie_companies', 'title', 'cast_info', 'char_name'] 
+Cost: 352621.078749103 
+Iteration: 11 
+Optimal Join Order: ['company_name', 'role_type', 'company_type', 'char_name', 'cast_info', 'title', 'movie_companies'] 
+Cost: 3115797.541673023 
+Iteration: 12 
+Optimal Join Order: ['char_name', 'cast_info', 'title', 'movie_companies', 'company_type', 'role_type', 'company_name'] 
+Cost: 1548667.291673023 
+Iteration: 13 
+Optimal Join Order: ['char_name', 'cast_info', 'title', 'movie_companies', 'company_name', 'company_type', 'role_type'] 
+Cost: 352621.078749103 
+Iteration: 14 
+Optimal Join Order: ['title', 'movie_companies', 'company_name', 'company_type', 'role_type', 'cast_info', 'char_name'] 
+Cost: 552691.364027741 
+Iteration: 15 
+Optimal Join Order: ['role_type', 'company_name', 'company_type', 'movie_companies', 'title', 'cast_info', 'char_name'] 
+Cost: 1901224.291673023 
+Iteration: 16 
+Optimal Join Order: ['role_type', 'company_type', 'company_name', 'movie_companies', 'title', 'cast_info', 'char_name'] 
+Cost: 352621.078749103 
+Iteration: 17 
+Optimal Join Order: ['title', 'movie_companies', 'company_name', 'company_type', 'role_type', 'cast_info', 'char_name'] 
+Cost: 552691.364027741 
+Iteration: 18 
+Optimal Join Order: ['role_type', 'company_type', 'company_name', 'movie_companies', 'title', 'cast_info', 'char_name'] 
+Cost: 352621.078749103 
+Iteration: 19 
+Optimal Join Order: ['title', 'movie_companies', 'company_name', 'company_type', 'role_type', 'cast_info', 'char_name'] 
+Cost: 552691.364027741 
+Iteration: 20 
+Optimal Join Order: ['char_name', 'cast_info', 'title', 'movie_companies', 'company_type', 'role_type', 'company_name'] 
+Cost: 1548667.291673023 
+Iteration: 21 
+Optimal Join Order: ['role_type', 'company_type', 'company_name', 'movie_companies', 'title', 'cast_info', 'char_name'] 
+Cost: 352621.078749103 
+Iteration: 22 
+Optimal Join Order: ['company_name', 'movie_companies', 'title', 'cast_info', 'char_name', 'company_type', 'role_type'] 
+Cost: 2763231.078749103 
+Iteration: 23 
+Optimal Join Order: ['char_name', 'cast_info', 'role_type', 'company_type', 'company_name', 'movie_companies', 'title'] 
+Cost: 552691.364027741 
+Iteration: 24 
+Optimal Join Order: ['char_name', 'cast_info', 'title', 'movie_companies', 'company_name', 'role_type', 'company_type'] 
+Cost: 352629.078749103 
+Iteration: 25 
+Optimal Join Order: ['char_name', 'cast_info', 'title', 'movie_companies', 'company_name', 'company_type', 'role_type'] 
+Cost: 352621.078749103 
+Iteration: 26 
+Optimal Join Order: ['char_name', 'cast_info', 'title', 'movie_companies', 'company_name', 'company_type', 'role_type'] 
+Cost: 352621.078749103 
+Iteration: 27 
+Optimal Join Order: ['role_type', 'company_type', 'company_name', 'movie_companies', 'title', 'cast_info', 'char_name'] 
+Cost: 352621.078749103 
+Iteration: 28 
+Optimal Join Order: ['char_name', 'cast_info', 'role_type', 'company_type', 'company_name', 'movie_companies', 'title'] 
+Cost: 552691.364027741 
+Iteration: 29 
+Optimal Join Order: ['char_name', 'cast_info', 'role_type', 'company_type', 'company_name', 'movie_companies', 'title'] 
+Cost: 552691.364027741 
+Query: ./ENGR489-Project/TestQueries/30a.sql
+Iteration: 0 
+Optimal Join Order: ['keyword', 'info_type', 'info_type', 'comp_cast_type', 'comp_cast_type', 'complete_cast', 'movie_info_idx', 'title', 'movie_keyword', 'movie_info', 'cast_info', 'name'] 
+Cost: 223242.69657976268 
+Iteration: 1 
+Optimal Join Order: ['keyword', 'comp_cast_type', 'comp_cast_type', 'info_type', 'movie_info_idx', 'title', 'movie_keyword', 'movie_info', 'info_type', 'complete_cast', 'cast_info', 'name'] 
+Cost: 599012.0092896436 
+Iteration: 2 
+Optimal Join Order: ['keyword', 'movie_keyword', 'title', 'movie_info_idx', 'complete_cast', 'cast_info', 'name', 'comp_cast_type', 'comp_cast_type', 'info_type', 'info_type', 'movie_info'] 
+Cost: 6499839.665858677 
+Iteration: 3 
+Optimal Join Order: ['name', 'cast_info', 'complete_cast', 'comp_cast_type', 'keyword', 'movie_keyword', 'movie_info', 'title', 'movie_info_idx', 'info_type', 'info_type', 'comp_cast_type'] 
+Cost: 243309.92249749458 
+Iteration: 4 
+Optimal Join Order: ['comp_cast_type', 'keyword', 'name', 'cast_info', 'title', 'movie_info', 'complete_cast', 'comp_cast_type', 'info_type', 'info_type', 'movie_info_idx', 'movie_keyword'] 
+Cost: 6744715.492014927 
+Iteration: 5 
+Optimal Join Order: ['info_type', 'movie_info_idx', 'title', 'movie_info', 'movie_keyword', 'keyword', 'comp_cast_type', 'info_type', 'comp_cast_type', 'complete_cast', 'cast_info', 'name'] 
+Cost: 243200.9224974946 
+Iteration: 6 
+Optimal Join Order: ['name', 'cast_info', 'movie_info', 'movie_keyword', 'title', 'complete_cast', 'movie_info_idx', 'info_type', 'info_type', 'comp_cast_type', 'comp_cast_type', 'keyword'] 
+Cost: 243289.1995516667 
+Iteration: 7 
+Optimal Join Order: ['movie_keyword', 'movie_info_idx', 'movie_info', 'cast_info', 'name', 'keyword', 'comp_cast_type', 'info_type', 'info_type', 'comp_cast_type', 'complete_cast', 'title'] 
+Cost: 6724661.799302152 
+Iteration: 8 
+Optimal Join Order: ['comp_cast_type', 'info_type', 'info_type', 'movie_info_idx', 'movie_info', 'title', 'movie_keyword', 'keyword', 'comp_cast_type', 'complete_cast', 'cast_info', 'name'] 
+Cost: 243304.9063448096 
+Iteration: 9 
+Optimal Join Order: ['comp_cast_type', 'comp_cast_type', 'info_type', 'name', 'cast_info', 'movie_info_idx', 'info_type', 'complete_cast', 'movie_info', 'title', 'movie_keyword', 'keyword'] 
+Cost: 6434350.445090401 
+Iteration: 10 
+Optimal Join Order: ['info_type', 'comp_cast_type', 'keyword', 'movie_keyword', 'title', 'movie_info', 'cast_info', 'complete_cast', 'movie_info_idx', 'info_type', 'comp_cast_type', 'name'] 
+Cost: 6521872.301661343 
+Iteration: 11 
+Optimal Join Order: ['movie_info', 'title', 'movie_keyword', 'keyword', 'comp_cast_type', 'info_type', 'comp_cast_type', 'info_type', 'movie_info_idx', 'complete_cast', 'cast_info', 'name'] 
+Cost: 243313.27872816462 
+Iteration: 12 
+Optimal Join Order: ['info_type', 'complete_cast', 'title', 'movie_keyword', 'keyword', 'comp_cast_type', 'comp_cast_type', 'movie_info_idx', 'info_type', 'movie_info', 'cast_info', 'name'] 
+Cost: 2878941.9694015495 
+Iteration: 13 
+Optimal Join Order: ['info_type', 'comp_cast_type', 'comp_cast_type', 'info_type', 'movie_info_idx', 'complete_cast', 'title', 'keyword', 'movie_keyword', 'movie_info', 'cast_info', 'name'] 
+Cost: 4432372.051526714 
+Iteration: 14 
+Optimal Join Order: ['name', 'cast_info', 'movie_info', 'title', 'movie_keyword', 'keyword', 'comp_cast_type', 'complete_cast', 'movie_info_idx', 'info_type', 'comp_cast_type', 'info_type'] 
+Cost: 243203.43401870868 
+Iteration: 15 
+Optimal Join Order: ['name', 'cast_info', 'title', 'movie_keyword', 'keyword', 'complete_cast', 'movie_info', 'movie_info_idx', 'info_type', 'comp_cast_type', 'comp_cast_type', 'info_type'] 
+Cost: 378296.86909266 
+Iteration: 16 
+Optimal Join Order: ['info_type', 'comp_cast_type', 'comp_cast_type', 'info_type', 'movie_info_idx', 'title', 'movie_info', 'movie_keyword', 'keyword', 'name', 'cast_info', 'complete_cast'] 
+Cost: 6521879.575316195 
+Iteration: 17 
+Optimal Join Order: ['movie_info', 'complete_cast', 'comp_cast_type', 'info_type', 'movie_info_idx', 'info_type', 'comp_cast_type', 'name', 'cast_info', 'title', 'movie_keyword', 'keyword'] 
+Cost: 6319290.87727904 
+Iteration: 18 
+Optimal Join Order: ['name', 'cast_info', 'title', 'complete_cast', 'movie_keyword', 'movie_info', 'info_type', 'movie_info_idx', 'info_type', 'comp_cast_type', 'comp_cast_type', 'keyword'] 
+Cost: 483998.891686703 
+Iteration: 19 
+Optimal Join Order: ['name', 'cast_info', 'movie_info', 'title', 'movie_keyword', 'movie_info_idx', 'complete_cast', 'comp_cast_type', 'info_type', 'comp_cast_type', 'info_type', 'keyword'] 
+Cost: 223249.2113155647 
+Iteration: 20 
+Optimal Join Order: ['title', 'movie_info', 'movie_keyword', 'keyword', 'comp_cast_type', 'complete_cast', 'comp_cast_type', 'info_type', 'info_type', 'movie_info_idx', 'cast_info', 'name'] 
+Cost: 243333.426408782 
+Iteration: 21 
+Optimal Join Order: ['comp_cast_type', 'info_type', 'info_type', 'comp_cast_type', 'name', 'cast_info', 'movie_info', 'title', 'movie_info_idx', 'complete_cast', 'movie_keyword', 'keyword'] 
+Cost: 6279219.636732432 
+Iteration: 22 
+Optimal Join Order: ['title', 'movie_keyword', 'keyword', 'comp_cast_type', 'complete_cast', 'movie_info_idx', 'movie_info', 'cast_info', 'name', 'info_type', 'comp_cast_type', 'info_type'] 
+Cost: 6501830.532402124 
+Iteration: 23 
+Optimal Join Order: ['name', 'cast_info', 'movie_info', 'movie_info_idx', 'title', 'movie_keyword', 'keyword', 'info_type', 'comp_cast_type', 'complete_cast', 'comp_cast_type', 'info_type'] 
+Cost: 223150.92220586567 
+Iteration: 24 
+Optimal Join Order: ['name', 'cast_info', 'title', 'movie_info_idx', 'complete_cast', 'movie_info', 'movie_keyword', 'keyword', 'comp_cast_type', 'info_type', 'comp_cast_type', 'info_type'] 
+Cost: 223174.94380492 
+Iteration: 25 
+Optimal Join Order: ['title', 'movie_keyword', 'keyword', 'comp_cast_type', 'info_type', 'info_type', 'comp_cast_type', 'complete_cast', 'movie_info', 'movie_info_idx', 'cast_info', 'name'] 
+Cost: 223287.89065511498 
+Iteration: 26 
+Optimal Join Order: ['keyword', 'complete_cast', 'movie_keyword', 'title', 'movie_info_idx', 'info_type', 'comp_cast_type', 'comp_cast_type', 'info_type', 'movie_info', 'cast_info', 'name'] 
+Cost: 599030.0121463059 
+Iteration: 27 
+Optimal Join Order: ['name', 'cast_info', 'complete_cast', 'comp_cast_type', 'keyword', 'movie_keyword', 'movie_info', 'title', 'movie_info_idx', 'info_type', 'comp_cast_type', 'info_type'] 
+Cost: 243200.92249749458 
+Iteration: 28 
+Optimal Join Order: ['info_type', 'info_type', 'comp_cast_type', 'comp_cast_type', 'complete_cast', 'cast_info', 'name', 'keyword', 'movie_keyword', 'title', 'movie_info_idx', 'movie_info'] 
+Cost: 6501822.766915322 
+Iteration: 29 
+Optimal Join Order: ['name', 'cast_info', 'movie_info', 'movie_keyword', 'title', 'complete_cast', 'comp_cast_type', 'comp_cast_type', 'keyword', 'info_type', 'info_type', 'movie_info_idx'] 
+Cost: 466029.19201339176 
+Query: ./ENGR489-Project/TestQueries/1a.sql
+Iteration: 0 
+Optimal Join Order: ['company_type', 'info_type', 'movie_info_idx', 'title', 'movie_companies'] 
+Cost: 20276.64072374 
+Iteration: 1 
+Optimal Join Order: ['movie_companies', 'title', 'movie_info_idx', 'info_type', 'company_type'] 
+Cost: 20276.64072374 
+Iteration: 2 
+Optimal Join Order: ['company_type', 'info_type', 'movie_info_idx', 'title', 'movie_companies'] 
+Cost: 20276.64072374 
+Iteration: 3 
+Optimal Join Order: ['movie_companies', 'title', 'movie_info_idx', 'info_type', 'company_type'] 
+Cost: 20276.64072374 
+Iteration: 4 
+Optimal Join Order: ['company_type', 'info_type', 'movie_info_idx', 'title', 'movie_companies'] 
+Cost: 20276.64072374 
+Iteration: 5 
+Optimal Join Order: ['movie_companies', 'title', 'movie_info_idx', 'info_type', 'company_type'] 
+Cost: 20276.64072374 
+Iteration: 6 
+Optimal Join Order: ['movie_companies', 'title', 'movie_info_idx', 'info_type', 'company_type'] 
+Cost: 20276.64072374 
+Iteration: 7 
+Optimal Join Order: ['movie_companies', 'title', 'movie_info_idx', 'info_type', 'company_type'] 
+Cost: 20276.64072374 
+Iteration: 8 
+Optimal Join Order: ['company_type', 'info_type', 'movie_info_idx', 'title', 'movie_companies'] 
+Cost: 20276.64072374 
+Iteration: 9 
+Optimal Join Order: ['company_type', 'info_type', 'movie_info_idx', 'title', 'movie_companies'] 
+Cost: 20276.64072374 
+Iteration: 10 
+Optimal Join Order: ['company_type', 'info_type', 'movie_info_idx', 'title', 'movie_companies'] 
+Cost: 20276.64072374 
+Iteration: 11 
+Optimal Join Order: ['company_type', 'info_type', 'movie_info_idx', 'title', 'movie_companies'] 
+Cost: 20276.64072374 
+Iteration: 12 
+Optimal Join Order: ['movie_companies', 'title', 'movie_info_idx', 'info_type', 'company_type'] 
+Cost: 20276.64072374 
+Iteration: 13 
+Optimal Join Order: ['movie_companies', 'title', 'movie_info_idx', 'info_type', 'company_type'] 
+Cost: 20276.64072374 
+Iteration: 14 
+Optimal Join Order: ['company_type', 'info_type', 'movie_info_idx', 'title', 'movie_companies'] 
+Cost: 20276.64072374 
+Iteration: 15 
+Optimal Join Order: ['company_type', 'info_type', 'movie_info_idx', 'title', 'movie_companies'] 
+Cost: 20276.64072374 
+Iteration: 16 
+Optimal Join Order: ['movie_companies', 'title', 'movie_info_idx', 'info_type', 'company_type'] 
+Cost: 20276.64072374 
+Iteration: 17 
+Optimal Join Order: ['company_type', 'info_type', 'movie_info_idx', 'title', 'movie_companies'] 
+Cost: 20276.64072374 
+Iteration: 18 
+Optimal Join Order: ['company_type', 'info_type', 'movie_info_idx', 'title', 'movie_companies'] 
+Cost: 20276.64072374 
+Iteration: 19 
+Optimal Join Order: ['movie_companies', 'title', 'movie_info_idx', 'info_type', 'company_type'] 
+Cost: 20276.64072374 
+Iteration: 20 
+Optimal Join Order: ['company_type', 'info_type', 'movie_info_idx', 'title', 'movie_companies'] 
+Cost: 20276.64072374 
+Iteration: 21 
+Optimal Join Order: ['movie_companies', 'title', 'movie_info_idx', 'info_type', 'company_type'] 
+Cost: 20276.64072374 
+Iteration: 22 
+Optimal Join Order: ['movie_companies', 'title', 'movie_info_idx', 'info_type', 'company_type'] 
+Cost: 20276.64072374 
+Iteration: 23 
+Optimal Join Order: ['company_type', 'info_type', 'movie_info_idx', 'title', 'movie_companies'] 
+Cost: 20276.64072374 
+Iteration: 24 
+Optimal Join Order: ['movie_companies', 'title', 'movie_info_idx', 'info_type', 'company_type'] 
+Cost: 20276.64072374 
+Iteration: 25 
+Optimal Join Order: ['company_type', 'info_type', 'movie_info_idx', 'title', 'movie_companies'] 
+Cost: 20276.64072374 
+Iteration: 26 
+Optimal Join Order: ['movie_companies', 'title', 'movie_info_idx', 'info_type', 'company_type'] 
+Cost: 20276.64072374 
+Iteration: 27 
+Optimal Join Order: ['movie_companies', 'title', 'movie_info_idx', 'info_type', 'company_type'] 
+Cost: 20276.64072374 
+Iteration: 28 
+Optimal Join Order: ['company_type', 'info_type', 'movie_info_idx', 'title', 'movie_companies'] 
+Cost: 20276.64072374 
+Iteration: 29 
+Optimal Join Order: ['company_type', 'info_type', 'movie_info_idx', 'title', 'movie_companies'] 
+Cost: 20276.64072374 
+Query: ./ENGR489-Project/TestQueries/7a.sql
+Iteration: 0 
+Optimal Join Order: ['aka_name', 'name', 'person_info', 'info_type', 'link_type', 'movie_link', 'title', 'cast_info'] 
+Cost: 176354.94874407817 
+Iteration: 1 
+Optimal Join Order: ['info_type', 'link_type', 'aka_name', 'name', 'person_info', 'cast_info', 'movie_link', 'title'] 
+Cost: 1279423.6151843003 
+Iteration: 2 
+Optimal Join Order: ['link_type', 'movie_link', 'title', 'cast_info', 'name', 'person_info', 'info_type', 'aka_name'] 
+Cost: 1455479.504099185 
+Iteration: 3 
+Optimal Join Order: ['name', 'person_info', 'info_type', 'link_type', 'aka_name', 'cast_info', 'movie_link', 'title'] 
+Cost: 1315127.5520203684 
+Iteration: 4 
+Optimal Join Order: ['movie_link', 'title', 'cast_info', 'aka_name', 'name', 'person_info', 'info_type', 'link_type'] 
+Cost: 35943.868518318166 
+Iteration: 5 
+Optimal Join Order: ['person_info', 'info_type', 'link_type', 'movie_link', 'title', 'cast_info', 'aka_name', 'name'] 
+Cost: 176363.3315755622 
+Iteration: 6 
+Optimal Join Order: ['link_type', 'movie_link', 'title', 'cast_info', 'aka_name', 'name', 'person_info', 'info_type'] 
+Cost: 176233.97351831818 
+Iteration: 7 
+Optimal Join Order: ['name', 'aka_name', 'cast_info', 'title', 'movie_link', 'link_type', 'info_type', 'person_info'] 
+Cost: 176363.3315755622 
+Iteration: 8 
+Optimal Join Order: ['person_info', 'name', 'aka_name', 'cast_info', 'title', 'movie_link', 'link_type', 'info_type'] 
+Cost: 140579.57503831817 
+Iteration: 9 
+Optimal Join Order: ['movie_link', 'title', 'cast_info', 'aka_name', 'name', 'person_info', 'info_type', 'link_type'] 
+Cost: 35943.868518318166 
+Iteration: 10 
+Optimal Join Order: ['title', 'cast_info', 'aka_name', 'name', 'person_info', 'info_type', 'link_type', 'movie_link'] 
+Cost: 176364.92728983 
+Iteration: 11 
+Optimal Join Order: ['name', 'person_info', 'info_type', 'link_type', 'movie_link', 'title', 'cast_info', 'aka_name'] 
+Cost: 176363.7718268462 
+Iteration: 12 
+Optimal Join Order: ['movie_link', 'link_type', 'info_type', 'person_info', 'name', 'aka_name', 'cast_info', 'title'] 
+Cost: 176364.92728983003 
+Iteration: 13 
+Optimal Join Order: ['aka_name', 'name', 'person_info', 'cast_info', 'title', 'movie_link', 'link_type', 'info_type'] 
+Cost: 140659.83499077818 
+Iteration: 14 
+Optimal Join Order: ['link_type', 'aka_name', 'cast_info', 'title', 'movie_link', 'info_type', 'person_info', 'name'] 
+Cost: 3845167.666826846 
+Iteration: 15 
+Optimal Join Order: ['cast_info', 'aka_name', 'name', 'person_info', 'info_type', 'link_type', 'movie_link', 'title'] 
+Cost: 176350.41811695616 
+Iteration: 16 
+Optimal Join Order: ['person_info', 'name', 'aka_name', 'cast_info', 'title', 'movie_link', 'link_type', 'info_type'] 
+Cost: 140579.57503831817 
+Iteration: 17 
+Optimal Join Order: ['movie_link', 'title', 'cast_info', 'aka_name', 'name', 'person_info', 'info_type', 'link_type'] 
+Cost: 35943.868518318166 
+Iteration: 18 
+Optimal Join Order: ['aka_name', 'name', 'person_info', 'cast_info', 'title', 'movie_link', 'link_type', 'info_type'] 
+Cost: 140659.83499077818 
+Iteration: 19 
+Optimal Join Order: ['title', 'cast_info', 'aka_name', 'name', 'person_info', 'info_type', 'link_type', 'movie_link'] 
+Cost: 176364.92728983 
+Iteration: 20 
+Optimal Join Order: ['link_type', 'info_type', 'person_info', 'name', 'aka_name', 'cast_info', 'title', 'movie_link'] 
+Cost: 35943.868518318166 
+Iteration: 21 
+Optimal Join Order: ['person_info', 'name', 'aka_name', 'info_type', 'link_type', 'movie_link', 'cast_info', 'title'] 
+Cost: 1419863.944630474 
+Iteration: 22 
+Optimal Join Order: ['title', 'movie_link', 'cast_info', 'name', 'person_info', 'info_type', 'aka_name', 'link_type'] 
+Cost: 2594243.284292707 
+Iteration: 23 
+Optimal Join Order: ['aka_name', 'name', 'person_info', 'cast_info', 'title', 'movie_link', 'link_type', 'info_type'] 
+Cost: 140659.83499077818 
+Iteration: 24 
+Optimal Join Order: ['link_type', 'info_type', 'person_info', 'name', 'aka_name', 'cast_info', 'title', 'movie_link'] 
+Cost: 35943.868518318166 
+Iteration: 25 
+Optimal Join Order: ['movie_link', 'title', 'cast_info', 'aka_name', 'name', 'person_info', 'info_type', 'link_type'] 
+Cost: 35943.868518318166 
+Iteration: 26 
+Optimal Join Order: ['link_type', 'info_type', 'aka_name', 'name', 'person_info', 'cast_info', 'title', 'movie_link'] 
+Cost: 1279484.7299907783 
+Iteration: 27 
+Optimal Join Order: ['info_type', 'link_type', 'movie_link', 'title', 'cast_info', 'person_info', 'name', 'aka_name'] 
+Cost: 140659.83499077815 
+Iteration: 28 
+Optimal Join Order: ['cast_info', 'title', 'movie_link', 'link_type', 'info_type', 'person_info', 'name', 'aka_name'] 
+Cost: 176354.94874407817 
+Iteration: 29 
+Optimal Join Order: ['cast_info', 'aka_name', 'name', 'person_info', 'info_type', 'link_type', 'movie_link', 'title'] 
+Cost: 176350.41811695616 
+Query: ./ENGR489-Project/TestQueries/17a.sql
+Iteration: 0 
+Optimal Join Order: ['name', 'cast_info', 'title', 'movie_keyword', 'movie_companies', 'company_name', 'keyword'] 
+Cost: 575378.225545244 
+Iteration: 1 
+Optimal Join Order: ['company_name', 'movie_companies', 'movie_keyword', 'title', 'cast_info', 'name', 'keyword'] 
+Cost: 6501484.225545244 
+Iteration: 2 
+Optimal Join Order: ['movie_keyword', 'keyword', 'company_name', 'movie_companies', 'title', 'cast_info', 'name'] 
+Cost: 575390.051893265 
+Iteration: 3 
+Optimal Join Order: ['company_name', 'keyword', 'movie_keyword', 'movie_companies', 'title', 'cast_info', 'name'] 
+Cost: 575396.487665935 
+Iteration: 4 
+Optimal Join Order: ['company_name', 'keyword', 'movie_keyword', 'movie_companies', 'title', 'cast_info', 'name'] 
+Cost: 575396.487665935 
+Iteration: 5 
+Optimal Join Order: ['name', 'cast_info', 'title', 'movie_keyword', 'movie_companies', 'company_name', 'keyword'] 
+Cost: 575378.225545244 
+Iteration: 6 
+Optimal Join Order: ['company_name', 'keyword', 'movie_keyword', 'movie_companies', 'title', 'cast_info', 'name'] 
+Cost: 575396.487665935 
+Iteration: 7 
+Optimal Join Order: ['name', 'cast_info', 'title', 'movie_keyword', 'movie_companies', 'company_name', 'keyword'] 
+Cost: 575378.225545244 
+Iteration: 8 
+Optimal Join Order: ['movie_companies', 'company_name', 'keyword', 'movie_keyword', 'title', 'cast_info', 'name'] 
+Cost: 575390.507844014 
+Iteration: 9 
+Optimal Join Order: ['name', 'cast_info', 'title', 'movie_keyword', 'movie_companies', 'company_name', 'keyword'] 
+Cost: 575378.225545244 
+Iteration: 10 
+Optimal Join Order: ['name', 'cast_info', 'title', 'keyword', 'movie_keyword', 'movie_companies', 'company_name'] 
+Cost: 4412005.077520291 
+Iteration: 11 
+Optimal Join Order: ['name', 'cast_info', 'title', 'movie_keyword', 'movie_companies', 'company_name', 'keyword'] 
+Cost: 575378.225545244 
+Iteration: 12 
+Optimal Join Order: ['keyword', 'company_name', 'movie_companies', 'movie_keyword', 'title', 'cast_info', 'name'] 
+Cost: 575378.225545244 
+Iteration: 13 
+Optimal Join Order: ['keyword', 'company_name', 'movie_companies', 'movie_keyword', 'title', 'cast_info', 'name'] 
+Cost: 575378.225545244 
+Iteration: 14 
+Optimal Join Order: ['keyword', 'company_name', 'movie_companies', 'movie_keyword', 'title', 'cast_info', 'name'] 
+Cost: 575378.225545244 
+Iteration: 15 
+Optimal Join Order: ['keyword', 'name', 'cast_info', 'title', 'movie_keyword', 'movie_companies', 'company_name'] 
+Cost: 6501484.225545244 
+Iteration: 16 
+Optimal Join Order: ['name', 'cast_info', 'title', 'movie_keyword', 'movie_companies', 'company_name', 'keyword'] 
+Cost: 575378.225545244 
+Iteration: 17 
+Optimal Join Order: ['movie_companies', 'company_name', 'keyword', 'movie_keyword', 'title', 'cast_info', 'name'] 
+Cost: 575390.507844014 
+Iteration: 18 
+Optimal Join Order: ['name', 'cast_info', 'title', 'movie_keyword', 'movie_companies', 'company_name', 'keyword'] 
+Cost: 575378.225545244 
+Iteration: 19 
+Optimal Join Order: ['movie_companies', 'company_name', 'keyword', 'movie_keyword', 'title', 'cast_info', 'name'] 
+Cost: 575390.507844014 
+Iteration: 20 
+Optimal Join Order: ['company_name', 'movie_companies', 'movie_keyword', 'keyword', 'title', 'cast_info', 'name'] 
+Cost: 4412005.077520291 
+Iteration: 21 
+Optimal Join Order: ['keyword', 'company_name', 'movie_companies', 'movie_keyword', 'title', 'cast_info', 'name'] 
+Cost: 575378.225545244 
+Iteration: 22 
+Optimal Join Order: ['keyword', 'movie_keyword', 'movie_companies', 'title', 'cast_info', 'name', 'company_name'] 
+Cost: 6631325.487665935 
+Iteration: 23 
+Optimal Join Order: ['company_name', 'movie_companies', 'title', 'movie_keyword', 'keyword', 'name', 'cast_info'] 
+Cost: 6501483.899664376 
+Iteration: 24 
+Optimal Join Order: ['company_name', 'movie_companies', 'movie_keyword', 'title', 'cast_info', 'name', 'keyword'] 
+Cost: 6501484.225545244 
+Iteration: 25 
+Optimal Join Order: ['keyword', 'company_name', 'movie_companies', 'movie_keyword', 'title', 'cast_info', 'name'] 
+Cost: 575378.225545244 
+Iteration: 26 
+Optimal Join Order: ['keyword', 'company_name', 'movie_companies', 'movie_keyword', 'title', 'cast_info', 'name'] 
+Cost: 575378.225545244 
+Iteration: 27 
+Optimal Join Order: ['company_name', 'movie_companies', 'title', 'movie_keyword', 'keyword', 'name', 'cast_info'] 
+Cost: 6501483.899664376 
+Iteration: 28 
+Optimal Join Order: ['name', 'cast_info', 'title', 'movie_keyword', 'movie_companies', 'company_name', 'keyword'] 
+Cost: 575378.225545244 
+Iteration: 29 
+Optimal Join Order: ['company_name', 'movie_companies', 'movie_keyword', 'keyword', 'title', 'cast_info', 'name'] 
+Cost: 4412005.077520291 
+Query: ./ENGR489-Project/TestQueries/5a.sql
+Iteration: 0 
+Optimal Join Order: ['company_type', 'info_type', 'movie_info', 'movie_companies', 'title'] 
+Cost: 220878.39029048642 
+Iteration: 1 
+Optimal Join Order: ['title', 'movie_companies', 'movie_info', 'info_type', 'company_type'] 
+Cost: 220878.39029048642 
+Iteration: 2 
+Optimal Join Order: ['title', 'movie_companies', 'movie_info', 'info_type', 'company_type'] 
+Cost: 220878.39029048642 
+Iteration: 3 
+Optimal Join Order: ['company_type', 'info_type', 'movie_info', 'movie_companies', 'title'] 
+Cost: 220878.39029048642 
+Iteration: 4 
+Optimal Join Order: ['company_type', 'info_type', 'movie_info', 'movie_companies', 'title'] 
+Cost: 220878.39029048642 
+Iteration: 5 
+Optimal Join Order: ['title', 'movie_companies', 'movie_info', 'info_type', 'company_type'] 
+Cost: 220878.39029048642 
+Iteration: 6 
+Optimal Join Order: ['title', 'movie_companies', 'movie_info', 'info_type', 'company_type'] 
+Cost: 220878.39029048642 
+Iteration: 7 
+Optimal Join Order: ['title', 'movie_companies', 'movie_info', 'info_type', 'company_type'] 
+Cost: 220878.39029048642 
+Iteration: 8 
+Optimal Join Order: ['title', 'movie_companies', 'movie_info', 'info_type', 'company_type'] 
+Cost: 220878.39029048642 
+Iteration: 9 
+Optimal Join Order: ['title', 'movie_companies', 'movie_info', 'info_type', 'company_type'] 
+Cost: 220878.39029048642 
+Iteration: 10 
+Optimal Join Order: ['title', 'movie_companies', 'movie_info', 'info_type', 'company_type'] 
+Cost: 220878.39029048642 
+Iteration: 11 
+Optimal Join Order: ['company_type', 'info_type', 'movie_info', 'movie_companies', 'title'] 
+Cost: 220878.39029048642 
+Iteration: 12 
+Optimal Join Order: ['company_type', 'info_type', 'movie_info', 'movie_companies', 'title'] 
+Cost: 220878.39029048642 
+Iteration: 13 
+Optimal Join Order: ['company_type', 'info_type', 'movie_info', 'movie_companies', 'title'] 
+Cost: 220878.39029048642 
+Iteration: 14 
+Optimal Join Order: ['company_type', 'info_type', 'movie_info', 'movie_companies', 'title'] 
+Cost: 220878.39029048642 
+Iteration: 15 
+Optimal Join Order: ['title', 'movie_companies', 'movie_info', 'info_type', 'company_type'] 
+Cost: 220878.39029048642 
+Iteration: 16 
+Optimal Join Order: ['company_type', 'info_type', 'movie_info', 'movie_companies', 'title'] 
+Cost: 220878.39029048642 
+Iteration: 17 
+Optimal Join Order: ['company_type', 'info_type', 'movie_info', 'movie_companies', 'title'] 
+Cost: 220878.39029048642 
+Iteration: 18 
+Optimal Join Order: ['movie_companies', 'title', 'movie_info', 'info_type', 'company_type'] 
+Cost: 220883.71439322803 
+Iteration: 19 
+Optimal Join Order: ['title', 'movie_companies', 'movie_info', 'info_type', 'company_type'] 
+Cost: 220878.39029048642 
+Iteration: 20 
+Optimal Join Order: ['title', 'movie_companies', 'movie_info', 'info_type', 'company_type'] 
+Cost: 220878.39029048642 
+Iteration: 21 
+Optimal Join Order: ['title', 'movie_companies', 'movie_info', 'info_type', 'company_type'] 
+Cost: 220878.39029048642 
+Iteration: 22 
+Optimal Join Order: ['company_type', 'info_type', 'movie_info', 'movie_companies', 'title'] 
+Cost: 220878.39029048642 
+Iteration: 23 
+Optimal Join Order: ['company_type', 'info_type', 'movie_info', 'movie_companies', 'title'] 
+Cost: 220878.39029048642 
+Iteration: 24 
+Optimal Join Order: ['company_type', 'info_type', 'movie_info', 'movie_companies', 'title'] 
+Cost: 220878.39029048642 
+Iteration: 25 
+Optimal Join Order: ['company_type', 'info_type', 'movie_info', 'movie_companies', 'title'] 
+Cost: 220878.39029048642 
+Iteration: 26 
+Optimal Join Order: ['company_type', 'info_type', 'movie_info', 'movie_companies', 'title'] 
+Cost: 220878.39029048642 
+Iteration: 27 
+Optimal Join Order: ['company_type', 'info_type', 'movie_info', 'movie_companies', 'title'] 
+Cost: 220878.39029048642 
+Iteration: 28 
+Optimal Join Order: ['title', 'movie_companies', 'movie_info', 'info_type', 'company_type'] 
+Cost: 220878.39029048642 
+Iteration: 29 
+Optimal Join Order: ['company_type', 'info_type', 'movie_info', 'movie_companies', 'title'] 
+Cost: 220878.39029048642 
+Query: ./ENGR489-Project/TestQueries/21a.sql
+Iteration: 0 
+Optimal Join Order: ['keyword', 'link_type', 'company_type', 'company_name', 'movie_companies', 'movie_link', 'title', 'movie_keyword', 'movie_info'] 
+Cost: 575393.0059178231 
+Iteration: 1 
+Optimal Join Order: ['movie_companies', 'title', 'movie_link', 'link_type', 'company_type', 'company_name', 'keyword', 'movie_keyword', 'movie_info'] 
+Cost: 1068374.0107357942 
+Iteration: 2 
+Optimal Join Order: ['movie_link', 'title', 'movie_keyword', 'movie_info', 'movie_companies', 'company_name', 'link_type', 'company_type', 'keyword'] 
+Cost: 575384.5601238655 
+Iteration: 3 
+Optimal Join Order: ['keyword', 'company_type', 'link_type', 'company_name', 'movie_companies', 'movie_info', 'movie_keyword', 'title', 'movie_link'] 
+Cost: 575384.5601238655 
+Iteration: 4 
+Optimal Join Order: ['keyword', 'company_type', 'link_type', 'company_name', 'movie_companies', 'movie_info', 'movie_keyword', 'title', 'movie_link'] 
+Cost: 575384.5601238655 
+Iteration: 5 
+Optimal Join Order: ['movie_info', 'movie_companies', 'movie_link', 'title', 'movie_keyword', 'keyword', 'link_type', 'company_type', 'company_name'] 
+Cost: 575404.9833599635 
+Iteration: 6 
+Optimal Join Order: ['movie_info', 'movie_companies', 'company_name', 'link_type', 'company_type', 'keyword', 'movie_keyword', 'title', 'movie_link'] 
+Cost: 575410.1581333235 
+Iteration: 7 
+Optimal Join Order: ['movie_info', 'movie_companies', 'movie_link', 'title', 'movie_keyword', 'keyword', 'company_type', 'link_type', 'company_name'] 
+Cost: 575404.9833599635 
+Iteration: 8 
+Optimal Join Order: ['movie_keyword', 'keyword', 'link_type', 'movie_link', 'movie_info', 'title', 'movie_companies', 'company_name', 'company_type'] 
+Cost: 715953.798584868 
+Iteration: 9 
+Optimal Join Order: ['link_type', 'company_type', 'keyword', 'movie_keyword', 'movie_link', 'title', 'movie_info', 'movie_companies', 'company_name'] 
+Cost: 222858.91118595455 
+Iteration: 10 
+Optimal Join Order: ['movie_link', 'link_type', 'company_type', 'company_name', 'movie_companies', 'movie_info', 'title', 'movie_keyword', 'keyword'] 
+Cost: 493073.4575163394 
+Iteration: 11 
+Optimal Join Order: ['movie_info', 'movie_keyword', 'keyword', 'company_type', 'link_type', 'company_name', 'movie_companies', 'title', 'movie_link'] 
+Cost: 575416.4428118741 
+Iteration: 12 
+Optimal Join Order: ['keyword', 'movie_keyword', 'movie_info', 'movie_companies', 'company_name', 'company_type', 'link_type', 'movie_link', 'title'] 
+Cost: 493072.51709891256 
+Iteration: 13 
+Optimal Join Order: ['movie_link', 'title', 'movie_keyword', 'keyword', 'link_type', 'company_type', 'company_name', 'movie_companies', 'movie_info'] 
+Cost: 575410.1581333235 
+Iteration: 14 
+Optimal Join Order: ['keyword', 'movie_keyword', 'title', 'movie_info', 'movie_companies', 'movie_link', 'link_type', 'company_type', 'company_name'] 
+Cost: 493068.2827429794 
+Iteration: 15 
+Optimal Join Order: ['company_name', 'movie_companies', 'movie_keyword', 'title', 'movie_info', 'movie_link', 'link_type', 'company_type', 'keyword'] 
+Cost: 363376.97223684704 
+Iteration: 16 
+Optimal Join Order: ['company_type', 'link_type', 'keyword', 'company_name', 'movie_companies', 'movie_info', 'movie_keyword', 'title', 'movie_link'] 
+Cost: 798126.5601238655 
+Iteration: 17 
+Optimal Join Order: ['link_type', 'keyword', 'movie_keyword', 'movie_info', 'title', 'movie_link', 'movie_companies', 'company_name', 'company_type'] 
+Cost: 575408.0985043742 
+Iteration: 18 
+Optimal Join Order: ['link_type', 'company_type', 'keyword', 'movie_keyword', 'movie_info', 'title', 'movie_link', 'movie_companies', 'company_name'] 
+Cost: 222843.09850437415 
+Iteration: 19 
+Optimal Join Order: ['link_type', 'company_type', 'company_name', 'movie_companies', 'movie_info', 'movie_link', 'title', 'movie_keyword', 'keyword'] 
+Cost: 352785.8716613635 
+Iteration: 20 
+Optimal Join Order: ['keyword', 'link_type', 'company_type', 'company_name', 'movie_companies', 'movie_link', 'title', 'movie_info', 'movie_keyword'] 
+Cost: 575396.843356854 
+Iteration: 21 
+Optimal Join Order: ['company_type', 'company_name', 'movie_companies', 'movie_link', 'title', 'movie_info', 'movie_keyword', 'keyword', 'link_type'] 
+Cost: 575408.0985043742 
+Iteration: 22 
+Optimal Join Order: ['link_type', 'company_type', 'keyword', 'movie_keyword', 'movie_info', 'title', 'movie_link', 'movie_companies', 'company_name'] 
+Cost: 222843.09850437415 
+Iteration: 23 
+Optimal Join Order: ['link_type', 'movie_link', 'title', 'movie_keyword', 'movie_info', 'movie_companies', 'company_name', 'company_type', 'keyword'] 
+Cost: 715769.6651238656 
+Iteration: 24 
+Optimal Join Order: ['company_type', 'company_name', 'movie_companies', 'movie_link', 'title', 'movie_info', 'movie_keyword', 'keyword', 'link_type'] 
+Cost: 575408.0985043742 
+Iteration: 25 
+Optimal Join Order: ['movie_keyword', 'keyword', 'link_type', 'company_type', 'company_name', 'movie_companies', 'movie_link', 'title', 'movie_info'] 
+Cost: 575422.4413663121 
+Iteration: 26 
+Optimal Join Order: ['movie_info', 'movie_companies', 'company_name', 'link_type', 'movie_link', 'title', 'movie_keyword', 'keyword', 'company_type'] 
+Cost: 715809.2631333235 
+Iteration: 27 
+Optimal Join Order: ['movie_info', 'title', 'movie_link', 'link_type', 'company_type', 'company_name', 'movie_companies', 'movie_keyword', 'keyword'] 
+Cost: 493091.1569123421 
+Iteration: 28 
+Optimal Join Order: ['keyword', 'movie_keyword', 'movie_link', 'movie_info', 'title', 'movie_companies', 'company_name', 'link_type', 'company_type'] 
+Cost: 352836.609198468 
+Iteration: 29 
+Optimal Join Order: ['keyword', 'link_type', 'company_type', 'company_name', 'movie_companies', 'movie_keyword', 'movie_info', 'title', 'movie_link'] 
+Cost: 575408.453902884 
+Query: ./ENGR489-Project/TestQueries/4a.sql
+Iteration: 0 
+Optimal Join Order: ['keyword', 'movie_keyword', 'title', 'movie_info_idx', 'info_type'] 
+Cost: 20193.351822009 
+Iteration: 1 
+Optimal Join Order: ['info_type', 'movie_info_idx', 'title', 'movie_keyword', 'keyword'] 
+Cost: 20193.351822009005 
+Iteration: 2 
+Optimal Join Order: ['info_type', 'movie_info_idx', 'title', 'movie_keyword', 'keyword'] 
+Cost: 20193.351822009005 
+Iteration: 3 
+Optimal Join Order: ['keyword', 'movie_keyword', 'title', 'movie_info_idx', 'info_type'] 
+Cost: 20193.351822009 
+Iteration: 4 
+Optimal Join Order: ['keyword', 'movie_keyword', 'title', 'movie_info_idx', 'info_type'] 
+Cost: 20193.351822009 
+Iteration: 5 
+Optimal Join Order: ['keyword', 'movie_keyword', 'title', 'movie_info_idx', 'info_type'] 
+Cost: 20193.351822009 
+Iteration: 6 
+Optimal Join Order: ['keyword', 'movie_keyword', 'title', 'movie_info_idx', 'info_type'] 
+Cost: 20193.351822009 
+Iteration: 7 
+Optimal Join Order: ['keyword', 'movie_keyword', 'title', 'movie_info_idx', 'info_type'] 
+Cost: 20193.351822009 
+Iteration: 8 
+Optimal Join Order: ['keyword', 'movie_keyword', 'title', 'movie_info_idx', 'info_type'] 
+Cost: 20193.351822009 
+Iteration: 9 
+Optimal Join Order: ['keyword', 'movie_keyword', 'title', 'movie_info_idx', 'info_type'] 
+Cost: 20193.351822009 
+Iteration: 10 
+Optimal Join Order: ['info_type', 'movie_info_idx', 'title', 'movie_keyword', 'keyword'] 
+Cost: 20193.351822009005 
+Iteration: 11 
+Optimal Join Order: ['keyword', 'movie_keyword', 'title', 'movie_info_idx', 'info_type'] 
+Cost: 20193.351822009 
+Iteration: 12 
+Optimal Join Order: ['info_type', 'movie_info_idx', 'title', 'movie_keyword', 'keyword'] 
+Cost: 20193.351822009005 
+Iteration: 13 
+Optimal Join Order: ['keyword', 'movie_keyword', 'title', 'movie_info_idx', 'info_type'] 
+Cost: 20193.351822009 
+Iteration: 14 
+Optimal Join Order: ['keyword', 'movie_keyword', 'title', 'movie_info_idx', 'info_type'] 
+Cost: 20193.351822009 
+Iteration: 15 
+Optimal Join Order: ['keyword', 'movie_keyword', 'title', 'movie_info_idx', 'info_type'] 
+Cost: 20193.351822009 
+Iteration: 16 
+Optimal Join Order: ['keyword', 'movie_keyword', 'title', 'movie_info_idx', 'info_type'] 
+Cost: 20193.351822009 
+Iteration: 17 
+Optimal Join Order: ['keyword', 'movie_keyword', 'title', 'movie_info_idx', 'info_type'] 
+Cost: 20193.351822009 
+Iteration: 18 
+Optimal Join Order: ['keyword', 'movie_keyword', 'title', 'movie_info_idx', 'info_type'] 
+Cost: 20193.351822009 
+Iteration: 19 
+Optimal Join Order: ['keyword', 'movie_keyword', 'title', 'movie_info_idx', 'info_type'] 
+Cost: 20193.351822009 
+Iteration: 20 
+Optimal Join Order: ['keyword', 'movie_keyword', 'title', 'movie_info_idx', 'info_type'] 
+Cost: 20193.351822009 
+Iteration: 21 
+Optimal Join Order: ['keyword', 'movie_keyword', 'title', 'movie_info_idx', 'info_type'] 
+Cost: 20193.351822009 
+Iteration: 22 
+Optimal Join Order: ['keyword', 'movie_keyword', 'title', 'movie_info_idx', 'info_type'] 
+Cost: 20193.351822009 
+Iteration: 23 
+Optimal Join Order: ['keyword', 'movie_keyword', 'title', 'movie_info_idx', 'info_type'] 
+Cost: 20193.351822009 
+Iteration: 24 
+Optimal Join Order: ['keyword', 'movie_keyword', 'title', 'movie_info_idx', 'info_type'] 
+Cost: 20193.351822009 
+Iteration: 25 
+Optimal Join Order: ['keyword', 'movie_keyword', 'title', 'movie_info_idx', 'info_type'] 
+Cost: 20193.351822009 
+Iteration: 26 
+Optimal Join Order: ['keyword', 'movie_keyword', 'title', 'movie_info_idx', 'info_type'] 
+Cost: 20193.351822009 
+Iteration: 27 
+Optimal Join Order: ['keyword', 'movie_keyword', 'title', 'movie_info_idx', 'info_type'] 
+Cost: 20193.351822009 
+Iteration: 28 
+Optimal Join Order: ['keyword', 'movie_keyword', 'title', 'movie_info_idx', 'info_type'] 
+Cost: 20193.351822009 
+Iteration: 29 
+Optimal Join Order: ['keyword', 'movie_keyword', 'title', 'movie_info_idx', 'info_type'] 
+Cost: 20193.351822009 
+Query: ./ENGR489-Project/TestQueries/32a.sql
+Iteration: 0 
+Optimal Join Order: ['keyword', 'link_type', 'movie_link', 'title', 'movie_keyword', 'title'] 
+Cost: 363189.95757343416 
+Iteration: 1 
+Optimal Join Order: ['link_type', 'keyword', 'movie_keyword', 'title', 'movie_link', 'title'] 
+Cost: 222799.75077696927 
+Iteration: 2 
+Optimal Join Order: ['link_type', 'keyword', 'movie_keyword', 'title', 'movie_link', 'title'] 
+Cost: 222799.75077696927 
+Iteration: 3 
+Optimal Join Order: ['link_type', 'keyword', 'movie_keyword', 'title', 'movie_link', 'title'] 
+Cost: 222799.75077696927 
+Iteration: 4 
+Optimal Join Order: ['title', 'movie_link', 'title', 'movie_keyword', 'keyword', 'link_type'] 
+Cost: 222799.75077696933 
+Iteration: 5 
+Optimal Join Order: ['title', 'movie_link', 'title', 'movie_keyword', 'keyword', 'link_type'] 
+Cost: 222799.75077696933 
+Iteration: 6 
+Optimal Join Order: ['link_type', 'keyword', 'movie_keyword', 'title', 'movie_link', 'title'] 
+Cost: 222799.75077696927 
+Iteration: 7 
+Optimal Join Order: ['link_type', 'keyword', 'movie_keyword', 'title', 'movie_link', 'title'] 
+Cost: 222799.75077696927 
+Iteration: 8 
+Optimal Join Order: ['title', 'movie_link', 'title', 'movie_keyword', 'keyword', 'link_type'] 
+Cost: 222799.75077696933 
+Iteration: 9 
+Optimal Join Order: ['link_type', 'keyword', 'movie_keyword', 'title', 'movie_link', 'title'] 
+Cost: 222799.75077696927 
+Iteration: 10 
+Optimal Join Order: ['link_type', 'keyword', 'movie_keyword', 'title', 'movie_link', 'title'] 
+Cost: 222799.75077696927 
+Iteration: 11 
+Optimal Join Order: ['link_type', 'keyword', 'movie_keyword', 'title', 'movie_link', 'title'] 
+Cost: 222799.75077696927 
+Iteration: 12 
+Optimal Join Order: ['link_type', 'keyword', 'movie_keyword', 'title', 'movie_link', 'title'] 
+Cost: 222799.75077696927 
+Iteration: 13 
+Optimal Join Order: ['title', 'movie_link', 'title', 'movie_keyword', 'keyword', 'link_type'] 
+Cost: 222799.75077696933 
+Iteration: 14 
+Optimal Join Order: ['keyword', 'link_type', 'movie_link', 'title', 'movie_keyword', 'title'] 
+Cost: 363189.95757343416 
+Iteration: 15 
+Optimal Join Order: ['link_type', 'keyword', 'movie_keyword', 'title', 'movie_link', 'title'] 
+Cost: 222799.75077696927 
+Iteration: 16 
+Optimal Join Order: ['keyword', 'link_type', 'movie_link', 'title', 'movie_keyword', 'title'] 
+Cost: 363189.95757343416 
+Iteration: 17 
+Optimal Join Order: ['link_type', 'keyword', 'movie_keyword', 'title', 'movie_link', 'title'] 
+Cost: 222799.75077696927 
+Iteration: 18 
+Optimal Join Order: ['link_type', 'keyword', 'movie_keyword', 'title', 'movie_link', 'title'] 
+Cost: 222799.75077696927 
+Iteration: 19 
+Optimal Join Order: ['link_type', 'keyword', 'movie_keyword', 'title', 'movie_link', 'title'] 
+Cost: 222799.75077696927 
+Iteration: 20 
+Optimal Join Order: ['title', 'movie_link', 'title', 'movie_keyword', 'keyword', 'link_type'] 
+Cost: 222799.75077696933 
+Iteration: 21 
+Optimal Join Order: ['link_type', 'keyword', 'movie_keyword', 'title', 'movie_link', 'title'] 
+Cost: 222799.75077696927 
+Iteration: 22 
+Optimal Join Order: ['link_type', 'keyword', 'movie_keyword', 'title', 'movie_link', 'title'] 
+Cost: 222799.75077696927 
+Iteration: 23 
+Optimal Join Order: ['link_type', 'keyword', 'movie_keyword', 'title', 'movie_link', 'title'] 
+Cost: 222799.75077696927 
+Iteration: 24 
+Optimal Join Order: ['link_type', 'keyword', 'movie_keyword', 'title', 'movie_link', 'title'] 
+Cost: 222799.75077696927 
+Iteration: 25 
+Optimal Join Order: ['title', 'movie_link', 'title', 'movie_keyword', 'keyword', 'link_type'] 
+Cost: 222799.75077696933 
+Iteration: 26 
+Optimal Join Order: ['link_type', 'keyword', 'movie_keyword', 'title', 'movie_link', 'title'] 
+Cost: 222799.75077696927 
+Iteration: 27 
+Optimal Join Order: ['title', 'movie_link', 'title', 'movie_keyword', 'keyword', 'link_type'] 
+Cost: 222799.75077696933 
+Iteration: 28 
+Optimal Join Order: ['link_type', 'keyword', 'movie_keyword', 'title', 'movie_link', 'title'] 
+Cost: 222799.75077696927 
+Iteration: 29 
+Optimal Join Order: ['title', 'movie_link', 'title', 'movie_keyword', 'keyword', 'link_type'] 
+Cost: 222799.75077696933 
+Query: ./ENGR489-Project/TestQueries/2a.sql
+Iteration: 0 
+Optimal Join Order: ['keyword', 'movie_keyword', 'title', 'movie_companies', 'company_name'] 
+Cost: 52.142617797 
+Iteration: 1 
+Optimal Join Order: ['company_name', 'movie_companies', 'title', 'movie_keyword', 'keyword'] 
+Cost: 52.142617797 
+Iteration: 2 
+Optimal Join Order: ['company_name', 'movie_companies', 'title', 'movie_keyword', 'keyword'] 
+Cost: 52.142617797 
+Iteration: 3 
+Optimal Join Order: ['company_name', 'movie_companies', 'title', 'movie_keyword', 'keyword'] 
+Cost: 52.142617797 
+Iteration: 4 
+Optimal Join Order: ['keyword', 'movie_keyword', 'title', 'movie_companies', 'company_name'] 
+Cost: 52.142617797 
+Iteration: 5 
+Optimal Join Order: ['keyword', 'movie_keyword', 'title', 'movie_companies', 'company_name'] 
+Cost: 52.142617797 
+Iteration: 6 
+Optimal Join Order: ['keyword', 'movie_keyword', 'title', 'movie_companies', 'company_name'] 
+Cost: 52.142617797 
+Iteration: 7 
+Optimal Join Order: ['keyword', 'movie_keyword', 'title', 'movie_companies', 'company_name'] 
+Cost: 52.142617797 
+Iteration: 8 
+Optimal Join Order: ['company_name', 'movie_companies', 'title', 'movie_keyword', 'keyword'] 
+Cost: 52.142617797 
+Iteration: 9 
+Optimal Join Order: ['company_name', 'movie_companies', 'title', 'movie_keyword', 'keyword'] 
+Cost: 52.142617797 
+Iteration: 10 
+Optimal Join Order: ['keyword', 'movie_keyword', 'title', 'movie_companies', 'company_name'] 
+Cost: 52.142617797 
+Iteration: 11 
+Optimal Join Order: ['company_name', 'movie_companies', 'title', 'movie_keyword', 'keyword'] 
+Cost: 52.142617797 
+Iteration: 12 
+Optimal Join Order: ['company_name', 'movie_companies', 'title', 'movie_keyword', 'keyword'] 
+Cost: 52.142617797 
+Iteration: 13 
+Optimal Join Order: ['keyword', 'movie_keyword', 'title', 'movie_companies', 'company_name'] 
+Cost: 52.142617797 
+Iteration: 14 
+Optimal Join Order: ['company_name', 'movie_companies', 'title', 'movie_keyword', 'keyword'] 
+Cost: 52.142617797 
+Iteration: 15 
+Optimal Join Order: ['keyword', 'movie_keyword', 'title', 'movie_companies', 'company_name'] 
+Cost: 52.142617797 
+Iteration: 16 
+Optimal Join Order: ['keyword', 'movie_keyword', 'title', 'movie_companies', 'company_name'] 
+Cost: 52.142617797 
+Iteration: 17 
+Optimal Join Order: ['keyword', 'movie_keyword', 'title', 'movie_companies', 'company_name'] 
+Cost: 52.142617797 
+Iteration: 18 
+Optimal Join Order: ['keyword', 'movie_keyword', 'title', 'movie_companies', 'company_name'] 
+Cost: 52.142617797 
+Iteration: 19 
+Optimal Join Order: ['company_name', 'movie_companies', 'title', 'movie_keyword', 'keyword'] 
+Cost: 52.142617797 
+Iteration: 20 
+Optimal Join Order: ['keyword', 'company_name', 'movie_companies', 'title', 'movie_keyword'] 
+Cost: 575333.8874702769 
+Iteration: 21 
+Optimal Join Order: ['company_name', 'movie_companies', 'title', 'movie_keyword', 'keyword'] 
+Cost: 52.142617797 
+Iteration: 22 
+Optimal Join Order: ['company_name', 'movie_companies', 'title', 'movie_keyword', 'keyword'] 
+Cost: 52.142617797 
+Iteration: 23 
+Optimal Join Order: ['keyword', 'movie_keyword', 'title', 'movie_companies', 'company_name'] 
+Cost: 52.142617797 
+Iteration: 24 
+Optimal Join Order: ['keyword', 'movie_keyword', 'title', 'movie_companies', 'company_name'] 
+Cost: 52.142617797 
+Iteration: 25 
+Optimal Join Order: ['keyword', 'movie_keyword', 'title', 'movie_companies', 'company_name'] 
+Cost: 52.142617797 
+Iteration: 26 
+Optimal Join Order: ['company_name', 'movie_companies', 'title', 'movie_keyword', 'keyword'] 
+Cost: 52.142617797 
+Iteration: 27 
+Optimal Join Order: ['company_name', 'movie_companies', 'title', 'movie_keyword', 'keyword'] 
+Cost: 52.142617797 
+Iteration: 28 
+Optimal Join Order: ['company_name', 'movie_companies', 'title', 'movie_keyword', 'keyword'] 
+Cost: 52.142617797 
+Iteration: 29 
+Optimal Join Order: ['company_name', 'movie_companies', 'title', 'movie_keyword', 'keyword'] 
+Cost: 52.142617797 
+Query: ./ENGR489-Project/TestQueries/33a.sql
+Iteration: 0 
+Optimal Join Order: ['info_type', 'kind_type', 'link_type', 'info_type', 'movie_info_idx', 'title', 'kind_type', 'company_name', 'movie_companies', 'company_name', 'movie_companies', 'movie_info_idx', 'title', 'movie_link'] 
+Cost: 967921.5874370101 
+Iteration: 1 
+Optimal Join Order: ['kind_type', 'link_type', 'info_type', 'company_name', 'company_name', 'movie_companies', 'title', 'movie_companies', 'movie_info_idx', 'title', 'movie_link', 'movie_info_idx', 'info_type', 'kind_type'] 
+Cost: 1078280.8721880552 
+Iteration: 2 
+Optimal Join Order: ['company_name', 'kind_type', 'info_type', 'link_type', 'info_type', 'movie_info_idx', 'movie_companies', 'company_name', 'kind_type', 'title', 'movie_link', 'title', 'movie_info_idx', 'movie_companies'] 
+Cost: 1320577.5773075724 
+Iteration: 3 
+Optimal Join Order: ['movie_companies', 'movie_info_idx', 'movie_link', 'movie_info_idx', 'title', 'movie_companies', 'title', 'kind_type', 'link_type', 'company_name', 'info_type', 'kind_type', 'info_type', 'company_name'] 
+Cost: 1653096.70252526 
+Iteration: 4 
+Optimal Join Order: ['info_type', 'kind_type', 'link_type', 'movie_link', 'movie_info_idx', 'title', 'movie_info_idx', 'info_type', 'company_name', 'movie_companies', 'title', 'movie_companies', 'company_name', 'kind_type'] 
+Cost: 866020.450241413 
+Iteration: 5 
+Optimal Join Order: ['info_type', 'kind_type', 'info_type', 'movie_info_idx', 'title', 'movie_link', 'movie_companies', 'company_name', 'link_type', 'kind_type', 'company_name', 'movie_companies', 'movie_info_idx', 'title'] 
+Cost: 725629.9886636501 
+Iteration: 6 
+Optimal Join Order: ['movie_info_idx', 'info_type', 'link_type', 'movie_link', 'title', 'movie_companies', 'title', 'movie_info_idx', 'info_type', 'company_name', 'movie_companies', 'company_name', 'kind_type', 'kind_type'] 
+Cost: 886171.1094861121 
+Iteration: 7 
+Optimal Join Order: ['company_name', 'link_type', 'company_name', 'movie_companies', 'title', 'movie_info_idx', 'movie_companies', 'movie_info_idx', 'movie_link', 'title', 'kind_type', 'info_type', 'kind_type', 'info_type'] 
+Cost: 1300427.467942581 
+Iteration: 8 
+Optimal Join Order: ['company_name', 'link_type', 'movie_link', 'movie_info_idx', 'movie_companies', 'company_name', 'movie_companies', 'title', 'movie_info_idx', 'title', 'kind_type', 'info_type', 'kind_type', 'info_type'] 
+Cost: 1088273.045995939 
+Iteration: 9 
+Optimal Join Order: ['title', 'movie_companies', 'company_name', 'movie_companies', 'company_name', 'kind_type', 'kind_type', 'link_type', 'info_type', 'movie_info_idx', 'info_type', 'movie_info_idx', 'movie_link', 'title'] 
+Cost: 413264.77896022523 
+Iteration: 10 
+Optimal Join Order: ['movie_companies', 'company_name', 'company_name', 'movie_companies', 'title', 'kind_type', 'link_type', 'movie_link', 'title', 'movie_info_idx', 'info_type', 'movie_info_idx', 'info_type', 'kind_type'] 
+Cost: 1501067.8824243878 
+Iteration: 11 
+Optimal Join Order: ['company_name', 'kind_type', 'link_type', 'movie_link', 'title', 'kind_type', 'info_type', 'info_type', 'movie_info_idx', 'movie_companies', 'company_name', 'movie_companies', 'movie_info_idx', 'title'] 
+Cost: 1108426.1731551639 
+Iteration: 12 
+Optimal Join Order: ['company_name', 'info_type', 'link_type', 'kind_type', 'kind_type', 'info_type', 'movie_info_idx', 'title', 'movie_companies', 'movie_info_idx', 'movie_link', 'title', 'movie_companies', 'company_name'] 
+Cost: 373156.87218805525 
+Iteration: 13 
+Optimal Join Order: ['title', 'movie_info_idx', 'title', 'movie_companies', 'movie_link', 'movie_companies', 'company_name', 'link_type', 'info_type', 'kind_type', 'kind_type', 'company_name', 'info_type', 'movie_info_idx'] 
+Cost: 1078304.299747276 
+Iteration: 14 
+Optimal Join Order: ['info_type', 'kind_type', 'info_type', 'company_name', 'movie_companies', 'movie_info_idx', 'title', 'movie_info_idx', 'movie_companies', 'company_name', 'link_type', 'kind_type', 'title', 'movie_link'] 
+Cost: 1300437.1693371802 
+Iteration: 15 
+Optimal Join Order: ['movie_companies', 'company_name', 'info_type', 'info_type', 'company_name', 'movie_companies', 'movie_info_idx', 'title', 'movie_link', 'movie_info_idx', 'title', 'kind_type', 'kind_type', 'link_type'] 
+Cost: 1300532.0400027032 
+Iteration: 16 
+Optimal Join Order: ['company_name', 'link_type', 'kind_type', 'kind_type', 'info_type', 'info_type', 'movie_info_idx', 'movie_link', 'title', 'movie_companies', 'company_name', 'movie_companies', 'title', 'movie_info_idx'] 
+Cost: 373166.9941278852 
+Iteration: 17 
+Optimal Join Order: ['title', 'movie_link', 'movie_info_idx', 'info_type', 'link_type', 'company_name', 'movie_companies', 'company_name', 'movie_companies', 'title', 'movie_info_idx', 'info_type', 'kind_type', 'kind_type'] 
+Cost: 393215.88014224113 
+Iteration: 18 
+Optimal Join Order: ['kind_type', 'info_type', 'link_type', 'kind_type', 'info_type', 'movie_info_idx', 'title', 'movie_info_idx', 'movie_link', 'movie_companies', 'title', 'movie_companies', 'company_name', 'company_name'] 
+Cost: 725725.170468053 
+Iteration: 19 
+Optimal Join Order: ['company_name', 'movie_companies', 'title', 'movie_link', 'title', 'movie_info_idx', 'movie_companies', 'company_name', 'link_type', 'kind_type', 'kind_type', 'info_type', 'info_type', 'movie_info_idx'] 
+Cost: 373165.22246912634 
+Iteration: 20 
+Optimal Join Order: ['company_name', 'info_type', 'movie_info_idx', 'movie_companies', 'movie_link', 'title', 'movie_info_idx', 'movie_companies', 'title', 'kind_type', 'info_type', 'kind_type', 'link_type', 'company_name'] 
+Cost: 1320574.3035274483 
+Iteration: 21 
+Optimal Join Order: ['info_type', 'kind_type', 'info_type', 'kind_type', 'company_name', 'movie_companies', 'company_name', 'link_type', 'movie_link', 'title', 'movie_info_idx', 'movie_companies', 'title', 'movie_info_idx'] 
+Cost: 845982.3824226541 
+Iteration: 22 
+Optimal Join Order: ['kind_type', 'company_name', 'movie_companies', 'title', 'movie_info_idx', 'info_type', 'kind_type', 'info_type', 'link_type', 'company_name', 'movie_companies', 'title', 'movie_link', 'movie_info_idx'] 
+Cost: 725728.9941278851 
+Iteration: 23 
+Optimal Join Order: ['movie_info_idx', 'info_type', 'kind_type', 'info_type', 'company_name', 'movie_companies', 'company_name', 'movie_companies', 'title', 'movie_link', 'movie_info_idx', 'title', 'kind_type', 'link_type'] 
+Cost: 968017.0079822412 
+Iteration: 24 
+Optimal Join Order: ['info_type', 'kind_type', 'company_name', 'info_type', 'kind_type', 'link_type', 'movie_link', 'movie_info_idx', 'title', 'movie_companies', 'movie_info_idx', 'title', 'movie_companies', 'company_name'] 
+Cost: 845974.0321415828 
+Iteration: 25 
+Optimal Join Order: ['movie_companies', 'title', 'movie_link', 'link_type', 'kind_type', 'company_name', 'kind_type', 'company_name', 'movie_companies', 'movie_info_idx', 'title', 'movie_info_idx', 'info_type', 'info_type'] 
+Cost: 1218580.1415065741 
+Iteration: 26 
+Optimal Join Order: ['movie_info_idx', 'title', 'movie_link', 'title', 'movie_companies', 'movie_info_idx', 'info_type', 'info_type', 'kind_type', 'kind_type', 'link_type', 'company_name', 'movie_companies', 'company_name'] 
+Cost: 373165.2224691263 
+Iteration: 27 
+Optimal Join Order: ['info_type', 'movie_info_idx', 'info_type', 'movie_info_idx', 'movie_companies', 'company_name', 'link_type', 'kind_type', 'kind_type', 'title', 'movie_link', 'title', 'movie_companies', 'company_name'] 
+Cost: 1007992.8414471104 
+Iteration: 28 
+Optimal Join Order: ['info_type', 'kind_type', 'info_type', 'kind_type', 'link_type', 'company_name', 'movie_companies', 'movie_info_idx', 'movie_link', 'title', 'movie_info_idx', 'title', 'movie_companies', 'company_name'] 
+Cost: 353014.56322442717 
+Iteration: 29 
+Optimal Join Order: ['movie_info_idx', 'title', 'movie_companies', 'company_name', 'company_name', 'link_type', 'kind_type', 'kind_type', 'info_type', 'info_type', 'movie_info_idx', 'movie_companies', 'title', 'movie_link'] 
+Cost: 1078290.5863862822 
+Query: ./ENGR489-Project/TestQueries/26a.sql
+Iteration: 0 
+Optimal Join Order: ['keyword', 'info_type', 'movie_info_idx', 'title', 'movie_keyword', 'complete_cast', 'comp_cast_type', 'comp_cast_type', 'kind_type', 'char_name', 'cast_info', 'name'] 
+Cost: 3006255.0918377847 
+Iteration: 1 
+Optimal Join Order: ['char_name', 'comp_cast_type', 'info_type', 'keyword', 'comp_cast_type', 'complete_cast', 'movie_info_idx', 'movie_keyword', 'title', 'cast_info', 'name', 'kind_type'] 
+Cost: 9487630.746125665 
+Iteration: 2 
+Optimal Join Order: ['char_name', 'info_type', 'kind_type', 'title', 'movie_info_idx', 'movie_keyword', 'keyword', 'comp_cast_type', 'complete_cast', 'comp_cast_type', 'name', 'cast_info'] 
+Cost: 9859758.85650309 
+Iteration: 3 
+Optimal Join Order: ['keyword', 'comp_cast_type', 'kind_type', 'comp_cast_type', 'complete_cast', 'title', 'movie_keyword', 'movie_info_idx', 'info_type', 'char_name', 'cast_info', 'name'] 
+Cost: 3006245.122549885 
+Iteration: 4 
+Optimal Join Order: ['title', 'movie_info_idx', 'info_type', 'comp_cast_type', 'complete_cast', 'comp_cast_type', 'kind_type', 'char_name', 'cast_info', 'name', 'keyword', 'movie_keyword'] 
+Cost: 9284938.439108651 
+Iteration: 5 
+Optimal Join Order: ['keyword', 'comp_cast_type', 'complete_cast', 'title', 'movie_keyword', 'movie_info_idx', 'info_type', 'comp_cast_type', 'name', 'cast_info', 'char_name', 'kind_type'] 
+Cost: 9284913.122549886 
+Iteration: 6 
+Optimal Join Order: ['title', 'complete_cast', 'comp_cast_type', 'kind_type', 'info_type', 'movie_info_idx', 'movie_keyword', 'keyword', 'comp_cast_type', 'char_name', 'cast_info', 'name'] 
+Cost: 3006275.974524932 
+Iteration: 7 
+Optimal Join Order: ['info_type', 'keyword', 'movie_keyword', 'title', 'movie_info_idx', 'complete_cast', 'comp_cast_type', 'name', 'cast_info', 'char_name', 'kind_type', 'comp_cast_type'] 
+Cost: 9264786.553659402 
+Iteration: 8 
+Optimal Join Order: ['kind_type', 'comp_cast_type', 'comp_cast_type', 'char_name', 'cast_info', 'name', 'complete_cast', 'title', 'movie_keyword', 'movie_info_idx', 'info_type', 'keyword'] 
+Cost: 9420002.775368582 
+Iteration: 9 
+Optimal Join Order: ['name', 'cast_info', 'char_name', 'comp_cast_type', 'comp_cast_type', 'kind_type', 'info_type', 'keyword', 'movie_keyword', 'movie_info_idx', 'complete_cast', 'title'] 
+Cost: 2986238.685903207 
+Iteration: 10 
+Optimal Join Order: ['title', 'complete_cast', 'comp_cast_type', 'char_name', 'cast_info', 'name', 'kind_type', 'comp_cast_type', 'info_type', 'movie_info_idx', 'movie_keyword', 'keyword'] 
+Cost: 9062204.974524932 
+Iteration: 11 
+Optimal Join Order: ['char_name', 'kind_type', 'keyword', 'comp_cast_type', 'info_type', 'comp_cast_type', 'complete_cast', 'movie_info_idx', 'movie_keyword', 'title', 'cast_info', 'name'] 
+Cost: 3208962.746125665 
+Iteration: 12 
+Optimal Join Order: ['name', 'cast_info', 'title', 'movie_info_idx', 'movie_keyword', 'complete_cast', 'comp_cast_type', 'kind_type', 'info_type', 'keyword', 'comp_cast_type', 'char_name'] 
+Cost: 3208978.237461113 
+Iteration: 13 
+Optimal Join Order: ['char_name', 'comp_cast_type', 'comp_cast_type', 'kind_type', 'info_type', 'keyword', 'movie_keyword', 'movie_info_idx', 'complete_cast', 'title', 'cast_info', 'name'] 
+Cost: 2986252.202254632 
+Iteration: 14 
+Optimal Join Order: ['char_name', 'kind_type', 'comp_cast_type', 'complete_cast', 'title', 'movie_keyword', 'movie_info_idx', 'info_type', 'keyword', 'comp_cast_type', 'name', 'cast_info'] 
+Cost: 9507665.083499948 
+Iteration: 15 
+Optimal Join Order: ['char_name', 'comp_cast_type', 'comp_cast_type', 'kind_type', 'keyword', 'movie_keyword', 'movie_info_idx', 'info_type', 'complete_cast', 'title', 'cast_info', 'name'] 
+Cost: 3141379.143695057 
+Iteration: 16 
+Optimal Join Order: ['char_name', 'keyword', 'comp_cast_type', 'kind_type', 'comp_cast_type', 'info_type', 'movie_info_idx', 'title', 'movie_keyword', 'complete_cast', 'cast_info', 'name'] 
+Cost: 3229004.6774770613 
+Iteration: 17 
+Optimal Join Order: ['movie_info_idx', 'info_type', 'comp_cast_type', 'complete_cast', 'comp_cast_type', 'kind_type', 'char_name', 'cast_info', 'name', 'keyword', 'movie_keyword', 'title'] 
+Cost: 9284939.444939109 
+Iteration: 18 
+Optimal Join Order: ['movie_info_idx', 'movie_keyword', 'title', 'complete_cast', 'keyword', 'info_type', 'comp_cast_type', 'kind_type', 'comp_cast_type', 'char_name', 'cast_info', 'name'] 
+Cost: 3344037.479208585 
+Iteration: 19 
+Optimal Join Order: ['comp_cast_type', 'comp_cast_type', 'complete_cast', 'movie_info_idx', 'title', 'movie_keyword', 'keyword', 'kind_type', 'info_type', 'name', 'cast_info', 'char_name'] 
+Cost: 6501720.553659401 
+Iteration: 20 
+Optimal Join Order: ['kind_type', 'title', 'complete_cast', 'comp_cast_type', 'char_name', 'info_type', 'comp_cast_type', 'keyword', 'movie_keyword', 'movie_info_idx', 'cast_info', 'name'] 
+Cost: 6344284.589257513 
+Iteration: 21 
+Optimal Join Order: ['name', 'cast_info', 'char_name', 'kind_type', 'info_type', 'comp_cast_type', 'keyword', 'movie_keyword', 'title', 'movie_info_idx', 'complete_cast', 'comp_cast_type'] 
+Cost: 2986224.5536594 
+Iteration: 22 
+Optimal Join Order: ['name', 'cast_info', 'title', 'movie_info_idx', 'comp_cast_type', 'kind_type', 'info_type', 'comp_cast_type', 'complete_cast', 'movie_keyword', 'keyword', 'char_name'] 
+Cost: 5266267.164004257 
+Iteration: 23 
+Optimal Join Order: ['movie_info_idx', 'title', 'complete_cast', 'comp_cast_type', 'char_name', 'cast_info', 'name', 'comp_cast_type', 'info_type', 'kind_type', 'keyword', 'movie_keyword'] 
+Cost: 9264899.747102572 
+Iteration: 24 
+Optimal Join Order: ['movie_info_idx', 'movie_keyword', 'keyword', 'comp_cast_type', 'info_type', 'comp_cast_type', 'complete_cast', 'title', 'kind_type', 'char_name', 'cast_info', 'name'] 
+Cost: 3581088.1023649317 
+Iteration: 25 
+Optimal Join Order: ['name', 'cast_info', 'title', 'movie_info_idx', 'complete_cast', 'comp_cast_type', 'char_name', 'kind_type', 'info_type', 'comp_cast_type', 'keyword', 'movie_keyword'] 
+Cost: 5749418.666838353 
+Iteration: 26 
+Optimal Join Order: ['name', 'comp_cast_type', 'comp_cast_type', 'complete_cast', 'kind_type', 'title', 'movie_keyword', 'movie_info_idx', 'cast_info', 'char_name', 'info_type', 'keyword'] 
+Cost: 9994832.067950603 
+Iteration: 27 
+Optimal Join Order: ['name', 'comp_cast_type', 'complete_cast', 'title', 'cast_info', 'char_name', 'comp_cast_type', 'kind_type', 'info_type', 'movie_info_idx', 'movie_keyword', 'keyword'] 
+Cost: 9062208.772879714 
+Iteration: 28 
+Optimal Join Order: ['name', 'cast_info', 'char_name', 'keyword', 'movie_keyword', 'title', 'complete_cast', 'comp_cast_type', 'comp_cast_type', 'kind_type', 'info_type', 'movie_info_idx'] 
+Cost: 3006269.049093029 
+Iteration: 29 
+Optimal Join Order: ['kind_type', 'comp_cast_type', 'comp_cast_type', 'complete_cast', 'movie_info_idx', 'title', 'movie_keyword', 'keyword', 'info_type', 'char_name', 'cast_info', 'name'] 
+Cost: 2986221.5536594 
+Query: ./ENGR489-Project/TestQueries/19a.sql
+Iteration: 0 
+Optimal Join Order: ['name', 'aka_name', 'cast_info', 'movie_info', 'title', 'movie_companies', 'company_name', 'role_type', 'info_type', 'char_name'] 
+Cost: 3116039.7313547777 
+Iteration: 1 
+Optimal Join Order: ['role_type', 'info_type', 'char_name', 'cast_info', 'name', 'aka_name', 'company_name', 'movie_companies', 'movie_info', 'title'] 
+Cost: 4395153.691984334 
+Iteration: 2 
+Optimal Join Order: ['company_name', 'movie_companies', 'movie_info', 'title', 'cast_info', 'name', 'aka_name', 'role_type', 'info_type', 'char_name'] 
+Cost: 4042610.208335759 
+Iteration: 3 
+Optimal Join Order: ['name', 'aka_name', 'info_type', 'role_type', 'company_name', 'movie_companies', 'movie_info', 'title', 'cast_info', 'char_name'] 
+Cost: 1631990.4903391174 
+Iteration: 4 
+Optimal Join Order: ['company_name', 'movie_companies', 'title', 'movie_info', 'cast_info', 'name', 'aka_name', 'info_type', 'role_type', 'char_name'] 
+Cost: 4042604.4636271168 
+Iteration: 5 
+Optimal Join Order: ['char_name', 'aka_name', 'name', 'cast_info', 'title', 'movie_info', 'info_type', 'role_type', 'company_name', 'movie_companies'] 
+Cost: 4615823.818386997 
+Iteration: 6 
+Optimal Join Order: ['movie_info', 'movie_companies', 'title', 'info_type', 'company_name', 'role_type', 'aka_name', 'name', 'cast_info', 'char_name'] 
+Cost: 6173701.861518475 
+Iteration: 7 
+Optimal Join Order: ['name', 'aka_name', 'role_type', 'cast_info', 'title', 'movie_info', 'movie_companies', 'company_name', 'info_type', 'char_name'] 
+Cost: 4595241.29196918 
+Iteration: 8 
+Optimal Join Order: ['name', 'aka_name', 'role_type', 'info_type', 'char_name', 'cast_info', 'movie_info', 'title', 'movie_companies', 'company_name'] 
+Cost: 4042594.7456304743 
+Iteration: 9 
+Optimal Join Order: ['info_type', 'role_type', 'char_name', 'cast_info', 'name', 'aka_name', 'company_name', 'movie_companies', 'movie_info', 'title'] 
+Cost: 4395052.691984334 
+Iteration: 10 
+Optimal Join Order: ['company_name', 'info_type', 'movie_info', 'movie_companies', 'title', 'cast_info', 'name', 'aka_name', 'role_type', 'char_name'] 
+Cost: 4615805.9044298995 
+Iteration: 11 
+Optimal Join Order: ['name', 'aka_name', 'role_type', 'info_type', 'company_name', 'movie_companies', 'title', 'movie_info', 'cast_info', 'char_name'] 
+Cost: 1631984.7456304748 
+Iteration: 12 
+Optimal Join Order: ['name', 'aka_name', 'company_name', 'movie_companies', 'title', 'movie_info', 'cast_info', 'char_name', 'info_type', 'role_type'] 
+Cost: 4395151.745630475 
+Iteration: 13 
+Optimal Join Order: ['title', 'movie_companies', 'movie_info', 'cast_info', 'name', 'aka_name', 'role_type', 'info_type', 'company_name', 'char_name'] 
+Cost: 4747722.602448295 
+Iteration: 14 
+Optimal Join Order: ['title', 'movie_companies', 'movie_info', 'info_type', 'company_name', 'role_type', 'aka_name', 'name', 'cast_info', 'char_name'] 
+Cost: 2205182.3880784744 
+Iteration: 15 
+Optimal Join Order: ['movie_companies', 'company_name', 'char_name', 'cast_info', 'name', 'aka_name', 'role_type', 'info_type', 'movie_info', 'title'] 
+Cost: 4615810.302035572 
+Iteration: 16 
+Optimal Join Order: ['name', 'aka_name', 'role_type', 'info_type', 'movie_info', 'movie_companies', 'title', 'cast_info', 'char_name', 'company_name'] 
+Cost: 4615796.186433258 
+Iteration: 17 
+Optimal Join Order: ['info_type', 'company_name', 'movie_companies', 'movie_info', 'title', 'role_type', 'aka_name', 'name', 'cast_info', 'char_name'] 
+Cost: 5821038.691984335 
+Iteration: 18 
+Optimal Join Order: ['char_name', 'cast_info', 'name', 'aka_name', 'info_type', 'movie_info', 'title', 'movie_companies', 'company_name', 'role_type'] 
+Cost: 1852621.249257296 
+Iteration: 19 
+Optimal Join Order: ['role_type', 'company_name', 'movie_companies', 'movie_info', 'title', 'cast_info', 'name', 'aka_name', 'info_type', 'char_name'] 
+Cost: 4395167.208335759 
+Iteration: 20 
+Optimal Join Order: ['title', 'movie_info', 'movie_companies', 'company_name', 'role_type', 'cast_info', 'char_name', 'info_type', 'aka_name', 'name'] 
+Cost: 4595227.775617755 
+Iteration: 21 
+Optimal Join Order: ['name', 'cast_info', 'char_name', 'aka_name', 'role_type', 'info_type', 'movie_info', 'title', 'movie_companies', 'company_name'] 
+Cost: 5542375.047565824 
+Iteration: 22 
+Optimal Join Order: ['name', 'aka_name', 'info_type', 'movie_info', 'title', 'cast_info', 'role_type', 'char_name', 'company_name', 'movie_companies'] 
+Cost: 7579064.902020418 
+Iteration: 23 
+Optimal Join Order: ['name', 'aka_name', 'role_type', 'info_type', 'company_name', 'movie_companies', 'movie_info', 'title', 'cast_info', 'char_name'] 
+Cost: 1631990.4903391174 
+Iteration: 24 
+Optimal Join Order: ['name', 'aka_name', 'role_type', 'company_name', 'info_type', 'movie_info', 'movie_companies', 'title', 'cast_info', 'char_name'] 
+Cost: 2205186.1864332575 
+Iteration: 25 
+Optimal Join Order: ['char_name', 'cast_info', 'role_type', 'company_name', 'movie_companies', 'title', 'movie_info', 'info_type', 'aka_name', 'name'] 
+Cost: 2052695.3328907168 
+Iteration: 26 
+Optimal Join Order: ['char_name', 'cast_info', 'role_type', 'company_name', 'title', 'movie_companies', 'movie_info', 'info_type', 'aka_name', 'name'] 
+Cost: 6594409.471711895 
+Iteration: 27 
+Optimal Join Order: ['name', 'aka_name', 'info_type', 'movie_info', 'title', 'movie_companies', 'company_name', 'role_type', 'cast_info', 'char_name'] 
+Cost: 2052695.332890717 
+Iteration: 28 
+Optimal Join Order: ['info_type', 'movie_info', 'title', 'movie_companies', 'company_name', 'role_type', 'aka_name', 'name', 'cast_info', 'char_name'] 
+Cost: 1852520.2492572959 
+Iteration: 29 
+Optimal Join Order: ['name', 'aka_name', 'cast_info', 'char_name', 'info_type', 'role_type', 'company_name', 'movie_companies', 'movie_info', 'title'] 
+Cost: 3116031.959711996 
+Query: ./ENGR489-Project/TestQueries/24a.sql
+Iteration: 0 
+Optimal Join Order: ['name', 'cast_info', 'aka_name', 'role_type', 'info_type', 'company_name', 'char_name', 'keyword', 'movie_keyword', 'movie_info', 'movie_companies', 'title'] 
+Cost: 7733689.557836887 
+Iteration: 1 
+Optimal Join Order: ['name', 'aka_name', 'keyword', 'movie_keyword', 'title', 'movie_companies', 'company_name', 'role_type', 'info_type', 'movie_info', 'cast_info', 'char_name'] 
+Cost: 2075405.6898989638 
+Iteration: 2 
+Optimal Join Order: ['company_name', 'keyword', 'role_type', 'aka_name', 'name', 'info_type', 'char_name', 'cast_info', 'movie_info', 'movie_companies', 'title', 'movie_keyword'] 
+Cost: 11119313.287624124 
+Iteration: 3 
+Optimal Join Order: ['name', 'aka_name', 'char_name', 'cast_info', 'title', 'movie_companies', 'company_name', 'role_type', 'keyword', 'info_type', 'movie_info', 'movie_keyword'] 
+Cost: 5061309.464138636 
+Iteration: 4 
+Optimal Join Order: ['info_type', 'keyword', 'movie_keyword', 'movie_companies', 'company_name', 'char_name', 'role_type', 'aka_name', 'name', 'cast_info', 'movie_info', 'title'] 
+Cost: 7381037.744401663 
+Iteration: 5 
+Optimal Join Order: ['char_name', 'cast_info', 'name', 'aka_name', 'info_type', 'role_type', 'keyword', 'movie_keyword', 'movie_info', 'title', 'movie_companies', 'company_name'] 
+Cost: 1502205.634982878 
+Iteration: 6 
+Optimal Join Order: ['company_name', 'role_type', 'movie_companies', 'title', 'movie_keyword', 'keyword', 'char_name', 'cast_info', 'name', 'aka_name', 'info_type', 'movie_info'] 
+Cost: 9622780.129889706 
+Iteration: 7 
+Optimal Join Order: ['aka_name', 'name', 'cast_info', 'char_name', 'role_type', 'company_name', 'info_type', 'movie_info', 'movie_companies', 'title', 'movie_keyword', 'keyword'] 
+Cost: 3689264.0463984674 
+Iteration: 8 
+Optimal Join Order: ['aka_name', 'role_type', 'keyword', 'info_type', 'movie_info', 'title', 'movie_keyword', 'movie_companies', 'company_name', 'char_name', 'cast_info', 'name'] 
+Cost: 5061324.476365324 
+Iteration: 9 
+Optimal Join Order: ['char_name', 'keyword', 'role_type', 'info_type', 'movie_info', 'movie_keyword', 'movie_companies', 'company_name', 'aka_name', 'name', 'cast_info', 'title'] 
+Cost: 5061338.207762306 
+Iteration: 10 
+Optimal Join Order: ['char_name', 'cast_info', 'name', 'aka_name', 'role_type', 'info_type', 'movie_info', 'movie_keyword', 'movie_companies', 'company_name', 'keyword', 'title'] 
+Cost: 6487310.69141088 
+Iteration: 11 
+Optimal Join Order: ['movie_companies', 'movie_keyword', 'movie_info', 'title', 'cast_info', 'role_type', 'keyword', 'name', 'aka_name', 'info_type', 'company_name', 'char_name'] 
+Cost: 11671990.46837115 
+Iteration: 12 
+Optimal Join Order: ['info_type', 'company_name', 'movie_companies', 'movie_info', 'title', 'movie_keyword', 'keyword', 'role_type', 'aka_name', 'name', 'cast_info', 'char_name'] 
+Cost: 1854655.3503043272 
+Iteration: 13 
+Optimal Join Order: ['keyword', 'role_type', 'char_name', 'company_name', 'info_type', 'aka_name', 'name', 'cast_info', 'movie_info', 'movie_companies', 'title', 'movie_keyword'] 
+Cost: 7733650.005620769 
+Iteration: 14 
+Optimal Join Order: ['char_name', 'aka_name', 'name', 'cast_info', 'title', 'movie_info', 'movie_companies', 'company_name', 'info_type', 'role_type', 'keyword', 'movie_keyword'] 
+Cost: 4617958.46348328 
+Iteration: 15 
+Optimal Join Order: ['movie_info', 'info_type', 'keyword', 'role_type', 'aka_name', 'name', 'cast_info', 'char_name', 'company_name', 'title', 'movie_companies', 'movie_keyword'] 
+Cost: 9603038.444418462 
+Iteration: 16 
+Optimal Join Order: ['company_name', 'char_name', 'aka_name', 'name', 'cast_info', 'title', 'movie_info', 'movie_companies', 'movie_keyword', 'keyword', 'info_type', 'role_type'] 
+Cost: 7381131.899255949 
+Iteration: 17 
+Optimal Join Order: ['movie_companies', 'movie_info', 'info_type', 'name', 'aka_name', 'role_type', 'company_name', 'keyword', 'movie_keyword', 'title', 'cast_info', 'char_name'] 
+Cost: 8706640.897531526 
+Iteration: 18 
+Optimal Join Order: ['name', 'aka_name', 'cast_info', 'char_name', 'role_type', 'keyword', 'movie_keyword', 'movie_companies', 'title', 'movie_info', 'info_type', 'company_name'] 
+Cost: 3559464.207905147 
+Iteration: 19 
+Optimal Join Order: ['char_name', 'keyword', 'company_name', 'movie_companies', 'title', 'movie_keyword', 'movie_info', 'info_type', 'role_type', 'cast_info', 'aka_name', 'name'] 
+Cost: 3982246.138314051 
+Iteration: 20 
+Optimal Join Order: ['keyword', 'char_name', 'aka_name', 'name', 'cast_info', 'movie_info', 'movie_keyword', 'title', 'movie_companies', 'company_name', 'role_type', 'info_type'] 
+Cost: 7380989.283326149 
+Iteration: 21 
+Optimal Join Order: ['company_name', 'char_name', 'cast_info', 'name', 'aka_name', 'info_type', 'movie_info', 'title', 'movie_companies', 'movie_keyword', 'keyword', 'role_type'] 
+Cost: 4838585.940177486 
+Iteration: 22 
+Optimal Join Order: ['info_type', 'char_name', 'role_type', 'cast_info', 'name', 'aka_name', 'company_name', 'movie_companies', 'title', 'keyword', 'movie_keyword', 'movie_info'] 
+Cost: 11770250.196001438 
+Iteration: 23 
+Optimal Join Order: ['keyword', 'movie_keyword', 'movie_info', 'info_type', 'char_name', 'cast_info', 'aka_name', 'name', 'role_type', 'company_name', 'movie_companies', 'title'] 
+Cost: 9615388.188659035 
+Iteration: 24 
+Optimal Join Order: ['name', 'aka_name', 'role_type', 'info_type', 'movie_info', 'cast_info', 'char_name', 'keyword', 'company_name', 'movie_companies', 'movie_keyword', 'title'] 
+Cost: 5061316.46037847 
+Iteration: 25 
+Optimal Join Order: ['role_type', 'char_name', 'cast_info', 'movie_info', 'info_type', 'name', 'aka_name', 'company_name', 'movie_companies', 'title', 'keyword', 'movie_keyword'] 
+Cost: 15306410.286726492 
+Iteration: 26 
+Optimal Join Order: ['company_name', 'movie_companies', 'movie_info', 'cast_info', 'name', 'aka_name', 'char_name', 'info_type', 'role_type', 'keyword', 'movie_keyword', 'title'] 
+Cost: 7028557.850622646 
+Iteration: 27 
+Optimal Join Order: ['name', 'cast_info', 'char_name', 'keyword', 'movie_keyword', 'movie_info', 'movie_companies', 'title', 'role_type', 'company_name', 'info_type', 'aka_name'] 
+Cost: 9159666.572112584 
+Iteration: 28 
+Optimal Join Order: ['movie_keyword', 'keyword', 'company_name', 'movie_companies', 'movie_info', 'title', 'info_type', 'role_type', 'aka_name', 'name', 'cast_info', 'char_name'] 
+Cost: 6043930.947131855 
+Iteration: 29 
+Optimal Join Order: ['char_name', 'cast_info', 'role_type', 'keyword', 'company_name', 'movie_companies', 'title', 'movie_keyword', 'movie_info', 'info_type', 'aka_name', 'name'] 
+Cost: 2498191.1525897477 
+Query: ./ENGR489-Project/TestQueries/15a.sql
+Iteration: 0 
+Optimal Join Order: ['keyword', 'company_type', 'info_type', 'movie_info', 'title', 'aka_title', 'movie_keyword', 'movie_companies', 'company_name'] 
+Cost: 443689.287227072 
+Iteration: 1 
+Optimal Join Order: ['movie_info', 'movie_keyword', 'aka_title', 'title', 'movie_companies', 'company_name', 'company_type', 'info_type', 'keyword'] 
+Cost: 575595.1515666039 
+Iteration: 2 
+Optimal Join Order: ['company_type', 'keyword', 'movie_keyword', 'aka_title', 'movie_info', 'info_type', 'company_name', 'movie_companies', 'title'] 
+Cost: 796296.249322834 
+Iteration: 3 
+Optimal Join Order: ['info_type', 'keyword', 'company_type', 'company_name', 'movie_companies', 'title', 'aka_title', 'movie_keyword', 'movie_info'] 
+Cost: 798228.1515666039 
+Iteration: 4 
+Optimal Join Order: ['company_name', 'movie_companies', 'movie_info', 'title', 'aka_title', 'movie_keyword', 'keyword', 'info_type', 'company_type'] 
+Cost: 223052.9594746044 
+Iteration: 5 
+Optimal Join Order: ['aka_title', 'title', 'movie_keyword', 'movie_info', 'movie_companies', 'company_name', 'info_type', 'company_type', 'keyword'] 
+Cost: 575575.4595617855 
+Iteration: 6 
+Optimal Join Order: ['company_name', 'movie_companies', 'movie_keyword', 'aka_title', 'title', 'movie_info', 'info_type', 'company_type', 'keyword'] 
+Cost: 443689.28722707205 
+Iteration: 7 
+Optimal Join Order: ['title', 'movie_keyword', 'aka_title', 'company_type', 'info_type', 'keyword', 'company_name', 'movie_companies', 'movie_info'] 
+Cost: 1313976.9212216453 
+Iteration: 8 
+Optimal Join Order: ['info_type', 'keyword', 'movie_keyword', 'aka_title', 'title', 'movie_info', 'movie_companies', 'company_name', 'company_type'] 
+Cost: 575508.9594746043 
+Iteration: 9 
+Optimal Join Order: ['movie_companies', 'movie_info', 'title', 'aka_title', 'movie_keyword', 'keyword', 'company_type', 'info_type', 'company_name'] 
+Cost: 575611.4223985244 
+Iteration: 10 
+Optimal Join Order: ['keyword', 'movie_keyword', 'aka_title', 'title', 'movie_info', 'movie_companies', 'company_name', 'company_type', 'info_type'] 
+Cost: 352766.9594746044 
+Iteration: 11 
+Optimal Join Order: ['info_type', 'company_name', 'movie_companies', 'title', 'aka_title', 'movie_info', 'movie_keyword', 'keyword', 'company_type'] 
+Cost: 575525.261102974 
+Iteration: 12 
+Optimal Join Order: ['aka_title', 'title', 'movie_info', 'info_type', 'company_type', 'company_name', 'movie_companies', 'movie_keyword', 'keyword'] 
+Cost: 573524.477910262 
+Iteration: 13 
+Optimal Join Order: ['keyword', 'movie_keyword', 'aka_title', 'title', 'movie_info', 'movie_companies', 'company_name', 'company_type', 'info_type'] 
+Cost: 352766.9594746044 
+Iteration: 14 
+Optimal Join Order: ['company_name', 'movie_companies', 'title', 'aka_title', 'movie_keyword', 'movie_info', 'info_type', 'company_type', 'keyword'] 
+Cost: 443671.67812660406 
+Iteration: 15 
+Optimal Join Order: ['info_type', 'company_type', 'keyword', 'company_name', 'movie_companies', 'movie_info', 'movie_keyword', 'title', 'aka_title'] 
+Cost: 798208.4595617853 
+Iteration: 16 
+Optimal Join Order: ['keyword', 'info_type', 'company_type', 'company_name', 'movie_companies', 'title', 'aka_title', 'movie_keyword', 'movie_info'] 
+Cost: 575595.1515666039 
+Iteration: 17 
+Optimal Join Order: ['keyword', 'info_type', 'company_type', 'aka_title', 'title', 'movie_keyword', 'movie_info', 'movie_companies', 'company_name'] 
+Cost: 738649.4595617853 
+Iteration: 18 
+Optimal Join Order: ['aka_title', 'title', 'movie_keyword', 'keyword', 'company_type', 'info_type', 'movie_info', 'movie_companies', 'company_name'] 
+Cost: 443677.5841312434 
+Iteration: 19 
+Optimal Join Order: ['aka_title', 'title', 'movie_keyword', 'movie_info', 'movie_companies', 'company_name', 'company_type', 'info_type', 'keyword'] 
+Cost: 575575.4595617855 
+Iteration: 20 
+Optimal Join Order: ['company_name', 'movie_companies', 'title', 'movie_keyword', 'keyword', 'company_type', 'info_type', 'movie_info', 'aka_title'] 
+Cost: 443712.58803097706 
+Iteration: 21 
+Optimal Join Order: ['keyword', 'movie_keyword', 'movie_info', 'movie_companies', 'title', 'aka_title', 'company_type', 'info_type', 'company_name'] 
+Cost: 868490.7216824763 
+Iteration: 22 
+Optimal Join Order: ['movie_keyword', 'aka_title', 'title', 'movie_info', 'movie_companies', 'company_name', 'company_type', 'info_type', 'keyword'] 
+Cost: 575592.7043270844 
+Iteration: 23 
+Optimal Join Order: ['movie_info', 'movie_keyword', 'aka_title', 'title', 'movie_companies', 'company_name', 'company_type', 'info_type', 'keyword'] 
+Cost: 575595.1515666039 
+Iteration: 24 
+Optimal Join Order: ['keyword', 'movie_keyword', 'title', 'aka_title', 'movie_info', 'movie_companies', 'company_name', 'company_type', 'info_type'] 
+Cost: 352776.9764244234 
+Iteration: 25 
+Optimal Join Order: ['aka_title', 'title', 'movie_companies', 'movie_info', 'movie_keyword', 'keyword', 'company_type', 'info_type', 'company_name'] 
+Cost: 575593.7216824763 
+Iteration: 26 
+Optimal Join Order: ['movie_info', 'title', 'aka_title', 'movie_keyword', 'keyword', 'company_type', 'info_type', 'company_name', 'movie_companies'] 
+Cost: 575625.042965842 
+Iteration: 27 
+Optimal Join Order: ['info_type', 'company_type', 'company_name', 'movie_companies', 'movie_info', 'title', 'aka_title', 'movie_keyword', 'keyword'] 
+Cost: 352766.95947460434 
+Iteration: 28 
+Optimal Join Order: ['company_name', 'movie_companies', 'title', 'aka_title', 'movie_keyword', 'movie_info', 'info_type', 'keyword', 'company_type'] 
+Cost: 666413.6781266041 
+Iteration: 29 
+Optimal Join Order: ['company_name', 'movie_companies', 'movie_keyword', 'title', 'aka_title', 'movie_info', 'info_type', 'company_type', 'keyword'] 
+Cost: 443699.304176891 
+Query: ./ENGR489-Project/TestQueries/8a.sql
+Iteration: 0 
+Optimal Join Order: ['title', 'movie_companies', 'company_name', 'role_type', 'cast_info', 'aka_name', 'name'] 
+Cost: 552693.5514435159 
+Iteration: 1 
+Optimal Join Order: ['company_name', 'role_type', 'aka_name', 'name', 'cast_info', 'title', 'movie_companies'] 
+Cost: 1631754.461361137 
+Iteration: 2 
+Optimal Join Order: ['title', 'movie_companies', 'company_name', 'role_type', 'cast_info', 'aka_name', 'name'] 
+Cost: 552693.5514435159 
+Iteration: 3 
+Optimal Join Order: ['name', 'aka_name', 'cast_info', 'title', 'movie_companies', 'company_name', 'role_type'] 
+Cost: 352623.266164878 
+Iteration: 4 
+Optimal Join Order: ['title', 'movie_companies', 'company_name', 'role_type', 'cast_info', 'aka_name', 'name'] 
+Cost: 552693.5514435159 
+Iteration: 5 
+Optimal Join Order: ['movie_companies', 'title', 'cast_info', 'name', 'aka_name', 'role_type', 'company_name'] 
+Cost: 1631754.461361137 
+Iteration: 6 
+Optimal Join Order: ['role_type', 'company_name', 'movie_companies', 'title', 'cast_info', 'aka_name', 'name'] 
+Cost: 352623.266164878 
+Iteration: 7 
+Optimal Join Order: ['role_type', 'aka_name', 'name', 'cast_info', 'title', 'movie_companies', 'company_name'] 
+Cost: 1279187.998437217 
+Iteration: 8 
+Optimal Join Order: ['name', 'aka_name', 'cast_info', 'role_type', 'company_name', 'movie_companies', 'title'] 
+Cost: 552693.5514435159 
+Iteration: 9 
+Optimal Join Order: ['role_type', 'company_name', 'movie_companies', 'title', 'cast_info', 'aka_name', 'name'] 
+Cost: 352623.266164878 
+Iteration: 10 
+Optimal Join Order: ['title', 'movie_companies', 'company_name', 'role_type', 'cast_info', 'aka_name', 'name'] 
+Cost: 552693.5514435159 
+Iteration: 11 
+Optimal Join Order: ['title', 'movie_companies', 'company_name', 'role_type', 'cast_info', 'aka_name', 'name'] 
+Cost: 552693.5514435159 
+Iteration: 12 
+Optimal Join Order: ['aka_name', 'role_type', 'company_name', 'movie_companies', 'title', 'cast_info', 'name'] 
+Cost: 1631767.796745745 
+Iteration: 13 
+Optimal Join Order: ['name', 'aka_name', 'cast_info', 'title', 'movie_companies', 'company_name', 'role_type'] 
+Cost: 352623.266164878 
+Iteration: 14 
+Optimal Join Order: ['role_type', 'company_name', 'movie_companies', 'title', 'cast_info', 'aka_name', 'name'] 
+Cost: 352623.266164878 
+Iteration: 15 
+Optimal Join Order: ['name', 'aka_name', 'role_type', 'cast_info', 'title', 'movie_companies', 'company_name'] 
+Cost: 1479262.082070638 
+Iteration: 16 
+Optimal Join Order: ['name', 'aka_name', 'cast_info', 'title', 'movie_companies', 'company_name', 'role_type'] 
+Cost: 352623.266164878 
+Iteration: 17 
+Optimal Join Order: ['company_name', 'movie_companies', 'title', 'cast_info', 'name', 'aka_name', 'role_type'] 
+Cost: 1279187.998437217 
+Iteration: 18 
+Optimal Join Order: ['role_type', 'company_name', 'movie_companies', 'title', 'cast_info', 'name', 'aka_name'] 
+Cost: 352623.998437217 
+Iteration: 19 
+Optimal Join Order: ['role_type', 'company_name', 'movie_companies', 'title', 'cast_info', 'aka_name', 'name'] 
+Cost: 352623.266164878 
+Iteration: 20 
+Optimal Join Order: ['name', 'aka_name', 'cast_info', 'role_type', 'company_name', 'movie_companies', 'title'] 
+Cost: 552693.5514435159 
+Iteration: 21 
+Optimal Join Order: ['aka_name', 'name', 'cast_info', 'title', 'movie_companies', 'company_name', 'role_type'] 
+Cost: 352623.998437217 
+Iteration: 22 
+Optimal Join Order: ['aka_name', 'role_type', 'company_name', 'movie_companies', 'title', 'cast_info', 'name'] 
+Cost: 1631767.796745745 
+Iteration: 23 
+Optimal Join Order: ['name', 'aka_name', 'cast_info', 'role_type', 'company_name', 'movie_companies', 'title'] 
+Cost: 552693.5514435159 
+Iteration: 24 
+Optimal Join Order: ['role_type', 'aka_name', 'name', 'cast_info', 'title', 'movie_companies', 'company_name'] 
+Cost: 1279187.998437217 
+Iteration: 25 
+Optimal Join Order: ['company_name', 'movie_companies', 'title', 'cast_info', 'name', 'aka_name', 'role_type'] 
+Cost: 1279187.998437217 
+Iteration: 26 
+Optimal Join Order: ['title', 'movie_companies', 'company_name', 'role_type', 'cast_info', 'aka_name', 'name'] 
+Cost: 552693.5514435159 
+Iteration: 27 
+Optimal Join Order: ['name', 'aka_name', 'cast_info', 'title', 'movie_companies', 'company_name', 'role_type'] 
+Cost: 352623.266164878 
+Iteration: 28 
+Optimal Join Order: ['name', 'aka_name', 'cast_info', 'title', 'movie_companies', 'company_name', 'role_type'] 
+Cost: 352623.266164878 
+Iteration: 29 
+Optimal Join Order: ['title', 'movie_companies', 'company_name', 'role_type', 'cast_info', 'aka_name', 'name'] 
+Cost: 552693.5514435159 
+Query: ./ENGR489-Project/TestQueries/18a.sql
+Iteration: 0 
+Optimal Join Order: ['name', 'cast_info', 'movie_info', 'title', 'movie_info_idx', 'info_type', 'info_type'] 
+Cost: 20408.4711398567 
+Iteration: 1 
+Optimal Join Order: ['info_type', 'info_type', 'movie_info', 'movie_info_idx', 'title', 'cast_info', 'name'] 
+Cost: 221012.87150487702 
+Iteration: 2 
+Optimal Join Order: ['name', 'cast_info', 'movie_info', 'title', 'movie_info_idx', 'info_type', 'info_type'] 
+Cost: 20408.4711398567 
+Iteration: 3 
+Optimal Join Order: ['info_type', 'info_type', 'movie_info_idx', 'title', 'movie_info', 'cast_info', 'name'] 
+Cost: 20408.4711398567 
+Iteration: 4 
+Optimal Join Order: ['info_type', 'info_type', 'movie_info_idx', 'title', 'movie_info', 'cast_info', 'name'] 
+Cost: 20408.4711398567 
+Iteration: 5 
+Optimal Join Order: ['info_type', 'info_type', 'movie_info_idx', 'title', 'movie_info', 'cast_info', 'name'] 
+Cost: 20408.4711398567 
+Iteration: 6 
+Optimal Join Order: ['info_type', 'info_type', 'movie_info_idx', 'title', 'movie_info', 'cast_info', 'name'] 
+Cost: 20408.4711398567 
+Iteration: 7 
+Optimal Join Order: ['name', 'cast_info', 'movie_info', 'title', 'movie_info_idx', 'info_type', 'info_type'] 
+Cost: 20408.4711398567 
+Iteration: 8 
+Optimal Join Order: ['info_type', 'info_type', 'movie_info', 'movie_info_idx', 'title', 'cast_info', 'name'] 
+Cost: 221012.87150487702 
+Iteration: 9 
+Optimal Join Order: ['name', 'cast_info', 'movie_info', 'title', 'movie_info_idx', 'info_type', 'info_type'] 
+Cost: 20408.4711398567 
+Iteration: 10 
+Optimal Join Order: ['info_type', 'info_type', 'movie_info_idx', 'title', 'movie_info', 'cast_info', 'name'] 
+Cost: 20408.4711398567 
+Iteration: 11 
+Optimal Join Order: ['info_type', 'info_type', 'movie_info_idx', 'title', 'movie_info', 'cast_info', 'name'] 
+Cost: 20408.4711398567 
+Iteration: 12 
+Optimal Join Order: ['name', 'cast_info', 'movie_info', 'title', 'movie_info_idx', 'info_type', 'info_type'] 
+Cost: 20408.4711398567 
+Iteration: 13 
+Optimal Join Order: ['name', 'cast_info', 'movie_info', 'title', 'movie_info_idx', 'info_type', 'info_type'] 
+Cost: 20408.4711398567 
+Iteration: 14 
+Optimal Join Order: ['info_type', 'info_type', 'movie_info_idx', 'movie_info', 'title', 'cast_info', 'name'] 
+Cost: 20415.484374365 
+Iteration: 15 
+Optimal Join Order: ['name', 'cast_info', 'movie_info', 'title', 'movie_info_idx', 'info_type', 'info_type'] 
+Cost: 20408.4711398567 
+Iteration: 16 
+Optimal Join Order: ['info_type', 'info_type', 'movie_info_idx', 'title', 'movie_info', 'cast_info', 'name'] 
+Cost: 20408.4711398567 
+Iteration: 17 
+Optimal Join Order: ['name', 'cast_info', 'movie_info', 'title', 'movie_info_idx', 'info_type', 'info_type'] 
+Cost: 20408.4711398567 
+Iteration: 18 
+Optimal Join Order: ['info_type', 'info_type', 'movie_info_idx', 'title', 'movie_info', 'cast_info', 'name'] 
+Cost: 20408.4711398567 
+Iteration: 19 
+Optimal Join Order: ['info_type', 'info_type', 'movie_info_idx', 'title', 'movie_info', 'cast_info', 'name'] 
+Cost: 20408.4711398567 
+Iteration: 20 
+Optimal Join Order: ['name', 'cast_info', 'movie_info', 'title', 'movie_info_idx', 'info_type', 'info_type'] 
+Cost: 20408.4711398567 
+Iteration: 21 
+Optimal Join Order: ['info_type', 'info_type', 'movie_info_idx', 'title', 'movie_info', 'cast_info', 'name'] 
+Cost: 20408.4711398567 
+Iteration: 22 
+Optimal Join Order: ['name', 'cast_info', 'movie_info', 'title', 'movie_info_idx', 'info_type', 'info_type'] 
+Cost: 20408.4711398567 
+Iteration: 23 
+Optimal Join Order: ['name', 'cast_info', 'movie_info', 'title', 'movie_info_idx', 'info_type', 'info_type'] 
+Cost: 20408.4711398567 
+Iteration: 24 
+Optimal Join Order: ['info_type', 'info_type', 'movie_info_idx', 'title', 'movie_info', 'cast_info', 'name'] 
+Cost: 20408.4711398567 
+Iteration: 25 
+Optimal Join Order: ['name', 'cast_info', 'movie_info', 'title', 'movie_info_idx', 'info_type', 'info_type'] 
+Cost: 20408.4711398567 
+Iteration: 26 
+Optimal Join Order: ['info_type', 'info_type', 'movie_info_idx', 'title', 'movie_info', 'cast_info', 'name'] 
+Cost: 20408.4711398567 
+Iteration: 27 
+Optimal Join Order: ['info_type', 'info_type', 'movie_info_idx', 'title', 'movie_info', 'cast_info', 'name'] 
+Cost: 20408.4711398567 
+Iteration: 28 
+Optimal Join Order: ['name', 'cast_info', 'movie_info', 'title', 'movie_info_idx', 'info_type', 'info_type'] 
+Cost: 20408.4711398567 
+Iteration: 29 
+Optimal Join Order: ['info_type', 'info_type', 'movie_info_idx', 'title', 'movie_info', 'cast_info', 'name'] 
+Cost: 20408.4711398567 
+Query: ./ENGR489-Project/TestQueries/29a.sql
+Iteration: 0 
+Optimal Join Order: ['char_name', 'keyword', 'movie_keyword', 'movie_info', 'cast_info', 'complete_cast', 'movie_companies', 'title', 'person_info', 'name', 'aka_name', 'comp_cast_type', 'role_type', 'comp_cast_type', 'company_name', 'info_type', 'info_type'] 
+Cost: 13207858.551073406 
+Iteration: 1 
+Optimal Join Order: ['comp_cast_type', 'complete_cast', 'movie_info', 'movie_companies', 'movie_keyword', 'title', 'char_name', 'cast_info', 'person_info', 'info_type', 'comp_cast_type', 'keyword', 'company_name', 'role_type', 'info_type', 'aka_name', 'name'] 
+Cost: 9418384.530669201 
+Iteration: 2 
+Optimal Join Order: ['movie_keyword', 'movie_info', 'title', 'movie_companies', 'company_name', 'complete_cast', 'char_name', 'cast_info', 'person_info', 'keyword', 'info_type', 'info_type', 'role_type', 'comp_cast_type', 'comp_cast_type', 'name', 'aka_name'] 
+Cost: 14158710.90751548 
+Iteration: 3 
+Optimal Join Order: ['comp_cast_type', 'char_name', 'cast_info', 'title', 'movie_keyword', 'keyword', 'company_name', 'comp_cast_type', 'aka_name', 'role_type', 'name', 'person_info', 'info_type', 'info_type', 'complete_cast', 'movie_info', 'movie_companies'] 
+Cost: 12699308.176712615 
+Iteration: 4 
+Optimal Join Order: ['movie_companies', 'info_type', 'movie_info', 'complete_cast', 'company_name', 'comp_cast_type', 'info_type', 'person_info', 'name', 'comp_cast_type', 'role_type', 'cast_info', 'aka_name', 'char_name', 'keyword', 'movie_keyword', 'title'] 
+Cost: 19388277.057766795 
+Iteration: 5 
+Optimal Join Order: ['info_type', 'info_type', 'comp_cast_type', 'complete_cast', 'title', 'cast_info', 'movie_info', 'movie_companies', 'movie_keyword', 'keyword', 'company_name', 'person_info', 'name', 'aka_name', 'comp_cast_type', 'role_type', 'char_name'] 
+Cost: 9018661.6220369 
+Iteration: 6 
+Optimal Join Order: ['char_name', 'cast_info', 'complete_cast', 'title', 'movie_companies', 'movie_keyword', 'movie_info', 'info_type', 'role_type', 'comp_cast_type', 'info_type', 'comp_cast_type', 'person_info', 'name', 'aka_name', 'keyword', 'company_name'] 
+Cost: 6346376.909658435 
+Iteration: 7 
+Optimal Join Order: ['char_name', 'role_type', 'company_name', 'comp_cast_type', 'complete_cast', 'cast_info', 'person_info', 'name', 'aka_name', 'comp_cast_type', 'info_type', 'info_type', 'keyword', 'movie_keyword', 'title', 'movie_companies', 'movie_info'] 
+Cost: 4970816.969463222 
+Iteration: 8 
+Optimal Join Order: ['movie_keyword', 'keyword', 'info_type', 'person_info', 'role_type', 'company_name', 'comp_cast_type', 'char_name', 'info_type', 'comp_cast_type', 'aka_name', 'name', 'cast_info', 'movie_info', 'movie_companies', 'complete_cast', 'title'] 
+Cost: 11817658.356270911 
+Iteration: 9 
+Optimal Join Order: ['movie_keyword', 'movie_companies', 'company_name', 'keyword', 'role_type', 'info_type', 'char_name', 'comp_cast_type', 'complete_cast', 'comp_cast_type', 'aka_name', 'info_type', 'person_info', 'name', 'cast_info', 'title', 'movie_info'] 
+Cost: 8918910.79776963 
+Iteration: 10 
+Optimal Join Order: ['role_type', 'comp_cast_type', 'char_name', 'cast_info', 'movie_info', 'movie_keyword', 'keyword', 'info_type', 'company_name', 'movie_companies', 'title', 'complete_cast', 'comp_cast_type', 'info_type', 'person_info', 'name', 'aka_name'] 
+Cost: 3374712.7562438287 
+Iteration: 11 
+Optimal Join Order: ['info_type', 'movie_info', 'cast_info', 'char_name', 'complete_cast', 'movie_keyword', 'title', 'movie_companies', 'company_name', 'role_type', 'person_info', 'name', 'aka_name', 'info_type', 'keyword', 'comp_cast_type', 'comp_cast_type'] 
+Cost: 9244537.92857968 
+Iteration: 12 
+Optimal Join Order: ['company_name', 'char_name', 'title', 'movie_keyword', 'movie_info', 'movie_companies', 'complete_cast', 'cast_info', 'name', 'person_info', 'info_type', 'role_type', 'info_type', 'comp_cast_type', 'keyword', 'comp_cast_type', 'aka_name'] 
+Cost: 11828960.842240745 
+Iteration: 13 
+Optimal Join Order: ['movie_keyword', 'keyword', 'comp_cast_type', 'aka_name', 'company_name', 'movie_companies', 'movie_info', 'info_type', 'person_info', 'title', 'complete_cast', 'name', 'cast_info', 'role_type', 'info_type', 'comp_cast_type', 'char_name'] 
+Cost: 21004638.18283416 
+Iteration: 14 
+Optimal Join Order: ['movie_info', 'title', 'cast_info', 'char_name', 'comp_cast_type', 'info_type', 'person_info', 'role_type', 'complete_cast', 'keyword', 'movie_keyword', 'movie_companies', 'company_name', 'info_type', 'comp_cast_type', 'name', 'aka_name'] 
+Cost: 13971606.200306626 
+Iteration: 15 
+Optimal Join Order: ['name', 'person_info', 'cast_info', 'role_type', 'info_type', 'info_type', 'comp_cast_type', 'complete_cast', 'title', 'movie_keyword', 'movie_info', 'movie_companies', 'company_name', 'aka_name', 'comp_cast_type', 'keyword', 'char_name'] 
+Cost: 6320185.579761353 
+Iteration: 16 
+Optimal Join Order: ['info_type', 'comp_cast_type', 'complete_cast', 'role_type', 'title', 'cast_info', 'char_name', 'comp_cast_type', 'keyword', 'movie_keyword', 'movie_companies', 'movie_info', 'info_type', 'person_info', 'name', 'aka_name', 'company_name'] 
+Cost: 9198644.854811858 
+Iteration: 17 
+Optimal Join Order: ['name', 'aka_name', 'role_type', 'keyword', 'info_type', 'person_info', 'info_type', 'complete_cast', 'comp_cast_type', 'comp_cast_type', 'company_name', 'char_name', 'cast_info', 'movie_info', 'movie_companies', 'title', 'movie_keyword'] 
+Cost: 5399876.431765427 
+Iteration: 18 
+Optimal Join Order: ['name', 'person_info', 'cast_info', 'aka_name', 'comp_cast_type', 'info_type', 'keyword', 'movie_keyword', 'title', 'movie_info', 'info_type', 'char_name', 'comp_cast_type', 'role_type', 'company_name', 'movie_companies', 'complete_cast'] 
+Cost: 7602157.010092873 
+Iteration: 19 
+Optimal Join Order: ['movie_keyword', 'movie_companies', 'title', 'movie_info', 'cast_info', 'aka_name', 'comp_cast_type', 'complete_cast', 'comp_cast_type', 'name', 'person_info', 'info_type', 'keyword', 'info_type', 'company_name', 'role_type', 'char_name'] 
+Cost: 11507822.700221332 
+Iteration: 20 
+Optimal Join Order: ['char_name', 'role_type', 'info_type', 'movie_info', 'movie_companies', 'company_name', 'comp_cast_type', 'person_info', 'name', 'cast_info', 'aka_name', 'comp_cast_type', 'info_type', 'keyword', 'movie_keyword', 'complete_cast', 'title'] 
+Cost: 8886864.462276641 
+Iteration: 21 
+Optimal Join Order: ['char_name', 'role_type', 'keyword', 'info_type', 'title', 'complete_cast', 'name', 'person_info', 'info_type', 'comp_cast_type', 'company_name', 'comp_cast_type', 'aka_name', 'cast_info', 'movie_info', 'movie_keyword', 'movie_companies'] 
+Cost: 15832081.426498787 
+Iteration: 22 
+Optimal Join Order: ['comp_cast_type', 'role_type', 'char_name', 'comp_cast_type', 'keyword', 'aka_name', 'info_type', 'info_type', 'person_info', 'name', 'cast_info', 'movie_info', 'complete_cast', 'company_name', 'movie_companies', 'movie_keyword', 'title'] 
+Cost: 9053993.457556201 
+Iteration: 23 
+Optimal Join Order: ['name', 'person_info', 'role_type', 'keyword', 'comp_cast_type', 'comp_cast_type', 'company_name', 'info_type', 'aka_name', 'info_type', 'movie_info', 'complete_cast', 'movie_keyword', 'movie_companies', 'title', 'cast_info', 'char_name'] 
+Cost: 7978105.501919815 
+Iteration: 24 
+Optimal Join Order: ['movie_keyword', 'keyword', 'comp_cast_type', 'role_type', 'comp_cast_type', 'info_type', 'person_info', 'name', 'cast_info', 'title', 'complete_cast', 'company_name', 'movie_companies', 'movie_info', 'info_type', 'aka_name', 'char_name'] 
+Cost: 6288732.539498279 
+Iteration: 25 
+Optimal Join Order: ['complete_cast', 'movie_info', 'cast_info', 'char_name', 'info_type', 'comp_cast_type', 'role_type', 'aka_name', 'name', 'person_info', 'info_type', 'comp_cast_type', 'keyword', 'company_name', 'movie_companies', 'title', 'movie_keyword'] 
+Cost: 4876571.915624007 
+Iteration: 26 
+Optimal Join Order: ['title', 'cast_info', 'char_name', 'keyword', 'movie_keyword', 'complete_cast', 'person_info', 'info_type', 'comp_cast_type', 'comp_cast_type', 'aka_name', 'name', 'role_type', 'company_name', 'info_type', 'movie_info', 'movie_companies'] 
+Cost: 15688845.744724533 
+Iteration: 27 
+Optimal Join Order: ['movie_companies', 'company_name', 'comp_cast_type', 'role_type', 'info_type', 'info_type', 'comp_cast_type', 'complete_cast', 'title', 'movie_keyword', 'keyword', 'person_info', 'name', 'aka_name', 'char_name', 'cast_info', 'movie_info'] 
+Cost: 8666187.156576516 
+Iteration: 28 
+Optimal Join Order: ['name', 'person_info', 'info_type', 'company_name', 'movie_companies', 'movie_keyword', 'title', 'complete_cast', 'comp_cast_type', 'aka_name', 'char_name', 'comp_cast_type', 'role_type', 'keyword', 'info_type', 'movie_info', 'cast_info'] 
+Cost: 9139539.558576336 
+Iteration: 29 
+Optimal Join Order: ['comp_cast_type', 'comp_cast_type', 'info_type', 'keyword', 'role_type', 'company_name', 'char_name', 'cast_info', 'title', 'movie_companies', 'movie_info', 'movie_keyword', 'complete_cast', 'info_type', 'aka_name', 'name', 'person_info'] 
+Cost: 5328563.810839555 
+Query: ./ENGR489-Project/TestQueries/9a.sql
+Iteration: 0 
+Optimal Join Order: ['company_name', 'movie_companies', 'title', 'cast_info', 'name', 'aka_name', 'role_type', 'char_name'] 
+Cost: 4042378.998437217 
+Iteration: 1 
+Optimal Join Order: ['char_name', 'cast_info', 'name', 'aka_name', 'title', 'movie_companies', 'company_name', 'role_type'] 
+Cost: 5820908.482085792 
+Iteration: 2 
+Optimal Join Order: ['title', 'movie_companies', 'company_name', 'aka_name', 'name', 'cast_info', 'char_name', 'role_type'] 
+Cost: 4394922.482085792 
+Iteration: 3 
+Optimal Join Order: ['title', 'movie_companies', 'company_name', 'role_type', 'aka_name', 'name', 'cast_info', 'char_name'] 
+Cost: 1631755.4820857919 
+Iteration: 4 
+Optimal Join Order: ['name', 'aka_name', 'role_type', 'company_name', 'char_name', 'cast_info', 'title', 'movie_companies'] 
+Cost: 4747492.743364495 
+Iteration: 5 
+Optimal Join Order: ['name', 'aka_name', 'cast_info', 'char_name', 'role_type', 'company_name', 'movie_companies', 'title'] 
+Cost: 3115800.7498134533 
+Iteration: 6 
+Optimal Join Order: ['char_name', 'role_type', 'cast_info', 'title', 'movie_companies', 'company_name', 'aka_name', 'name'] 
+Cost: 4595010.082070638 
+Iteration: 7 
+Optimal Join Order: ['char_name', 'cast_info', 'title', 'movie_companies', 'company_name', 'role_type', 'aka_name', 'name'] 
+Cost: 1631759.280440575 
+Iteration: 8 
+Optimal Join Order: ['title', 'movie_companies', 'company_name', 'role_type', 'char_name', 'cast_info', 'aka_name', 'name'] 
+Cost: 3115800.749813453 
+Iteration: 9 
+Optimal Join Order: ['name', 'aka_name', 'cast_info', 'char_name', 'role_type', 'company_name', 'movie_companies', 'title'] 
+Cost: 3115800.7498134533 
+Iteration: 10 
+Optimal Join Order: ['title', 'movie_companies', 'company_name', 'role_type', 'char_name', 'cast_info', 'aka_name', 'name'] 
+Cost: 3115800.749813453 
+Iteration: 11 
+Optimal Join Order: ['aka_name', 'name', 'cast_info', 'title', 'movie_companies', 'company_name', 'role_type', 'char_name'] 
+Cost: 3115814.998437217 
+Iteration: 12 
+Optimal Join Order: ['name', 'aka_name', 'cast_info', 'char_name', 'role_type', 'company_name', 'movie_companies', 'title'] 
+Cost: 3115800.7498134533 
+Iteration: 13 
+Optimal Join Order: ['name', 'aka_name', 'cast_info', 'char_name', 'role_type', 'company_name', 'movie_companies', 'title'] 
+Cost: 3115800.7498134533 
+Iteration: 14 
+Optimal Join Order: ['char_name', 'aka_name', 'name', 'cast_info', 'title', 'movie_companies', 'company_name', 'role_type'] 
+Cost: 4394935.9984372165 
+Iteration: 15 
+Optimal Join Order: ['name', 'aka_name', 'cast_info', 'char_name', 'role_type', 'company_name', 'movie_companies', 'title'] 
+Cost: 3115800.7498134533 
+Iteration: 16 
+Optimal Join Order: ['char_name', 'cast_info', 'name', 'aka_name', 'role_type', 'company_name', 'movie_companies', 'title'] 
+Cost: 1631755.482085792 
+Iteration: 17 
+Optimal Join Order: ['char_name', 'role_type', 'company_name', 'movie_companies', 'title', 'cast_info', 'aka_name', 'name'] 
+Cost: 3115814.266164878 
+Iteration: 18 
+Optimal Join Order: ['title', 'movie_companies', 'company_name', 'role_type', 'aka_name', 'name', 'cast_info', 'char_name'] 
+Cost: 1631755.4820857919 
+Iteration: 19 
+Optimal Join Order: ['company_name', 'movie_companies', 'title', 'cast_info', 'char_name', 'role_type', 'aka_name', 'name'] 
+Cost: 4042369.280440575 
+Iteration: 20 
+Optimal Join Order: ['title', 'movie_companies', 'company_name', 'char_name', 'cast_info', 'name', 'aka_name', 'role_type'] 
+Cost: 4394922.482085792 
+Iteration: 21 
+Optimal Join Order: ['char_name', 'role_type', 'company_name', 'movie_companies', 'title', 'cast_info', 'aka_name', 'name'] 
+Cost: 3115814.266164878 
+Iteration: 22 
+Optimal Join Order: ['role_type', 'title', 'movie_companies', 'company_name', 'aka_name', 'name', 'cast_info', 'char_name'] 
+Cost: 5820908.482085793 
+Iteration: 23 
+Optimal Join Order: ['char_name', 'role_type', 'company_name', 'movie_companies', 'title', 'cast_info', 'name', 'aka_name'] 
+Cost: 3115814.998437217 
+Iteration: 24 
+Optimal Join Order: ['name', 'aka_name', 'char_name', 'cast_info', 'title', 'movie_companies', 'company_name', 'role_type'] 
+Cost: 4394926.2804405745 
+Iteration: 25 
+Optimal Join Order: ['company_name', 'movie_companies', 'title', 'cast_info', 'char_name', 'role_type', 'aka_name', 'name'] 
+Cost: 4042369.280440575 
+Iteration: 26 
+Optimal Join Order: ['char_name', 'role_type', 'company_name', 'movie_companies', 'title', 'cast_info', 'aka_name', 'name'] 
+Cost: 3115814.266164878 
+Iteration: 27 
+Optimal Join Order: ['aka_name', 'name', 'cast_info', 'char_name', 'role_type', 'company_name', 'movie_companies', 'title'] 
+Cost: 3115801.482085792 
+Iteration: 28 
+Optimal Join Order: ['role_type', 'char_name', 'cast_info', 'title', 'movie_companies', 'company_name', 'aka_name', 'name'] 
+Cost: 4394926.280440575 
+Iteration: 29 
+Optimal Join Order: ['role_type', 'company_name', 'movie_companies', 'title', 'aka_name', 'name', 'cast_info', 'char_name'] 
+Cost: 5820908.482085792 
+Query: ./ENGR489-Project/TestQueries/28a.sql
+Iteration: 0 
+Optimal Join Order: ['complete_cast', 'company_name', 'movie_companies', 'title', 'movie_info_idx', 'movie_info', 'movie_keyword', 'keyword', 'info_type', 'kind_type', 'comp_cast_type', 'company_type', 'comp_cast_type', 'info_type'] 
+Cost: 710838.4290803219 
+Iteration: 1 
+Optimal Join Order: ['info_type', 'company_name', 'movie_companies', 'movie_info', 'complete_cast', 'comp_cast_type', 'company_type', 'comp_cast_type', 'kind_type', 'keyword', 'info_type', 'movie_info_idx', 'title', 'movie_keyword'] 
+Cost: 818500.8644504374 
+Iteration: 2 
+Optimal Join Order: ['complete_cast', 'comp_cast_type', 'keyword', 'movie_keyword', 'title', 'movie_info_idx', 'movie_info', 'movie_companies', 'company_name', 'info_type', 'info_type', 'comp_cast_type', 'company_type', 'kind_type'] 
+Cost: 575848.4915830714 
+Iteration: 3 
+Optimal Join Order: ['movie_info', 'title', 'movie_companies', 'movie_info_idx', 'movie_keyword', 'complete_cast', 'comp_cast_type', 'kind_type', 'info_type', 'company_type', 'comp_cast_type', 'company_name', 'info_type', 'keyword'] 
+Cost: 928411.130640634 
+Iteration: 4 
+Optimal Join Order: ['movie_info_idx', 'title', 'movie_companies', 'movie_info', 'movie_keyword', 'keyword', 'comp_cast_type', 'complete_cast', 'comp_cast_type', 'info_type', 'kind_type', 'info_type', 'company_type', 'company_name'] 
+Cost: 575842.8677206844 
+Iteration: 5 
+Optimal Join Order: ['movie_info', 'movie_companies', 'company_name', 'info_type', 'company_type', 'info_type', 'kind_type', 'complete_cast', 'comp_cast_type', 'comp_cast_type', 'keyword', 'movie_keyword', 'title', 'movie_info_idx'] 
+Cost: 710939.8564281513 
+Iteration: 6 
+Optimal Join Order: ['movie_keyword', 'movie_info', 'movie_companies', 'movie_info_idx', 'title', 'complete_cast', 'comp_cast_type', 'info_type', 'comp_cast_type', 'company_type', 'keyword', 'kind_type', 'info_type', 'company_name'] 
+Cost: 798562.6846416104 
+Iteration: 7 
+Optimal Join Order: ['movie_keyword', 'movie_info', 'movie_companies', 'title', 'complete_cast', 'movie_info_idx', 'info_type', 'info_type', 'kind_type', 'comp_cast_type', 'comp_cast_type', 'company_type', 'keyword', 'company_name'] 
+Cost: 818608.1230833434 
+Iteration: 8 
+Optimal Join Order: ['company_name', 'comp_cast_type', 'kind_type', 'info_type', 'company_type', 'info_type', 'comp_cast_type', 'keyword', 'movie_keyword', 'title', 'complete_cast', 'movie_info_idx', 'movie_info', 'movie_companies'] 
+Cost: 575846.5160384704 
+Iteration: 9 
+Optimal Join Order: ['info_type', 'complete_cast', 'title', 'movie_keyword', 'movie_info', 'movie_info_idx', 'movie_companies', 'company_name', 'comp_cast_type', 'info_type', 'kind_type', 'comp_cast_type', 'company_type', 'keyword'] 
+Cost: 710809.5990130049 
+Iteration: 10 
+Optimal Join Order: ['company_name', 'company_type', 'info_type', 'kind_type', 'comp_cast_type', 'info_type', 'keyword', 'movie_keyword', 'title', 'movie_companies', 'movie_info', 'movie_info_idx', 'complete_cast', 'comp_cast_type'] 
+Cost: 575839.8591062744 
+Iteration: 11 
+Optimal Join Order: ['keyword', 'comp_cast_type', 'info_type', 'kind_type', 'company_type', 'info_type', 'movie_info_idx', 'movie_info', 'title', 'movie_companies', 'movie_keyword', 'complete_cast', 'comp_cast_type', 'company_name'] 
+Cost: 595894.291063678 
+Iteration: 12 
+Optimal Join Order: ['complete_cast', 'comp_cast_type', 'kind_type', 'company_name', 'movie_companies', 'title', 'movie_info_idx', 'movie_info', 'movie_keyword', 'keyword', 'comp_cast_type', 'info_type', 'company_type', 'info_type'] 
+Cost: 575748.776261622 
+Iteration: 13 
+Optimal Join Order: ['company_name', 'comp_cast_type', 'comp_cast_type', 'keyword', 'movie_keyword', 'movie_companies', 'movie_info', 'movie_info_idx', 'title', 'complete_cast', 'info_type', 'kind_type', 'info_type', 'company_type'] 
+Cost: 710946.1283371884 
+Iteration: 14 
+Optimal Join Order: ['movie_info', 'movie_companies', 'movie_info_idx', 'title', 'movie_keyword', 'keyword', 'comp_cast_type', 'complete_cast', 'comp_cast_type', 'company_type', 'info_type', 'info_type', 'kind_type', 'company_name'] 
+Cost: 575840.0816696214 
+Iteration: 15 
+Optimal Join Order: ['info_type', 'movie_info_idx', 'title', 'complete_cast', 'movie_keyword', 'movie_info', 'movie_companies', 'company_name', 'kind_type', 'comp_cast_type', 'info_type', 'company_type', 'comp_cast_type', 'keyword'] 
+Cost: 595779.6074456205 
+Iteration: 16 
+Optimal Join Order: ['info_type', 'comp_cast_type', 'complete_cast', 'comp_cast_type', 'kind_type', 'info_type', 'company_type', 'company_name', 'movie_companies', 'title', 'movie_info_idx', 'movie_info', 'movie_keyword', 'keyword'] 
+Cost: 352999.12344292196 
+Iteration: 17 
+Optimal Join Order: ['info_type', 'comp_cast_type', 'complete_cast', 'comp_cast_type', 'company_type', 'kind_type', 'company_name', 'movie_companies', 'title', 'movie_info_idx', 'info_type', 'keyword', 'movie_keyword', 'movie_info'] 
+Cost: 595786.784448002 
+Iteration: 18 
+Optimal Join Order: ['keyword', 'company_type', 'kind_type', 'info_type', 'movie_info_idx', 'title', 'movie_keyword', 'movie_info', 'movie_companies', 'company_name', 'info_type', 'comp_cast_type', 'complete_cast', 'comp_cast_type'] 
+Cost: 595863.9017599935 
+Iteration: 19 
+Optimal Join Order: ['company_name', 'comp_cast_type', 'info_type', 'kind_type', 'info_type', 'keyword', 'company_type', 'comp_cast_type', 'complete_cast', 'movie_info', 'movie_companies', 'movie_info_idx', 'title', 'movie_keyword'] 
+Cost: 798560.4463506073 
+Iteration: 20 
+Optimal Join Order: ['movie_info_idx', 'info_type', 'kind_type', 'comp_cast_type', 'company_name', 'company_type', 'info_type', 'movie_info', 'title', 'movie_companies', 'movie_keyword', 'complete_cast', 'comp_cast_type', 'keyword'] 
+Cost: 1169107.182468758 
+Iteration: 21 
+Optimal Join Order: ['movie_keyword', 'title', 'movie_info', 'complete_cast', 'comp_cast_type', 'kind_type', 'keyword', 'info_type', 'info_type', 'movie_info_idx', 'movie_companies', 'company_name', 'company_type', 'comp_cast_type'] 
+Cost: 818618.2063474131 
+Iteration: 22 
+Optimal Join Order: ['movie_info_idx', 'info_type', 'comp_cast_type', 'company_type', 'info_type', 'keyword', 'movie_keyword', 'title', 'movie_companies', 'company_name', 'comp_cast_type', 'kind_type', 'complete_cast', 'movie_info'] 
+Cost: 730990.4057876029 
+Iteration: 23 
+Optimal Join Order: ['complete_cast', 'comp_cast_type', 'kind_type', 'comp_cast_type', 'info_type', 'keyword', 'movie_keyword', 'movie_info_idx', 'info_type', 'company_type', 'company_name', 'movie_companies', 'movie_info', 'title'] 
+Cost: 595908.9212895423 
+Iteration: 24 
+Optimal Join Order: ['movie_companies', 'movie_info', 'movie_info_idx', 'title', 'movie_keyword', 'keyword', 'complete_cast', 'comp_cast_type', 'comp_cast_type', 'info_type', 'kind_type', 'company_type', 'info_type', 'company_name'] 
+Cost: 710926.9545069914 
+Iteration: 25 
+Optimal Join Order: ['company_name', 'comp_cast_type', 'info_type', 'comp_cast_type', 'kind_type', 'company_type', 'keyword', 'info_type', 'complete_cast', 'movie_info_idx', 'movie_info', 'title', 'movie_keyword', 'movie_companies'] 
+Cost: 933670.6065072219 
+Iteration: 26 
+Optimal Join Order: ['movie_info_idx', 'title', 'movie_companies', 'movie_info', 'info_type', 'comp_cast_type', 'info_type', 'company_type', 'kind_type', 'comp_cast_type', 'complete_cast', 'movie_keyword', 'keyword', 'company_name'] 
+Cost: 796503.2418468024 
+Iteration: 27 
+Optimal Join Order: ['kind_type', 'info_type', 'movie_info_idx', 'movie_info', 'movie_companies', 'company_name', 'comp_cast_type', 'complete_cast', 'title', 'movie_keyword', 'keyword', 'comp_cast_type', 'company_type', 'info_type'] 
+Cost: 595778.3417362755 
+Iteration: 28 
+Optimal Join Order: ['complete_cast', 'movie_info', 'movie_companies', 'title', 'movie_keyword', 'keyword', 'comp_cast_type', 'info_type', 'movie_info_idx', 'info_type', 'comp_cast_type', 'kind_type', 'company_type', 'company_name'] 
+Cost: 615934.0813802854 
+Iteration: 29 
+Optimal Join Order: ['company_name', 'info_type', 'comp_cast_type', 'info_type', 'movie_info_idx', 'title', 'movie_keyword', 'movie_companies', 'movie_info', 'complete_cast', 'company_type', 'comp_cast_type', 'kind_type', 'keyword'] 
+Cost: 730963.9530418075 
+Query: ./ENGR489-Project/TestQueries/20a.sql
+Iteration: 0 
+Optimal Join Order: ['name', 'cast_info', 'char_name', 'comp_cast_type', 'keyword', 'movie_keyword', 'title', 'complete_cast', 'kind_type', 'comp_cast_type'] 
+Cost: 3121085.405751729 
+Iteration: 1 
+Optimal Join Order: ['name', 'cast_info', 'char_name', 'comp_cast_type', 'kind_type', 'comp_cast_type', 'complete_cast', 'title', 'movie_keyword', 'keyword'] 
+Cost: 2763253.752933029 
+Iteration: 2 
+Optimal Join Order: ['name', 'cast_info', 'char_name', 'complete_cast', 'title', 'movie_keyword', 'keyword', 'comp_cast_type', 'comp_cast_type', 'kind_type'] 
+Cost: 3121082.405751729 
+Iteration: 3 
+Optimal Join Order: ['name', 'cast_info', 'char_name', 'comp_cast_type', 'complete_cast', 'comp_cast_type', 'kind_type', 'keyword', 'movie_keyword', 'title'] 
+Cost: 2985995.148779109 
+Iteration: 4 
+Optimal Join Order: ['name', 'cast_info', 'char_name', 'comp_cast_type', 'complete_cast', 'title', 'movie_keyword', 'keyword', 'comp_cast_type', 'kind_type'] 
+Cost: 2985992.752933029 
+Iteration: 5 
+Optimal Join Order: ['char_name', 'comp_cast_type', 'keyword', 'movie_keyword', 'title', 'kind_type', 'comp_cast_type', 'complete_cast', 'cast_info', 'name'] 
+Cost: 3580854.158418386 
+Iteration: 6 
+Optimal Join Order: ['complete_cast', 'title', 'movie_keyword', 'keyword', 'comp_cast_type', 'kind_type', 'comp_cast_type', 'char_name', 'cast_info', 'name'] 
+Cost: 2986003.405751729 
+Iteration: 7 
+Optimal Join Order: ['char_name', 'comp_cast_type', 'comp_cast_type', 'kind_type', 'keyword', 'movie_keyword', 'complete_cast', 'title', 'cast_info', 'name'] 
+Cost: 2986033.370816161 
+Iteration: 8 
+Optimal Join Order: ['name', 'cast_info', 'title', 'movie_keyword', 'complete_cast', 'comp_cast_type', 'keyword', 'comp_cast_type', 'kind_type', 'char_name'] 
+Cost: 3208743.914687194 
+Iteration: 9 
+Optimal Join Order: ['name', 'cast_info', 'char_name', 'kind_type', 'comp_cast_type', 'keyword', 'movie_keyword', 'title', 'complete_cast', 'comp_cast_type'] 
+Cost: 2985995.752933029 
+Iteration: 10 
+Optimal Join Order: ['name', 'cast_info', 'char_name', 'comp_cast_type', 'complete_cast', 'title', 'movie_keyword', 'keyword', 'comp_cast_type', 'kind_type'] 
+Cost: 2985992.752933029 
+Iteration: 11 
+Optimal Join Order: ['char_name', 'comp_cast_type', 'comp_cast_type', 'complete_cast', 'movie_keyword', 'keyword', 'kind_type', 'title', 'cast_info', 'name'] 
+Cost: 3580884.190662241 
+Iteration: 12 
+Optimal Join Order: ['movie_keyword', 'title', 'complete_cast', 'comp_cast_type', 'keyword', 'comp_cast_type', 'kind_type', 'char_name', 'cast_info', 'name'] 
+Cost: 3208712.4977855086 
+Iteration: 13 
+Optimal Join Order: ['name', 'cast_info', 'char_name', 'comp_cast_type', 'complete_cast', 'keyword', 'movie_keyword', 'title', 'kind_type', 'comp_cast_type'] 
+Cost: 3715936.225597809 
+Iteration: 14 
+Optimal Join Order: ['comp_cast_type', 'comp_cast_type', 'kind_type', 'complete_cast', 'title', 'movie_keyword', 'keyword', 'char_name', 'cast_info', 'name'] 
+Cost: 3121085.405751729 
+Iteration: 15 
+Optimal Join Order: ['kind_type', 'char_name', 'comp_cast_type', 'complete_cast', 'comp_cast_type', 'keyword', 'movie_keyword', 'title', 'cast_info', 'name'] 
+Cost: 5749180.665130534 
+Iteration: 16 
+Optimal Join Order: ['char_name', 'comp_cast_type', 'comp_cast_type', 'complete_cast', 'movie_keyword', 'keyword', 'kind_type', 'title', 'cast_info', 'name'] 
+Cost: 3580884.190662241 
+Iteration: 17 
+Optimal Join Order: ['char_name', 'kind_type', 'comp_cast_type', 'comp_cast_type', 'keyword', 'movie_keyword', 'title', 'complete_cast', 'cast_info', 'name'] 
+Cost: 2986003.3385723056 
+Iteration: 18 
+Optimal Join Order: ['name', 'comp_cast_type', 'keyword', 'movie_keyword', 'title', 'cast_info', 'char_name', 'kind_type', 'comp_cast_type', 'complete_cast'] 
+Cost: 9264677.599952592 
+Iteration: 19 
+Optimal Join Order: ['comp_cast_type', 'keyword', 'movie_keyword', 'title', 'complete_cast', 'kind_type', 'comp_cast_type', 'char_name', 'cast_info', 'name'] 
+Cost: 3121085.405751729 
+Iteration: 20 
+Optimal Join Order: ['movie_keyword', 'title', 'complete_cast', 'comp_cast_type', 'comp_cast_type', 'keyword', 'kind_type', 'char_name', 'cast_info', 'name'] 
+Cost: 3208712.4977855086 
+Iteration: 21 
+Optimal Join Order: ['title', 'kind_type', 'keyword', 'movie_keyword', 'complete_cast', 'comp_cast_type', 'comp_cast_type', 'char_name', 'cast_info', 'name'] 
+Cost: 3580870.674310816 
+Iteration: 22 
+Optimal Join Order: ['name', 'cast_info', 'char_name', 'comp_cast_type', 'kind_type', 'comp_cast_type', 'complete_cast', 'title', 'movie_keyword', 'keyword'] 
+Cost: 2763253.752933029 
+Iteration: 23 
+Optimal Join Order: ['comp_cast_type', 'complete_cast', 'comp_cast_type', 'kind_type', 'title', 'movie_keyword', 'keyword', 'char_name', 'cast_info', 'name'] 
+Cost: 3580846.572779109 
+Iteration: 24 
+Optimal Join Order: ['kind_type', 'keyword', 'movie_keyword', 'title', 'complete_cast', 'comp_cast_type', 'comp_cast_type', 'char_name', 'cast_info', 'name'] 
+Cost: 2985992.7529330286 
+Iteration: 25 
+Optimal Join Order: ['name', 'cast_info', 'complete_cast', 'movie_keyword', 'title', 'kind_type', 'comp_cast_type', 'comp_cast_type', 'keyword', 'char_name'] 
+Cost: 3803589.4079750455 
+Iteration: 26 
+Optimal Join Order: ['movie_keyword', 'title', 'complete_cast', 'comp_cast_type', 'kind_type', 'comp_cast_type', 'char_name', 'cast_info', 'name', 'keyword'] 
+Cost: 9264641.497785509 
+Iteration: 27 
+Optimal Join Order: ['name', 'cast_info', 'char_name', 'comp_cast_type', 'kind_type', 'comp_cast_type', 'complete_cast', 'keyword', 'movie_keyword', 'title'] 
+Cost: 3121084.801597809 
+Iteration: 28 
+Optimal Join Order: ['movie_keyword', 'title', 'complete_cast', 'comp_cast_type', 'keyword', 'kind_type', 'comp_cast_type', 'char_name', 'cast_info', 'name'] 
+Cost: 3208712.4977855086 
+Iteration: 29 
+Optimal Join Order: ['name', 'cast_info', 'char_name', 'kind_type', 'comp_cast_type', 'complete_cast', 'comp_cast_type', 'keyword', 'movie_keyword', 'title'] 
+Cost: 2985995.148779109 
+Query: ./ENGR489-Project/TestQueries/27a.sql
+Iteration: 0 
+Optimal Join Order: ['company_name', 'comp_cast_type', 'company_type', 'keyword', 'movie_keyword', 'complete_cast', 'title', 'movie_companies', 'movie_info', 'movie_link', 'link_type', 'comp_cast_type'] 
+Cost: 715969.7406267463 
+Iteration: 1 
+Optimal Join Order: ['comp_cast_type', 'company_name', 'movie_companies', 'movie_keyword', 'movie_info', 'title', 'movie_link', 'complete_cast', 'company_type', 'comp_cast_type', 'link_type', 'keyword'] 
+Cost: 710513.3034103442 
+Iteration: 2 
+Optimal Join Order: ['link_type', 'company_name', 'movie_companies', 'movie_link', 'title', 'movie_info', 'movie_keyword', 'complete_cast', 'comp_cast_type', 'company_type', 'comp_cast_type', 'keyword'] 
+Cost: 575410.0424236341 
+Iteration: 3 
+Optimal Join Order: ['movie_info', 'movie_companies', 'movie_link', 'title', 'movie_keyword', 'keyword', 'link_type', 'company_type', 'comp_cast_type', 'complete_cast', 'comp_cast_type', 'company_name'] 
+Cost: 575413.6777225635 
+Iteration: 4 
+Optimal Join Order: ['link_type', 'company_name', 'movie_companies', 'movie_link', 'title', 'movie_keyword', 'keyword', 'company_type', 'comp_cast_type', 'comp_cast_type', 'complete_cast', 'movie_info'] 
+Cost: 575416.9181183872 
+Iteration: 5 
+Optimal Join Order: ['complete_cast', 'comp_cast_type', 'company_name', 'link_type', 'keyword', 'comp_cast_type', 'company_type', 'movie_companies', 'movie_info', 'movie_keyword', 'title', 'movie_link'] 
+Cost: 2346746.1202290854 
+Iteration: 6 
+Optimal Join Order: ['keyword', 'movie_keyword', 'movie_info', 'title', 'movie_companies', 'company_name', 'company_type', 'link_type', 'comp_cast_type', 'comp_cast_type', 'complete_cast', 'movie_link'] 
+Cost: 352695.83388365 
+Iteration: 7 
+Optimal Join Order: ['movie_info', 'movie_link', 'link_type', 'comp_cast_type', 'comp_cast_type', 'complete_cast', 'company_type', 'company_name', 'keyword', 'movie_keyword', 'title', 'movie_companies'] 
+Cost: 1203606.771251057 
+Iteration: 8 
+Optimal Join Order: ['company_name', 'company_type', 'link_type', 'comp_cast_type', 'comp_cast_type', 'keyword', 'movie_keyword', 'title', 'movie_link', 'complete_cast', 'movie_info', 'movie_companies'] 
+Cost: 575422.4375745095 
+Iteration: 9 
+Optimal Join Order: ['movie_info', 'complete_cast', 'title', 'movie_companies', 'company_name', 'comp_cast_type', 'comp_cast_type', 'link_type', 'movie_link', 'movie_keyword', 'keyword', 'company_type'] 
+Cost: 715860.6784039501 
+Iteration: 10 
+Optimal Join Order: ['movie_companies', 'company_name', 'comp_cast_type', 'link_type', 'company_type', 'keyword', 'comp_cast_type', 'complete_cast', 'movie_link', 'title', 'movie_keyword', 'movie_info'] 
+Cost: 798148.8403038632 
+Iteration: 11 
+Optimal Join Order: ['keyword', 'link_type', 'company_type', 'comp_cast_type', 'company_name', 'movie_companies', 'movie_info', 'movie_keyword', 'title', 'movie_link', 'complete_cast', 'comp_cast_type'] 
+Cost: 575399.7568126256 
+Iteration: 12 
+Optimal Join Order: ['movie_info', 'movie_keyword', 'title', 'movie_link', 'movie_companies', 'company_name', 'comp_cast_type', 'complete_cast', 'comp_cast_type', 'company_type', 'link_type', 'keyword'] 
+Cost: 575401.7002804232 
+Iteration: 13 
+Optimal Join Order: ['keyword', 'movie_keyword', 'complete_cast', 'movie_link', 'movie_info', 'title', 'movie_companies', 'company_name', 'company_type', 'comp_cast_type', 'comp_cast_type', 'link_type'] 
+Cost: 352832.394977808 
+Iteration: 14 
+Optimal Join Order: ['complete_cast', 'title', 'movie_info', 'movie_keyword', 'keyword', 'company_type', 'comp_cast_type', 'comp_cast_type', 'link_type', 'company_name', 'movie_companies', 'movie_link'] 
+Cost: 575447.003611106 
+Iteration: 15 
+Optimal Join Order: ['movie_info', 'movie_companies', 'company_name', 'link_type', 'comp_cast_type', 'comp_cast_type', 'keyword', 'company_type', 'complete_cast', 'movie_link', 'movie_keyword', 'title'] 
+Cost: 933263.6218783754 
+Iteration: 16 
+Optimal Join Order: ['company_name', 'movie_companies', 'complete_cast', 'comp_cast_type', 'company_type', 'link_type', 'comp_cast_type', 'keyword', 'movie_keyword', 'title', 'movie_link', 'movie_info'] 
+Cost: 223047.39841550114 
+Iteration: 17 
+Optimal Join Order: ['complete_cast', 'comp_cast_type', 'link_type', 'keyword', 'movie_keyword', 'movie_info', 'movie_link', 'title', 'movie_companies', 'company_name', 'company_type', 'comp_cast_type'] 
+Cost: 575564.5035212141 
+Iteration: 18 
+Optimal Join Order: ['company_name', 'comp_cast_type', 'company_type', 'link_type', 'keyword', 'comp_cast_type', 'complete_cast', 'movie_info', 'movie_companies', 'movie_keyword', 'title', 'movie_link'] 
+Cost: 798145.6529495795 
+Iteration: 19 
+Optimal Join Order: ['link_type', 'company_type', 'comp_cast_type', 'complete_cast', 'movie_info', 'movie_companies', 'movie_link', 'title', 'movie_keyword', 'keyword', 'comp_cast_type', 'company_name'] 
+Cost: 575403.2975510695 
+Iteration: 20 
+Optimal Join Order: ['company_name', 'company_type', 'comp_cast_type', 'keyword', 'comp_cast_type', 'link_type', 'complete_cast', 'title', 'movie_link', 'movie_companies', 'movie_info', 'movie_keyword'] 
+Cost: 933225.9335132525 
+Iteration: 21 
+Optimal Join Order: ['comp_cast_type', 'complete_cast', 'movie_info', 'movie_companies', 'movie_link', 'title', 'movie_keyword', 'keyword', 'link_type', 'company_type', 'comp_cast_type', 'company_name'] 
+Cost: 575417.2975510695 
+Iteration: 22 
+Optimal Join Order: ['company_name', 'comp_cast_type', 'link_type', 'company_type', 'keyword', 'comp_cast_type', 'complete_cast', 'movie_link', 'title', 'movie_keyword', 'movie_companies', 'movie_info'] 
+Cost: 798148.5354472336 
+Iteration: 23 
+Optimal Join Order: ['company_name', 'comp_cast_type', 'complete_cast', 'movie_info', 'title', 'movie_keyword', 'movie_companies', 'movie_link', 'link_type', 'comp_cast_type', 'company_type', 'keyword'] 
+Cost: 715817.398126553 
+Iteration: 24 
+Optimal Join Order: ['keyword', 'comp_cast_type', 'company_type', 'comp_cast_type', 'complete_cast', 'movie_link', 'title', 'movie_keyword', 'movie_info', 'movie_companies', 'company_name', 'link_type'] 
+Cost: 575385.7568126256 
+Iteration: 25 
+Optimal Join Order: ['link_type', 'comp_cast_type', 'company_type', 'keyword', 'movie_keyword', 'movie_info', 'movie_companies', 'company_name', 'comp_cast_type', 'complete_cast', 'title', 'movie_link'] 
+Cost: 575410.7106154327 
+Iteration: 26 
+Optimal Join Order: ['link_type', 'comp_cast_type', 'complete_cast', 'movie_companies', 'company_name', 'comp_cast_type', 'company_type', 'keyword', 'movie_keyword', 'movie_link', 'title', 'movie_info'] 
+Cost: 575494.4379400922 
+Iteration: 27 
+Optimal Join Order: ['keyword', 'company_type', 'comp_cast_type', 'complete_cast', 'comp_cast_type', 'link_type', 'company_name', 'movie_companies', 'title', 'movie_keyword', 'movie_link', 'movie_info'] 
+Cost: 575558.2109745169 
+Iteration: 28 
+Optimal Join Order: ['movie_keyword', 'movie_info', 'complete_cast', 'movie_link', 'title', 'movie_companies', 'company_name', 'company_type', 'link_type', 'comp_cast_type', 'comp_cast_type', 'keyword'] 
+Cost: 575410.0041816202 
+Iteration: 29 
+Optimal Join Order: ['movie_info', 'complete_cast', 'comp_cast_type', 'company_type', 'comp_cast_type', 'link_type', 'keyword', 'movie_keyword', 'title', 'movie_link', 'movie_companies', 'company_name'] 
+Cost: 222865.91811838714 
+Query: ./ENGR489-Project/TestQueries/12a.sql
+Iteration: 0 
+Optimal Join Order: ['company_name', 'movie_companies', 'movie_info', 'title', 'movie_info_idx', 'info_type', 'company_type', 'info_type'] 
+Cost: 20413.387698362403 
+Iteration: 1 
+Optimal Join Order: ['title', 'movie_info_idx', 'info_type', 'company_type', 'info_type', 'movie_info', 'movie_companies', 'company_name'] 
+Cost: 241165.67364685846 
+Iteration: 2 
+Optimal Join Order: ['movie_info', 'info_type', 'company_type', 'info_type', 'movie_info_idx', 'title', 'movie_companies', 'company_name'] 
+Cost: 241166.70435982003 
+Iteration: 3 
+Optimal Join Order: ['info_type', 'company_type', 'info_type', 'movie_info', 'title', 'movie_info_idx', 'movie_companies', 'company_name'] 
+Cost: 221019.11672585004 
+Iteration: 4 
+Optimal Join Order: ['movie_info', 'movie_info_idx', 'title', 'movie_companies', 'company_name', 'company_type', 'info_type', 'info_type'] 
+Cost: 352935.51679474 
+Iteration: 5 
+Optimal Join Order: ['info_type', 'company_type', 'info_type', 'movie_info_idx', 'title', 'movie_info', 'movie_companies', 'company_name'] 
+Cost: 20413.3876983624 
+Iteration: 6 
+Optimal Join Order: ['company_name', 'movie_companies', 'title', 'movie_info', 'movie_info_idx', 'info_type', 'company_type', 'info_type'] 
+Cost: 20414.656224228 
+Iteration: 7 
+Optimal Join Order: ['movie_info', 'info_type', 'company_type', 'info_type', 'movie_info_idx', 'title', 'movie_companies', 'company_name'] 
+Cost: 241166.70435982003 
+Iteration: 8 
+Optimal Join Order: ['company_name', 'movie_companies', 'title', 'movie_info_idx', 'info_type', 'company_type', 'info_type', 'movie_info'] 
+Cost: 241166.70435982003 
+Iteration: 9 
+Optimal Join Order: ['company_name', 'movie_companies', 'movie_info', 'info_type', 'company_type', 'info_type', 'movie_info_idx', 'title'] 
+Cost: 241165.67364685843 
+Iteration: 10 
+Optimal Join Order: ['movie_info', 'movie_companies', 'company_name', 'company_type', 'info_type', 'info_type', 'movie_info_idx', 'title'] 
+Cost: 373089.1470868584 
+Iteration: 11 
+Optimal Join Order: ['company_name', 'movie_companies', 'title', 'movie_info', 'movie_info_idx', 'info_type', 'company_type', 'info_type'] 
+Cost: 20414.656224228 
+Iteration: 12 
+Optimal Join Order: ['company_name', 'movie_companies', 'movie_info', 'title', 'movie_info_idx', 'info_type', 'company_type', 'info_type'] 
+Cost: 20413.387698362403 
+Iteration: 13 
+Optimal Join Order: ['movie_info', 'movie_companies', 'title', 'movie_info_idx', 'info_type', 'company_type', 'info_type', 'company_name'] 
+Cost: 373076.5572325024 
+Iteration: 14 
+Optimal Join Order: ['info_type', 'company_type', 'info_type', 'company_name', 'movie_companies', 'movie_info', 'movie_info_idx', 'title'] 
+Cost: 352934.48608177836 
+Iteration: 15 
+Optimal Join Order: ['company_name', 'movie_companies', 'title', 'movie_info_idx', 'movie_info', 'info_type', 'company_type', 'info_type'] 
+Cost: 221012.04335474002 
+Iteration: 16 
+Optimal Join Order: ['company_type', 'info_type', 'info_type', 'movie_info', 'title', 'movie_info_idx', 'movie_companies', 'company_name'] 
+Cost: 221128.11672585004 
+Iteration: 17 
+Optimal Join Order: ['company_name', 'movie_companies', 'movie_info_idx', 'title', 'movie_info', 'info_type', 'company_type', 'info_type'] 
+Cost: 221019.11672585004 
+Iteration: 18 
+Optimal Join Order: ['title', 'movie_info_idx', 'movie_info', 'movie_companies', 'company_name', 'company_type', 'info_type', 'info_type'] 
+Cost: 352934.4860817784 
+Iteration: 19 
+Optimal Join Order: ['company_name', 'movie_companies', 'movie_info', 'title', 'movie_info_idx', 'info_type', 'company_type', 'info_type'] 
+Cost: 20413.387698362403 
+Iteration: 20 
+Optimal Join Order: ['info_type', 'company_type', 'info_type', 'movie_info', 'title', 'movie_info_idx', 'movie_companies', 'company_name'] 
+Cost: 221019.11672585004 
+Iteration: 21 
+Optimal Join Order: ['info_type', 'company_type', 'info_type', 'movie_info', 'movie_info_idx', 'title', 'movie_companies', 'company_name'] 
+Cost: 221012.04335474002 
+Iteration: 22 
+Optimal Join Order: ['info_type', 'company_type', 'info_type', 'movie_info', 'title', 'movie_info_idx', 'movie_companies', 'company_name'] 
+Cost: 221019.11672585004 
+Iteration: 23 
+Optimal Join Order: ['company_name', 'movie_companies', 'movie_info', 'title', 'movie_info_idx', 'info_type', 'company_type', 'info_type'] 
+Cost: 20413.387698362403 
+Iteration: 24 
+Optimal Join Order: ['title', 'movie_info', 'info_type', 'company_type', 'info_type', 'movie_info_idx', 'movie_companies', 'company_name'] 
+Cost: 241174.01554383404 
+Iteration: 25 
+Optimal Join Order: ['info_type', 'info_type', 'company_type', 'company_name', 'movie_companies', 'movie_info', 'title', 'movie_info_idx'] 
+Cost: 352939.0915383624 
+Iteration: 26 
+Optimal Join Order: ['title', 'movie_companies', 'movie_info', 'movie_info_idx', 'info_type', 'company_type', 'info_type', 'company_name'] 
+Cost: 373076.7950454064 
+Iteration: 27 
+Optimal Join Order: ['info_type', 'info_type', 'movie_info_idx', 'movie_info', 'title', 'movie_companies', 'company_name', 'company_type'] 
+Cost: 372979.656224228 
+Iteration: 28 
+Optimal Join Order: ['company_name', 'movie_companies', 'movie_info', 'title', 'movie_info_idx', 'info_type', 'info_type', 'company_type'] 
+Cost: 20522.387698362403 
+Iteration: 29 
+Optimal Join Order: ['info_type', 'company_type', 'info_type', 'movie_info_idx', 'title', 'movie_info', 'movie_companies', 'company_name'] 
+Cost: 20413.3876983624 
+Query: ./ENGR489-Project/TestQueries/14a.sql
+Iteration: 0 
+Optimal Join Order: ['kind_type', 'info_type', 'info_type', 'movie_info', 'movie_info_idx', 'title', 'movie_keyword', 'keyword'] 
+Cost: 221143.21737692898 
+Iteration: 1 
+Optimal Join Order: ['keyword', 'movie_keyword', 'title', 'movie_info', 'movie_info_idx', 'info_type', 'kind_type', 'info_type'] 
+Cost: 20439.830246417 
+Iteration: 2 
+Optimal Join Order: ['info_type', 'kind_type', 'info_type', 'movie_info_idx', 'movie_info', 'title', 'movie_keyword', 'keyword'] 
+Cost: 20439.830246417005 
+Iteration: 3 
+Optimal Join Order: ['info_type', 'keyword', 'movie_keyword', 'movie_info', 'title', 'movie_info_idx', 'info_type', 'kind_type'] 
+Cost: 243183.84639910198 
+Iteration: 4 
+Optimal Join Order: ['movie_info_idx', 'title', 'movie_info', 'movie_keyword', 'keyword', 'info_type', 'info_type', 'kind_type'] 
+Cost: 223253.550239102 
+Iteration: 5 
+Optimal Join Order: ['info_type', 'info_type', 'kind_type', 'keyword', 'movie_keyword', 'title', 'movie_info_idx', 'movie_info'] 
+Cost: 223137.69081692895 
+Iteration: 6 
+Optimal Join Order: ['keyword', 'movie_keyword', 'title', 'movie_info_idx', 'movie_info', 'info_type', 'info_type', 'kind_type'] 
+Cost: 221143.21737692904 
+Iteration: 7 
+Optimal Join Order: ['title', 'movie_keyword', 'keyword', 'kind_type', 'info_type', 'info_type', 'movie_info', 'movie_info_idx'] 
+Cost: 443894.820034913 
+Iteration: 8 
+Optimal Join Order: ['kind_type', 'info_type', 'keyword', 'movie_keyword', 'title', 'movie_info', 'movie_info_idx', 'info_type'] 
+Cost: 243178.83024641697 
+Iteration: 9 
+Optimal Join Order: ['keyword', 'info_type', 'kind_type', 'info_type', 'movie_info_idx', 'movie_info', 'title', 'movie_keyword'] 
+Cost: 243265.57509889698 
+Iteration: 10 
+Optimal Join Order: ['info_type', 'kind_type', 'info_type', 'movie_info_idx', 'movie_info', 'title', 'movie_keyword', 'keyword'] 
+Cost: 20439.830246417005 
+Iteration: 11 
+Optimal Join Order: ['keyword', 'movie_keyword', 'movie_info', 'info_type', 'kind_type', 'info_type', 'movie_info_idx', 'title'] 
+Cost: 241197.132347598 
+Iteration: 12 
+Optimal Join Order: ['keyword', 'kind_type', 'info_type', 'info_type', 'movie_info_idx', 'movie_info', 'title', 'movie_keyword'] 
+Cost: 243265.57509889698 
+Iteration: 13 
+Optimal Join Order: ['kind_type', 'keyword', 'movie_keyword', 'movie_info', 'title', 'movie_info_idx', 'info_type', 'info_type'] 
+Cost: 243183.84639910198 
+Iteration: 14 
+Optimal Join Order: ['movie_info_idx', 'title', 'movie_info', 'movie_keyword', 'keyword', 'info_type', 'kind_type', 'info_type'] 
+Cost: 223147.550239102 
+Iteration: 15 
+Optimal Join Order: ['movie_info', 'movie_info_idx', 'title', 'movie_keyword', 'keyword', 'info_type', 'kind_type', 'info_type'] 
+Cost: 223137.690816929 
+Iteration: 16 
+Optimal Join Order: ['info_type', 'movie_info_idx', 'movie_info', 'title', 'movie_keyword', 'keyword', 'info_type', 'kind_type'] 
+Cost: 243178.830246417 
+Iteration: 17 
+Optimal Join Order: ['movie_info_idx', 'movie_info', 'title', 'movie_keyword', 'keyword', 'info_type', 'kind_type', 'info_type'] 
+Cost: 223142.534086417 
+Iteration: 18 
+Optimal Join Order: ['movie_info', 'movie_info_idx', 'title', 'movie_keyword', 'keyword', 'kind_type', 'info_type', 'info_type'] 
+Cost: 223137.690816929 
+Iteration: 19 
+Optimal Join Order: ['keyword', 'movie_keyword', 'title', 'movie_info', 'movie_info_idx', 'info_type', 'kind_type', 'info_type'] 
+Cost: 20439.830246417 
+Iteration: 20 
+Optimal Join Order: ['keyword', 'movie_keyword', 'title', 'movie_info', 'movie_info_idx', 'info_type', 'kind_type', 'info_type'] 
+Cost: 20439.830246417 
+Iteration: 21 
+Optimal Join Order: ['keyword', 'movie_keyword', 'title', 'movie_info', 'movie_info_idx', 'info_type', 'kind_type', 'info_type'] 
+Cost: 20439.830246417 
+Iteration: 22 
+Optimal Join Order: ['info_type', 'kind_type', 'info_type', 'movie_info', 'movie_info_idx', 'title', 'movie_keyword', 'keyword'] 
+Cost: 221037.21737692898 
+Iteration: 23 
+Optimal Join Order: ['info_type', 'info_type', 'movie_info', 'movie_info_idx', 'title', 'movie_keyword', 'keyword', 'kind_type'] 
+Cost: 443776.217376929 
+Iteration: 24 
+Optimal Join Order: ['info_type', 'info_type', 'kind_type', 'keyword', 'movie_keyword', 'title', 'movie_info', 'movie_info_idx'] 
+Cost: 223142.53408641697 
+Iteration: 25 
+Optimal Join Order: ['kind_type', 'keyword', 'movie_keyword', 'title', 'movie_info', 'movie_info_idx', 'info_type', 'info_type'] 
+Cost: 243178.83024641697 
+Iteration: 26 
+Optimal Join Order: ['info_type', 'kind_type', 'info_type', 'movie_info_idx', 'movie_info', 'title', 'movie_keyword', 'keyword'] 
+Cost: 20439.830246417005 
+Iteration: 27 
+Optimal Join Order: ['keyword', 'movie_keyword', 'movie_info', 'title', 'movie_info_idx', 'info_type', 'kind_type', 'info_type'] 
+Cost: 20444.846399102003 
+Iteration: 28 
+Optimal Join Order: ['info_type', 'kind_type', 'info_type', 'movie_info', 'movie_info_idx', 'title', 'movie_keyword', 'keyword'] 
+Cost: 221037.21737692898 
+Iteration: 29 
+Optimal Join Order: ['info_type', 'kind_type', 'info_type', 'movie_info_idx', 'movie_info', 'title', 'movie_keyword', 'keyword'] 
+Cost: 20439.830246417005 
+Query: ./ENGR489-Project/TestQueries/3a.sql
+Iteration: 0 
+Optimal Join Order: ['keyword', 'movie_keyword', 'title', 'movie_info'] 
+Cost: 41.898931497 
+Iteration: 1 
+Optimal Join Order: ['movie_info', 'title', 'movie_keyword', 'keyword'] 
+Cost: 41.898931497 
+Iteration: 2 
+Optimal Join Order: ['movie_info', 'title', 'movie_keyword', 'keyword'] 
+Cost: 41.898931497 
+Iteration: 3 
+Optimal Join Order: ['keyword', 'movie_keyword', 'title', 'movie_info'] 
+Cost: 41.898931497 
+Iteration: 4 
+Optimal Join Order: ['movie_info', 'title', 'movie_keyword', 'keyword'] 
+Cost: 41.898931497 
+Iteration: 5 
+Optimal Join Order: ['movie_info', 'title', 'movie_keyword', 'keyword'] 
+Cost: 41.898931497 
+Iteration: 6 
+Optimal Join Order: ['movie_info', 'title', 'movie_keyword', 'keyword'] 
+Cost: 41.898931497 
+Iteration: 7 
+Optimal Join Order: ['keyword', 'movie_keyword', 'title', 'movie_info'] 
+Cost: 41.898931497 
+Iteration: 8 
+Optimal Join Order: ['keyword', 'movie_keyword', 'title', 'movie_info'] 
+Cost: 41.898931497 
+Iteration: 9 
+Optimal Join Order: ['keyword', 'movie_keyword', 'title', 'movie_info'] 
+Cost: 41.898931497 
+Iteration: 10 
+Optimal Join Order: ['movie_info', 'title', 'movie_keyword', 'keyword'] 
+Cost: 41.898931497 
+Iteration: 11 
+Optimal Join Order: ['keyword', 'movie_keyword', 'title', 'movie_info'] 
+Cost: 41.898931497 
+Iteration: 12 
+Optimal Join Order: ['keyword', 'movie_keyword', 'title', 'movie_info'] 
+Cost: 41.898931497 
+Iteration: 13 
+Optimal Join Order: ['keyword', 'movie_keyword', 'title', 'movie_info'] 
+Cost: 41.898931497 
+Iteration: 14 
+Optimal Join Order: ['movie_info', 'title', 'movie_keyword', 'keyword'] 
+Cost: 41.898931497 
+Iteration: 15 
+Optimal Join Order: ['movie_info', 'title', 'movie_keyword', 'keyword'] 
+Cost: 41.898931497 
+Iteration: 16 
+Optimal Join Order: ['movie_info', 'title', 'movie_keyword', 'keyword'] 
+Cost: 41.898931497 
+Iteration: 17 
+Optimal Join Order: ['movie_info', 'title', 'movie_keyword', 'keyword'] 
+Cost: 41.898931497 
+Iteration: 18 
+Optimal Join Order: ['keyword', 'movie_keyword', 'title', 'movie_info'] 
+Cost: 41.898931497 
+Iteration: 19 
+Optimal Join Order: ['keyword', 'movie_keyword', 'title', 'movie_info'] 
+Cost: 41.898931497 
+Iteration: 20 
+Optimal Join Order: ['keyword', 'movie_keyword', 'title', 'movie_info'] 
+Cost: 41.898931497 
+Iteration: 21 
+Optimal Join Order: ['keyword', 'movie_keyword', 'title', 'movie_info'] 
+Cost: 41.898931497 
+Iteration: 22 
+Optimal Join Order: ['movie_info', 'title', 'movie_keyword', 'keyword'] 
+Cost: 41.898931497 
+Iteration: 23 
+Optimal Join Order: ['movie_info', 'title', 'movie_keyword', 'keyword'] 
+Cost: 41.898931497 
+Iteration: 24 
+Optimal Join Order: ['keyword', 'movie_keyword', 'title', 'movie_info'] 
+Cost: 41.898931497 
+Iteration: 25 
+Optimal Join Order: ['keyword', 'movie_keyword', 'title', 'movie_info'] 
+Cost: 41.898931497 
+Iteration: 26 
+Optimal Join Order: ['movie_info', 'title', 'movie_keyword', 'keyword'] 
+Cost: 41.898931497 
+Iteration: 27 
+Optimal Join Order: ['movie_info', 'title', 'movie_keyword', 'keyword'] 
+Cost: 41.898931497 
+Iteration: 28 
+Optimal Join Order: ['keyword', 'movie_keyword', 'title', 'movie_info'] 
+Cost: 41.898931497 
+Iteration: 29 
+Optimal Join Order: ['keyword', 'movie_keyword', 'title', 'movie_info'] 
+Cost: 41.898931497 
+Query: ./ENGR489-Project/TestQueries/11a.sql
+Iteration: 0 
+Optimal Join Order: ['keyword', 'movie_keyword', 'movie_link', 'link_type', 'company_type', 'company_name', 'movie_companies', 'title'] 
+Cost: 493097.76005892403 
+Iteration: 1 
+Optimal Join Order: ['link_type', 'keyword', 'movie_keyword', 'movie_link', 'title', 'movie_companies', 'company_name', 'company_type'] 
+Cost: 575418.7012874121 
+Iteration: 2 
+Optimal Join Order: ['keyword', 'movie_keyword', 'title', 'movie_companies', 'movie_link', 'link_type', 'company_type', 'company_name'] 
+Cost: 493063.072844437 
+Iteration: 3 
+Optimal Join Order: ['keyword', 'movie_keyword', 'title', 'movie_link', 'movie_companies', 'company_name', 'company_type', 'link_type'] 
+Cost: 352654.60392728116 
+Iteration: 4 
+Optimal Join Order: ['movie_link', 'title', 'movie_companies', 'company_name', 'company_type', 'link_type', 'keyword', 'movie_keyword'] 
+Cost: 575408.7856738121 
+Iteration: 5 
+Optimal Join Order: ['company_name', 'movie_companies', 'movie_link', 'title', 'movie_keyword', 'keyword', 'company_type', 'link_type'] 
+Cost: 222831.60392728116 
+Iteration: 6 
+Optimal Join Order: ['movie_link', 'title', 'movie_keyword', 'keyword', 'link_type', 'company_type', 'company_name', 'movie_companies'] 
+Cost: 575409.2416245611 
+Iteration: 7 
+Optimal Join Order: ['keyword', 'movie_keyword', 'title', 'movie_companies', 'company_name', 'company_type', 'link_type', 'movie_link'] 
+Cost: 493068.247617797 
+Iteration: 8 
+Optimal Join Order: ['company_name', 'movie_companies', 'title', 'movie_link', 'movie_keyword', 'keyword', 'company_type', 'link_type'] 
+Cost: 222853.70128741217 
+Iteration: 9 
+Optimal Join Order: ['keyword', 'link_type', 'movie_link', 'title', 'movie_keyword', 'movie_companies', 'company_name', 'company_type'] 
+Cost: 715796.0643257911 
+Iteration: 10 
+Optimal Join Order: ['keyword', 'company_type', 'link_type', 'company_name', 'movie_companies', 'movie_keyword', 'title', 'movie_link'] 
+Cost: 575396.9593257911 
+Iteration: 11 
+Optimal Join Order: ['link_type', 'keyword', 'movie_keyword', 'title', 'movie_link', 'movie_companies', 'company_name', 'company_type'] 
+Cost: 575396.6039272811 
+Iteration: 12 
+Optimal Join Order: ['company_name', 'movie_companies', 'movie_keyword', 'keyword', 'company_type', 'link_type', 'movie_link', 'title'] 
+Cost: 363261.9163008382 
+Iteration: 13 
+Optimal Join Order: ['company_name', 'movie_companies', 'title', 'movie_link', 'movie_keyword', 'keyword', 'link_type', 'company_type'] 
+Cost: 222867.70128741217 
+Iteration: 14 
+Optimal Join Order: ['link_type', 'company_type', 'keyword', 'movie_keyword', 'title', 'movie_link', 'movie_companies', 'company_name'] 
+Cost: 222831.60392728113 
+Iteration: 15 
+Optimal Join Order: ['company_name', 'movie_companies', 'movie_keyword', 'title', 'movie_link', 'link_type', 'company_type', 'keyword'] 
+Cost: 363231.0643257912 
+Iteration: 16 
+Optimal Join Order: ['company_name', 'movie_companies', 'movie_keyword', 'keyword', 'company_type', 'link_type', 'movie_link', 'title'] 
+Cost: 363261.9163008382 
+Iteration: 17 
+Optimal Join Order: ['company_name', 'movie_companies', 'title', 'movie_keyword', 'keyword', 'company_type', 'link_type', 'movie_link'] 
+Cost: 363245.247617797 
+Iteration: 18 
+Optimal Join Order: ['keyword', 'link_type', 'movie_link', 'title', 'movie_keyword', 'movie_companies', 'company_name', 'company_type'] 
+Cost: 715796.0643257911 
+Iteration: 19 
+Optimal Join Order: ['movie_link', 'title', 'movie_keyword', 'keyword', 'link_type', 'company_type', 'company_name', 'movie_companies'] 
+Cost: 575409.2416245611 
+Iteration: 20 
+Optimal Join Order: ['movie_keyword', 'title', 'movie_link', 'movie_companies', 'company_name', 'company_type', 'link_type', 'keyword'] 
+Cost: 575385.3487797612 
+Iteration: 21 
+Optimal Join Order: ['company_name', 'movie_companies', 'title', 'movie_link', 'movie_keyword', 'keyword', 'company_type', 'link_type'] 
+Cost: 222853.70128741217 
+Iteration: 22 
+Optimal Join Order: ['link_type', 'company_type', 'company_name', 'movie_companies', 'movie_link', 'title', 'movie_keyword', 'keyword'] 
+Cost: 352654.60392728116 
+Iteration: 23 
+Optimal Join Order: ['link_type', 'company_type', 'company_name', 'movie_companies', 'movie_link', 'title', 'movie_keyword', 'keyword'] 
+Cost: 352654.60392728116 
+Iteration: 24 
+Optimal Join Order: ['company_name', 'company_type', 'link_type', 'movie_link', 'movie_companies', 'title', 'movie_keyword', 'keyword'] 
+Cost: 493063.07284443703 
+Iteration: 25 
+Optimal Join Order: ['link_type', 'company_type', 'keyword', 'movie_keyword', 'movie_link', 'title', 'movie_companies', 'company_name'] 
+Cost: 222853.70128741214 
+Iteration: 26 
+Optimal Join Order: ['company_name', 'company_type', 'link_type', 'keyword', 'movie_keyword', 'title', 'movie_link', 'movie_companies'] 
+Cost: 575404.0668512011 
+Iteration: 27 
+Optimal Join Order: ['company_name', 'movie_companies', 'title', 'movie_link', 'movie_keyword', 'keyword', 'company_type', 'link_type'] 
+Cost: 222853.70128741217 
+Iteration: 28 
+Optimal Join Order: ['title', 'movie_keyword', 'keyword', 'company_type', 'link_type', 'movie_link', 'movie_companies', 'company_name'] 
+Cost: 363252.66269879305 
+Iteration: 29 
+Optimal Join Order: ['company_type', 'link_type', 'keyword', 'movie_keyword', 'title', 'movie_link', 'movie_companies', 'company_name'] 
+Cost: 222845.60392728113 
+Query: ./ENGR489-Project/TestQueries/22a.sql
+Iteration: 0 
+Optimal Join Order: ['movie_info_idx', 'title', 'movie_keyword', 'keyword', 'info_type', 'company_type', 'kind_type', 'info_type', 'movie_info', 'movie_companies', 'company_name'] 
+Cost: 443918.0358068514 
+Iteration: 1 
+Optimal Join Order: ['title', 'movie_info_idx', 'movie_companies', 'movie_info', 'movie_keyword', 'keyword', 'company_type', 'kind_type', 'info_type', 'info_type', 'company_name'] 
+Cost: 575836.6412726104 
+Iteration: 2 
+Optimal Join Order: ['movie_info', 'movie_companies', 'title', 'movie_keyword', 'movie_info_idx', 'info_type', 'kind_type', 'info_type', 'company_name', 'company_type', 'keyword'] 
+Cost: 948415.8916673354 
+Iteration: 3 
+Optimal Join Order: ['movie_info', 'movie_companies', 'title', 'movie_info_idx', 'movie_keyword', 'keyword', 'company_type', 'info_type', 'info_type', 'kind_type', 'company_name'] 
+Cost: 575835.8448243984 
+Iteration: 4 
+Optimal Join Order: ['company_name', 'company_type', 'info_type', 'movie_info', 'movie_companies', 'title', 'movie_keyword', 'movie_info_idx', 'info_type', 'kind_type', 'keyword'] 
+Cost: 816492.4182273353 
+Iteration: 5 
+Optimal Join Order: ['keyword', 'movie_keyword', 'title', 'movie_info_idx', 'info_type', 'info_type', 'kind_type', 'company_type', 'company_name', 'movie_companies', 'movie_info'] 
+Cost: 373138.8054068514 
+Iteration: 6 
+Optimal Join Order: ['title', 'movie_companies', 'movie_info', 'movie_keyword', 'keyword', 'info_type', 'movie_info_idx', 'info_type', 'company_name', 'company_type', 'kind_type'] 
+Cost: 968481.3683360685 
+Iteration: 7 
+Optimal Join Order: ['movie_keyword', 'title', 'movie_info_idx', 'movie_info', 'movie_companies', 'company_name', 'company_type', 'kind_type', 'info_type', 'info_type', 'keyword'] 
+Cost: 575809.8892542514 
+Iteration: 8 
+Optimal Join Order: ['movie_info_idx', 'info_type', 'info_type', 'company_type', 'kind_type', 'company_name', 'movie_companies', 'movie_info', 'title', 'movie_keyword', 'keyword'] 
+Cost: 373143.6486763394 
+Iteration: 9 
+Optimal Join Order: ['title', 'movie_keyword', 'keyword', 'kind_type', 'info_type', 'movie_info_idx', 'movie_info', 'movie_companies', 'company_name', 'info_type', 'company_type'] 
+Cost: 595881.0432197554 
+Iteration: 10 
+Optimal Join Order: ['company_name', 'info_type', 'kind_type', 'company_type', 'info_type', 'movie_info', 'movie_info_idx', 'title', 'movie_companies', 'movie_keyword', 'keyword'] 
+Cost: 573747.73427493 
+Iteration: 11 
+Optimal Join Order: ['info_type', 'movie_info_idx', 'title', 'movie_companies', 'movie_keyword', 'movie_info', 'info_type', 'kind_type', 'keyword', 'company_type', 'company_name'] 
+Cost: 1039142.797270552 
+Iteration: 12 
+Optimal Join Order: ['company_type', 'kind_type', 'title', 'movie_info', 'movie_info_idx', 'info_type', 'keyword', 'movie_keyword', 'movie_companies', 'company_name', 'info_type'] 
+Cost: 1190647.360998774 
+Iteration: 13 
+Optimal Join Order: ['company_name', 'movie_companies', 'movie_keyword', 'keyword', 'kind_type', 'info_type', 'company_type', 'info_type', 'movie_info', 'movie_info_idx', 'title'] 
+Cost: 443937.32412928605 
+Iteration: 14 
+Optimal Join Order: ['movie_companies', 'movie_info', 'movie_keyword', 'title', 'movie_info_idx', 'info_type', 'keyword', 'info_type', 'kind_type', 'company_type', 'company_name'] 
+Cost: 818590.6703213134 
+Iteration: 15 
+Optimal Join Order: ['title', 'movie_companies', 'company_name', 'info_type', 'movie_info_idx', 'movie_info', 'info_type', 'company_type', 'kind_type', 'keyword', 'movie_keyword'] 
+Cost: 816529.197320244 
+Iteration: 16 
+Optimal Join Order: ['company_name', 'movie_companies', 'movie_info', 'title', 'movie_keyword', 'movie_info_idx', 'info_type', 'info_type', 'company_type', 'kind_type', 'keyword'] 
+Cost: 243296.7221331954 
+Iteration: 17 
+Optimal Join Order: ['info_type', 'company_type', 'company_name', 'kind_type', 'info_type', 'movie_info_idx', 'movie_info', 'movie_companies', 'title', 'movie_keyword', 'keyword'] 
+Cost: 725582.4533653994 
+Iteration: 18 
+Optimal Join Order: ['movie_info_idx', 'info_type', 'info_type', 'company_type', 'kind_type', 'keyword', 'movie_keyword', 'title', 'movie_info', 'movie_companies', 'company_name'] 
+Cost: 243320.6486763394 
+Iteration: 19 
+Optimal Join Order: ['kind_type', 'info_type', 'company_name', 'movie_companies', 'title', 'movie_info_idx', 'movie_info', 'movie_keyword', 'keyword', 'company_type', 'info_type'] 
+Cost: 575729.4290803219 
+Iteration: 20 
+Optimal Join Order: ['info_type', 'company_type', 'kind_type', 'keyword', 'movie_keyword', 'title', 'movie_info_idx', 'movie_info', 'movie_companies', 'company_name', 'info_type'] 
+Cost: 575617.1444017714 
+Iteration: 21 
+Optimal Join Order: ['movie_info', 'movie_keyword', 'movie_companies', 'title', 'movie_info_idx', 'info_type', 'company_type', 'keyword', 'info_type', 'kind_type', 'company_name'] 
+Cost: 818610.270710552 
+Iteration: 22 
+Optimal Join Order: ['title', 'movie_info_idx', 'info_type', 'kind_type', 'company_type', 'info_type', 'keyword', 'movie_keyword', 'movie_info', 'movie_companies', 'company_name'] 
+Cost: 243321.05937244042 
+Iteration: 23 
+Optimal Join Order: ['kind_type', 'keyword', 'info_type', 'company_name', 'company_type', 'info_type', 'movie_info_idx', 'title', 'movie_companies', 'movie_info', 'movie_keyword'] 
+Cost: 1171152.2143705643 
+Iteration: 24 
+Optimal Join Order: ['keyword', 'kind_type', 'info_type', 'company_type', 'company_name', 'info_type', 'movie_info_idx', 'movie_keyword', 'movie_companies', 'movie_info', 'title'] 
+Cost: 948438.7547333923 
+Iteration: 25 
+Optimal Join Order: ['movie_keyword', 'title', 'movie_info_idx', 'info_type', 'kind_type', 'info_type', 'company_type', 'keyword', 'company_name', 'movie_companies', 'movie_info'] 
+Cost: 818597.5502593314 
+Iteration: 26 
+Optimal Join Order: ['movie_companies', 'title', 'movie_info_idx', 'info_type', 'kind_type', 'company_type', 'company_name', 'keyword', 'movie_keyword', 'movie_info', 'info_type'] 
+Cost: 1168978.079569322 
+Iteration: 27 
+Optimal Join Order: ['movie_info_idx', 'title', 'movie_keyword', 'movie_info', 'movie_companies', 'company_name', 'company_type', 'info_type', 'info_type', 'kind_type', 'keyword'] 
+Cost: 575815.9112373934 
+Iteration: 28 
+Optimal Join Order: ['movie_keyword', 'title', 'movie_info_idx', 'movie_info', 'movie_companies', 'company_name', 'info_type', 'company_type', 'kind_type', 'keyword', 'info_type'] 
+Cost: 798442.8892542514 
+Iteration: 29 
+Optimal Join Order: ['title', 'movie_companies', 'movie_info', 'movie_info_idx', 'movie_keyword', 'keyword', 'kind_type', 'company_type', 'info_type', 'info_type', 'company_name'] 
+Cost: 575836.0826373023 
+Query: ./ENGR489-Project/TestQueries/25a.sql
+Iteration: 0 
+Optimal Join Order: ['name', 'cast_info', 'title', 'movie_keyword', 'keyword', 'info_type', 'info_type', 'movie_info_idx', 'movie_info'] 
+Cost: 243303.90208285398 
+Iteration: 1 
+Optimal Join Order: ['info_type', 'keyword', 'movie_keyword', 'title', 'movie_info_idx', 'info_type', 'movie_info', 'cast_info', 'name'] 
+Cost: 463829.41540834564 
+Iteration: 2 
+Optimal Join Order: ['keyword', 'info_type', 'info_type', 'movie_info_idx', 'movie_keyword', 'title', 'movie_info', 'cast_info', 'name'] 
+Cost: 243277.8055746897 
+Iteration: 3 
+Optimal Join Order: ['name', 'cast_info', 'movie_info', 'info_type', 'movie_info_idx', 'title', 'movie_keyword', 'keyword', 'info_type'] 
+Cost: 463829.4154083457 
+Iteration: 4 
+Optimal Join Order: ['name', 'cast_info', 'title', 'movie_keyword', 'movie_info', 'movie_info_idx', 'info_type', 'info_type', 'keyword'] 
+Cost: 243278.304073396 
+Iteration: 5 
+Optimal Join Order: ['keyword', 'movie_keyword', 'title', 'movie_info_idx', 'info_type', 'info_type', 'movie_info', 'cast_info', 'name'] 
+Cost: 241196.41540834573 
+Iteration: 6 
+Optimal Join Order: ['name', 'cast_info', 'movie_info', 'title', 'movie_info_idx', 'info_type', 'info_type', 'keyword', 'movie_keyword'] 
+Cost: 243300.7262873767 
+Iteration: 7 
+Optimal Join Order: ['name', 'cast_info', 'movie_info', 'title', 'info_type', 'info_type', 'movie_info_idx', 'movie_keyword', 'keyword'] 
+Cost: 4209727.657549737 
+Iteration: 8 
+Optimal Join Order: ['movie_info', 'title', 'movie_keyword', 'keyword', 'info_type', 'info_type', 'movie_info_idx', 'cast_info', 'name'] 
+Cost: 243319.47808059302 
+Iteration: 9 
+Optimal Join Order: ['name', 'cast_info', 'title', 'movie_info_idx', 'movie_info', 'movie_keyword', 'keyword', 'info_type', 'info_type'] 
+Cost: 223154.257230459 
+Iteration: 10 
+Optimal Join Order: ['info_type', 'info_type', 'keyword', 'movie_keyword', 'title', 'movie_info_idx', 'movie_info', 'cast_info', 'name'] 
+Cost: 223142.22784326566 
+Iteration: 11 
+Optimal Join Order: ['keyword', 'info_type', 'info_type', 'movie_info_idx', 'movie_info', 'movie_keyword', 'title', 'cast_info', 'name'] 
+Cost: 243278.304073396 
+Iteration: 12 
+Optimal Join Order: ['info_type', 'name', 'cast_info', 'movie_info', 'movie_info_idx', 'title', 'movie_keyword', 'keyword', 'info_type'] 
+Cost: 6501704.227843267 
+Iteration: 13 
+Optimal Join Order: ['name', 'cast_info', 'title', 'movie_info_idx', 'movie_keyword', 'keyword', 'info_type', 'info_type', 'movie_info'] 
+Cost: 443912.820101853 
+Iteration: 14 
+Optimal Join Order: ['keyword', 'movie_keyword', 'title', 'movie_info_idx', 'info_type', 'info_type', 'movie_info', 'cast_info', 'name'] 
+Cost: 241196.41540834573 
+Iteration: 15 
+Optimal Join Order: ['keyword', 'info_type', 'info_type', 'movie_info_idx', 'movie_keyword', 'movie_info', 'title', 'cast_info', 'name'] 
+Cost: 243289.83496188303 
+Iteration: 16 
+Optimal Join Order: ['title', 'movie_keyword', 'movie_info', 'info_type', 'keyword', 'info_type', 'movie_info_idx', 'cast_info', 'name'] 
+Cost: 686679.1660196311 
+Iteration: 17 
+Optimal Join Order: ['info_type', 'info_type', 'keyword', 'movie_keyword', 'title', 'movie_info_idx', 'movie_info', 'cast_info', 'name'] 
+Cost: 223142.22784326566 
+Iteration: 18 
+Optimal Join Order: ['movie_info_idx', 'title', 'movie_keyword', 'movie_info', 'cast_info', 'name', 'info_type', 'info_type', 'keyword'] 
+Cost: 6501902.994678888 
+Iteration: 19 
+Optimal Join Order: ['title', 'cast_info', 'name', 'info_type', 'info_type', 'movie_info', 'movie_info_idx', 'movie_keyword', 'keyword'] 
+Cost: 6499842.057914757 
+Iteration: 20 
+Optimal Join Order: ['info_type', 'info_type', 'keyword', 'movie_keyword', 'movie_info', 'movie_info_idx', 'title', 'cast_info', 'name'] 
+Cost: 223154.25723045898 
+Iteration: 21 
+Optimal Join Order: ['movie_keyword', 'keyword', 'info_type', 'info_type', 'movie_info_idx', 'movie_info', 'title', 'cast_info', 'name'] 
+Cost: 243307.739521885 
+Iteration: 22 
+Optimal Join Order: ['movie_info', 'movie_info_idx', 'info_type', 'info_type', 'keyword', 'movie_keyword', 'title', 'cast_info', 'name'] 
+Cost: 243303.902082854 
+Iteration: 23 
+Optimal Join Order: ['info_type', 'info_type', 'keyword', 'movie_keyword', 'movie_info', 'movie_info_idx', 'title', 'cast_info', 'name'] 
+Cost: 223154.25723045898 
+Iteration: 24 
+Optimal Join Order: ['name', 'cast_info', 'title', 'movie_keyword', 'movie_info', 'movie_info_idx', 'info_type', 'info_type', 'keyword'] 
+Cost: 243278.304073396 
+Iteration: 25 
+Optimal Join Order: ['info_type', 'movie_info_idx', 'info_type', 'keyword', 'movie_keyword', 'movie_info', 'title', 'cast_info', 'name'] 
+Cost: 263244.057665027 
+Iteration: 26 
+Optimal Join Order: ['keyword', 'info_type', 'info_type', 'movie_info_idx', 'movie_info', 'movie_keyword', 'title', 'cast_info', 'name'] 
+Cost: 243278.304073396 
+Iteration: 27 
+Optimal Join Order: ['keyword', 'movie_keyword', 'movie_info', 'info_type', 'info_type', 'movie_info_idx', 'title', 'cast_info', 'name'] 
+Cost: 241208.44479553902 
+Iteration: 28 
+Optimal Join Order: ['name', 'cast_info', 'movie_info', 'info_type', 'keyword', 'info_type', 'movie_info_idx', 'title', 'movie_keyword'] 
+Cost: 686655.1602608258 
+Iteration: 29 
+Optimal Join Order: ['name', 'cast_info', 'movie_info', 'title', 'movie_keyword', 'keyword', 'info_type', 'info_type', 'movie_info_idx'] 
+Cost: 243301.7321178337 
+Query: ./ENGR489-Project/TestQueries/13a.sql
+Iteration: 0 
+Optimal Join Order: ['movie_companies', 'movie_info', 'title', 'movie_info_idx', 'info_type', 'kind_type', 'info_type', 'company_type', 'company_name'] 
+Cost: 373094.8506222824 
+Iteration: 1 
+Optimal Join Order: ['company_name', 'movie_companies', 'movie_info', 'info_type', 'kind_type', 'company_type', 'info_type', 'movie_info_idx', 'title'] 
+Cost: 241179.67364685843 
+Iteration: 2 
+Optimal Join Order: ['kind_type', 'company_type', 'info_type', 'info_type', 'movie_info_idx', 'title', 'movie_info', 'movie_companies', 'company_name'] 
+Cost: 20533.3876983624 
+Iteration: 3 
+Optimal Join Order: ['movie_info', 'movie_info_idx', 'title', 'movie_companies', 'company_name', 'info_type', 'company_type', 'kind_type', 'info_type'] 
+Cost: 352949.51679474 
+Iteration: 4 
+Optimal Join Order: ['info_type', 'kind_type', 'info_type', 'company_type', 'company_name', 'movie_companies', 'title', 'movie_info_idx', 'movie_info'] 
+Cost: 352949.51679474 
+Iteration: 5 
+Optimal Join Order: ['company_name', 'company_type', 'info_type', 'kind_type', 'info_type', 'movie_info_idx', 'title', 'movie_info', 'movie_companies'] 
+Cost: 373094.8506222824 
+Iteration: 6 
+Optimal Join Order: ['info_type', 'info_type', 'kind_type', 'company_type', 'company_name', 'movie_companies', 'movie_info', 'movie_info_idx', 'title'] 
+Cost: 352948.48608177836 
+Iteration: 7 
+Optimal Join Order: ['info_type', 'kind_type', 'company_type', 'info_type', 'movie_info_idx', 'title', 'movie_info', 'movie_companies', 'company_name'] 
+Cost: 20427.3876983624 
+Iteration: 8 
+Optimal Join Order: ['movie_companies', 'company_name', 'company_type', 'kind_type', 'info_type', 'info_type', 'movie_info_idx', 'movie_info', 'title'] 
+Cost: 373108.709002504 
+Iteration: 9 
+Optimal Join Order: ['company_name', 'movie_companies', 'title', 'movie_info_idx', 'info_type', 'company_type', 'kind_type', 'info_type', 'movie_info'] 
+Cost: 241180.70435982003 
+Iteration: 10 
+Optimal Join Order: ['company_name', 'company_type', 'info_type', 'kind_type', 'info_type', 'movie_info_idx', 'title', 'movie_companies', 'movie_info'] 
+Cost: 373090.55723250244 
+Iteration: 11 
+Optimal Join Order: ['company_name', 'movie_companies', 'movie_info', 'title', 'movie_info_idx', 'info_type', 'company_type', 'kind_type', 'info_type'] 
+Cost: 20427.387698362403 
+Iteration: 12 
+Optimal Join Order: ['movie_info', 'movie_info_idx', 'title', 'movie_companies', 'company_name', 'kind_type', 'info_type', 'company_type', 'info_type'] 
+Cost: 352949.51679474 
+Iteration: 13 
+Optimal Join Order: ['title', 'movie_info_idx', 'movie_info', 'movie_companies', 'company_name', 'company_type', 'info_type', 'kind_type', 'info_type'] 
+Cost: 352948.4860817784 
+Iteration: 14 
+Optimal Join Order: ['info_type', 'company_type', 'kind_type', 'info_type', 'movie_info_idx', 'movie_info', 'title', 'movie_companies', 'company_name'] 
+Cost: 20428.656224228 
+Iteration: 15 
+Optimal Join Order: ['title', 'movie_info_idx', 'info_type', 'kind_type', 'company_type', 'info_type', 'movie_info', 'movie_companies', 'company_name'] 
+Cost: 241179.67364685846 
+Iteration: 16 
+Optimal Join Order: ['title', 'movie_info', 'movie_companies', 'company_name', 'kind_type', 'info_type', 'movie_info_idx', 'info_type', 'company_type'] 
+Cost: 393147.28651634644 
+Iteration: 17 
+Optimal Join Order: ['title', 'movie_info_idx', 'movie_info', 'movie_companies', 'company_name', 'company_type', 'kind_type', 'info_type', 'info_type'] 
+Cost: 352948.4860817784 
+Iteration: 18 
+Optimal Join Order: ['info_type', 'movie_info', 'movie_companies', 'title', 'movie_info_idx', 'info_type', 'kind_type', 'company_type', 'company_name'] 
+Cost: 593623.0837925024 
+Iteration: 19 
+Optimal Join Order: ['company_name', 'movie_companies', 'title', 'movie_info', 'movie_info_idx', 'info_type', 'company_type', 'kind_type', 'info_type'] 
+Cost: 20428.656224228 
+Iteration: 20 
+Optimal Join Order: ['info_type', 'kind_type', 'company_type', 'info_type', 'movie_info_idx', 'title', 'movie_info', 'movie_companies', 'company_name'] 
+Cost: 20427.3876983624 
+Iteration: 21 
+Optimal Join Order: ['company_name', 'info_type', 'company_type', 'kind_type', 'info_type', 'movie_info', 'movie_companies', 'title', 'movie_info_idx'] 
+Cost: 573692.7876325024 
+Iteration: 22 
+Optimal Join Order: ['movie_companies', 'movie_info', 'title', 'movie_info_idx', 'info_type', 'company_type', 'info_type', 'kind_type', 'company_name'] 
+Cost: 373094.8506222824 
+Iteration: 23 
+Optimal Join Order: ['title', 'movie_info_idx', 'movie_info', 'movie_companies', 'company_name', 'company_type', 'info_type', 'kind_type', 'info_type'] 
+Cost: 352948.4860817784 
+Iteration: 24 
+Optimal Join Order: ['company_name', 'movie_companies', 'movie_info', 'title', 'movie_info_idx', 'info_type', 'company_type', 'kind_type', 'info_type'] 
+Cost: 20427.387698362403 
+Iteration: 25 
+Optimal Join Order: ['movie_info', 'info_type', 'kind_type', 'company_type', 'info_type', 'movie_info_idx', 'title', 'movie_companies', 'company_name'] 
+Cost: 241180.70435982003 
+Iteration: 26 
+Optimal Join Order: ['company_name', 'movie_companies', 'title', 'movie_info_idx', 'info_type', 'kind_type', 'company_type', 'info_type', 'movie_info'] 
+Cost: 241180.70435982003 
+Iteration: 27 
+Optimal Join Order: ['title', 'movie_info_idx', 'info_type', 'info_type', 'company_type', 'kind_type', 'company_name', 'movie_companies', 'movie_info'] 
+Cost: 373103.1470868584 
+Iteration: 28 
+Optimal Join Order: ['info_type', 'company_type', 'kind_type', 'info_type', 'movie_info_idx', 'title', 'movie_info', 'movie_companies', 'company_name'] 
+Cost: 20427.3876983624 
+Iteration: 29 
+Optimal Join Order: ['info_type', 'info_type', 'company_type', 'kind_type', 'company_name', 'movie_companies', 'movie_info_idx', 'title', 'movie_info'] 
+Cost: 352956.59016585 
+Query: ./ENGR489-Project/TestQueries/23a.sql
+Iteration: 0 
+Optimal Join Order: ['keyword', 'complete_cast', 'title', 'movie_keyword', 'movie_info', 'movie_companies', 'company_name', 'company_type', 'kind_type', 'comp_cast_type', 'info_type'] 
+Cost: 710570.4652305974 
+Iteration: 1 
+Optimal Join Order: ['info_type', 'company_type', 'keyword', 'movie_keyword', 'movie_companies', 'movie_info', 'title', 'complete_cast', 'comp_cast_type', 'kind_type', 'company_name'] 
+Cost: 575516.6836330564 
+Iteration: 2 
+Optimal Join Order: ['company_name', 'movie_companies', 'complete_cast', 'company_type', 'kind_type', 'comp_cast_type', 'info_type', 'keyword', 'movie_keyword', 'title', 'movie_info'] 
+Cost: 358199.532089177 
+Iteration: 3 
+Optimal Join Order: ['company_name', 'comp_cast_type', 'company_type', 'kind_type', 'info_type', 'keyword', 'movie_keyword', 'title', 'movie_companies', 'movie_info', 'complete_cast'] 
+Cost: 575613.4890602853 
+Iteration: 4 
+Optimal Join Order: ['complete_cast', 'movie_keyword', 'keyword', 'info_type', 'company_type', 'kind_type', 'comp_cast_type', 'company_name', 'movie_companies', 'movie_info', 'title'] 
+Cost: 575644.8012293463 
+Iteration: 5 
+Optimal Join Order: ['complete_cast', 'title', 'movie_keyword', 'keyword', 'info_type', 'kind_type', 'comp_cast_type', 'company_type', 'company_name', 'movie_companies', 'movie_info'] 
+Cost: 575623.0632400553 
+Iteration: 6 
+Optimal Join Order: ['movie_info', 'movie_companies', 'title', 'movie_keyword', 'keyword', 'kind_type', 'complete_cast', 'comp_cast_type', 'company_type', 'info_type', 'company_name'] 
+Cost: 710691.8692317794 
+Iteration: 7 
+Optimal Join Order: ['movie_keyword', 'title', 'movie_info', 'movie_companies', 'company_name', 'info_type', 'complete_cast', 'comp_cast_type', 'company_type', 'kind_type', 'keyword'] 
+Cost: 710677.4445501193 
+Iteration: 8 
+Optimal Join Order: ['company_name', 'company_type', 'comp_cast_type', 'info_type', 'kind_type', 'keyword', 'movie_keyword', 'movie_companies', 'title', 'movie_info', 'complete_cast'] 
+Cost: 575637.3828393038 
+Iteration: 9 
+Optimal Join Order: ['keyword', 'company_type', 'kind_type', 'comp_cast_type', 'complete_cast', 'movie_keyword', 'movie_info', 'title', 'movie_companies', 'company_name', 'info_type'] 
+Cost: 575503.58111415 
+Iteration: 10 
+Optimal Join Order: ['keyword', 'movie_keyword', 'complete_cast', 'kind_type', 'comp_cast_type', 'company_type', 'info_type', 'movie_info', 'title', 'movie_companies', 'company_name'] 
+Cost: 356062.358502308 
+Iteration: 11 
+Optimal Join Order: ['keyword', 'movie_keyword', 'movie_info', 'title', 'movie_companies', 'complete_cast', 'kind_type', 'company_type', 'comp_cast_type', 'info_type', 'company_name'] 
+Cost: 488015.19620041 
+Iteration: 12 
+Optimal Join Order: ['movie_info', 'movie_keyword', 'keyword', 'company_type', 'info_type', 'kind_type', 'comp_cast_type', 'complete_cast', 'title', 'movie_companies', 'company_name'] 
+Cost: 223056.69509990598 
+Iteration: 13 
+Optimal Join Order: ['title', 'movie_keyword', 'keyword', 'comp_cast_type', 'kind_type', 'company_type', 'info_type', 'complete_cast', 'movie_info', 'movie_companies', 'company_name'] 
+Cost: 358143.0789146414 
+Iteration: 14 
+Optimal Join Order: ['movie_companies', 'movie_keyword', 'title', 'movie_info', 'complete_cast', 'comp_cast_type', 'keyword', 'kind_type', 'info_type', 'company_type', 'company_name'] 
+Cost: 798346.930823833 
+Iteration: 15 
+Optimal Join Order: ['company_name', 'movie_companies', 'movie_info', 'info_type', 'keyword', 'movie_keyword', 'title', 'complete_cast', 'company_type', 'comp_cast_type', 'kind_type'] 
+Cost: 578778.5898000554 
+Iteration: 16 
+Optimal Join Order: ['company_name', 'movie_companies', 'movie_keyword', 'title', 'movie_info', 'complete_cast', 'comp_cast_type', 'kind_type', 'company_type', 'info_type', 'keyword'] 
+Cost: 223046.467899913 
+Iteration: 17 
+Optimal Join Order: ['movie_keyword', 'movie_info', 'movie_companies', 'company_name', 'kind_type', 'info_type', 'company_type', 'keyword', 'comp_cast_type', 'complete_cast', 'title'] 
+Cost: 798337.4092394244 
+Iteration: 18 
+Optimal Join Order: ['title', 'movie_keyword', 'keyword', 'comp_cast_type', 'info_type', 'kind_type', 'company_name', 'movie_companies', 'movie_info', 'complete_cast', 'company_type'] 
+Cost: 710708.0789146413 
+Iteration: 19 
+Optimal Join Order: ['company_name', 'movie_companies', 'title', 'movie_keyword', 'movie_info', 'complete_cast', 'keyword', 'kind_type', 'company_type', 'comp_cast_type', 'info_type'] 
+Cost: 580751.511618145 
+Iteration: 20 
+Optimal Join Order: ['keyword', 'movie_keyword', 'title', 'movie_companies', 'company_name', 'info_type', 'movie_info', 'complete_cast', 'comp_cast_type', 'company_type', 'kind_type'] 
+Cost: 573515.983368903 
+Iteration: 21 
+Optimal Join Order: ['company_name', 'movie_companies', 'movie_info', 'movie_keyword', 'title', 'complete_cast', 'comp_cast_type', 'info_type', 'kind_type', 'company_type', 'keyword'] 
+Cost: 223024.8124118974 
+Iteration: 22 
+Optimal Join Order: ['movie_companies', 'title', 'movie_info', 'movie_keyword', 'keyword', 'comp_cast_type', 'complete_cast', 'company_type', 'kind_type', 'info_type', 'company_name'] 
+Cost: 710702.44730011 
+Iteration: 23 
+Optimal Join Order: ['movie_info', 'complete_cast', 'comp_cast_type', 'info_type', 'kind_type', 'company_type', 'keyword', 'movie_keyword', 'title', 'movie_companies', 'company_name'] 
+Cost: 223054.456808903 
+Iteration: 24 
+Optimal Join Order: ['keyword', 'company_type', 'comp_cast_type', 'kind_type', 'company_name', 'movie_companies', 'movie_info', 'title', 'movie_keyword', 'complete_cast', 'info_type'] 
+Cost: 710586.9492542993 
+Iteration: 25 
+Optimal Join Order: ['complete_cast', 'title', 'movie_keyword', 'movie_info', 'movie_companies', 'company_name', 'info_type', 'comp_cast_type', 'company_type', 'kind_type', 'keyword'] 
+Cost: 575597.4652305974 
+Iteration: 26 
+Optimal Join Order: ['keyword', 'comp_cast_type', 'info_type', 'kind_type', 'company_type', 'company_name', 'movie_companies', 'title', 'movie_keyword', 'complete_cast', 'movie_info'] 
+Cost: 575612.7063655629 
+Iteration: 27 
+Optimal Join Order: ['info_type', 'kind_type', 'keyword', 'comp_cast_type', 'complete_cast', 'movie_info', 'movie_keyword', 'title', 'movie_companies', 'company_name', 'company_type'] 
+Cost: 798226.858799445 
+Iteration: 28 
+Optimal Join Order: ['company_name', 'movie_companies', 'movie_keyword', 'keyword', 'company_type', 'kind_type', 'comp_cast_type', 'complete_cast', 'title', 'movie_info', 'info_type'] 
+Cost: 443606.830760374 
+Iteration: 29 
+Optimal Join Order: ['kind_type', 'comp_cast_type', 'company_type', 'info_type', 'complete_cast', 'movie_keyword', 'keyword', 'company_name', 'movie_companies', 'title', 'movie_info'] 
+Cost: 710724.8319423079 
+Query: ./ENGR489-Project/TestQueries/31a.sql
+Iteration: 0 
+Optimal Join Order: ['keyword', 'info_type', 'movie_info_idx', 'info_type', 'company_name', 'movie_companies', 'title', 'movie_keyword', 'movie_info', 'cast_info', 'name'] 
+Cost: 615898.6739546757 
+Iteration: 1 
+Optimal Join Order: ['keyword', 'movie_keyword', 'movie_info_idx', 'cast_info', 'name', 'info_type', 'info_type', 'company_name', 'movie_companies', 'movie_info', 'title'] 
+Cost: 6631796.5609373385 
+Iteration: 2 
+Optimal Join Order: ['company_name', 'movie_companies', 'movie_keyword', 'keyword', 'info_type', 'movie_info_idx', 'info_type', 'movie_info', 'title', 'cast_info', 'name'] 
+Cost: 484030.43701179506 
+Iteration: 3 
+Optimal Join Order: ['info_type', 'info_type', 'company_name', 'keyword', 'movie_keyword', 'title', 'movie_info_idx', 'movie_companies', 'movie_info', 'cast_info', 'name'] 
+Cost: 928283.9243333581 
+Iteration: 4 
+Optimal Join Order: ['movie_companies', 'company_name', 'info_type', 'movie_info', 'movie_info_idx', 'info_type', 'keyword', 'movie_keyword', 'title', 'cast_info', 'name'] 
+Cost: 816532.9657189341 
+Iteration: 5 
+Optimal Join Order: ['name', 'cast_info', 'movie_info_idx', 'info_type', 'info_type', 'movie_info', 'movie_companies', 'company_name', 'keyword', 'movie_keyword', 'title'] 
+Cost: 816543.2176139314 
+Iteration: 6 
+Optimal Join Order: ['movie_keyword', 'keyword', 'company_name', 'info_type', 'info_type', 'movie_info', 'movie_info_idx', 'movie_companies', 'title', 'cast_info', 'name'] 
+Cost: 1149048.091668355 
+Iteration: 7 
+Optimal Join Order: ['name', 'cast_info', 'movie_info', 'title', 'movie_companies', 'movie_info_idx', 'info_type', 'info_type', 'company_name', 'keyword', 'movie_keyword'] 
+Cost: 948443.6913033347 
+Iteration: 8 
+Optimal Join Order: ['name', 'cast_info', 'movie_info_idx', 'movie_info', 'info_type', 'info_type', 'keyword', 'movie_keyword', 'title', 'movie_companies', 'company_name'] 
+Cost: 443933.58732181304 
+Iteration: 9 
+Optimal Join Order: ['name', 'cast_info', 'movie_info', 'movie_keyword', 'title', 'movie_companies', 'company_name', 'keyword', 'info_type', 'movie_info_idx', 'info_type'] 
+Cost: 838531.6739546758 
+Iteration: 10 
+Optimal Join Order: ['info_type', 'movie_info_idx', 'movie_info', 'movie_companies', 'company_name', 'info_type', 'name', 'cast_info', 'title', 'movie_keyword', 'keyword'] 
+Cost: 6651704.355667697 
+Iteration: 11 
+Optimal Join Order: ['name', 'cast_info', 'movie_info_idx', 'info_type', 'keyword', 'company_name', 'movie_companies', 'movie_keyword', 'title', 'movie_info', 'info_type'] 
+Cost: 1039169.2594179029 
+Iteration: 12 
+Optimal Join Order: ['name', 'cast_info', 'movie_info', 'info_type', 'movie_info_idx', 'movie_companies', 'title', 'movie_keyword', 'keyword', 'info_type', 'company_name'] 
+Cost: 816516.3804243037 
+Iteration: 13 
+Optimal Join Order: ['keyword', 'company_name', 'info_type', 'info_type', 'movie_info_idx', 'movie_keyword', 'title', 'movie_companies', 'movie_info', 'cast_info', 'name'] 
+Cost: 948412.4286936721 
+Iteration: 14 
+Optimal Join Order: ['info_type', 'movie_info', 'movie_keyword', 'keyword', 'info_type', 'company_name', 'movie_companies', 'movie_info_idx', 'title', 'cast_info', 'name'] 
+Cost: 796386.1008478691 
+Iteration: 15 
+Optimal Join Order: ['name', 'cast_info', 'title', 'info_type', 'info_type', 'movie_info_idx', 'movie_companies', 'movie_info', 'movie_keyword', 'keyword', 'company_name'] 
+Cost: 4785046.852538535 
+Iteration: 16 
+Optimal Join Order: ['movie_companies', 'movie_keyword', 'keyword', 'info_type', 'company_name', 'info_type', 'movie_info_idx', 'movie_info', 'title', 'cast_info', 'name'] 
+Cost: 948466.712370635 
+Iteration: 17 
+Optimal Join Order: ['name', 'cast_info', 'movie_info', 'movie_companies', 'company_name', 'info_type', 'info_type', 'keyword', 'movie_keyword', 'title', 'movie_info_idx'] 
+Cost: 575838.046273188 
+Iteration: 18 
+Optimal Join Order: ['movie_keyword', 'movie_info_idx', 'info_type', 'company_name', 'keyword', 'name', 'cast_info', 'title', 'movie_companies', 'movie_info', 'info_type'] 
+Cost: 7670370.327502804 
+Iteration: 19 
+Optimal Join Order: ['movie_keyword', 'keyword', 'company_name', 'info_type', 'movie_info_idx', 'info_type', 'movie_info', 'movie_companies', 'title', 'cast_info', 'name'] 
+Cost: 1189129.5502059474 
+Iteration: 20 
+Optimal Join Order: ['info_type', 'company_name', 'movie_companies', 'title', 'movie_keyword', 'keyword', 'info_type', 'movie_info_idx', 'movie_info', 'cast_info', 'name'] 
+Cost: 595769.6109590539 
+Iteration: 21 
+Optimal Join Order: ['info_type', 'info_type', 'keyword', 'movie_keyword', 'movie_info', 'cast_info', 'name', 'company_name', 'movie_companies', 'title', 'movie_info_idx'] 
+Cost: 6854406.330951739 
+Iteration: 22 
+Optimal Join Order: ['keyword', 'company_name', 'movie_companies', 'movie_info_idx', 'movie_keyword', 'movie_info', 'title', 'cast_info', 'name', 'info_type', 'info_type'] 
+Cost: 6854396.491014212 
+Iteration: 23 
+Optimal Join Order: ['company_name', 'info_type', 'keyword', 'info_type', 'movie_info_idx', 'title', 'movie_companies', 'movie_keyword', 'movie_info', 'cast_info', 'name'] 
+Cost: 818606.8077368886 
+Iteration: 24 
+Optimal Join Order: ['keyword', 'movie_keyword', 'title', 'movie_companies', 'company_name', 'info_type', 'name', 'cast_info', 'movie_info', 'movie_info_idx', 'info_type'] 
+Cost: 6651698.610959055 
+Iteration: 25 
+Optimal Join Order: ['name', 'cast_info', 'title', 'movie_companies', 'company_name', 'keyword', 'movie_keyword', 'movie_info', 'movie_info_idx', 'info_type', 'info_type'] 
+Cost: 595781.640346247 
+Iteration: 26 
+Optimal Join Order: ['name', 'cast_info', 'movie_info', 'movie_keyword', 'movie_companies', 'company_name', 'keyword', 'info_type', 'info_type', 'movie_info_idx', 'title'] 
+Cost: 818619.3975912447 
+Iteration: 27 
+Optimal Join Order: ['name', 'cast_info', 'movie_info', 'movie_info_idx', 'movie_keyword', 'title', 'movie_companies', 'company_name', 'info_type', 'info_type', 'keyword'] 
+Cost: 575815.3882559098 
+Iteration: 28 
+Optimal Join Order: ['company_name', 'keyword', 'movie_keyword', 'title', 'movie_companies', 'movie_info', 'cast_info', 'name', 'info_type', 'info_type', 'movie_info_idx'] 
+Cost: 6874542.355236816 
+Iteration: 29 
+Optimal Join Order: ['name', 'company_name', 'movie_companies', 'movie_info_idx', 'info_type', 'info_type', 'keyword', 'movie_keyword', 'title', 'movie_info', 'cast_info'] 
+Cost: 6874553.927283586 
+Query: ./ENGR489-Project/TestQueries/6a.sql
+Iteration: 0 
+Optimal Join Order: ['keyword', 'movie_keyword', 'title', 'cast_info', 'name'] 
+Cost: 60.970767933999994 
+Iteration: 1 
+Optimal Join Order: ['keyword', 'movie_keyword', 'title', 'cast_info', 'name'] 
+Cost: 60.970767933999994 
+Iteration: 2 
+Optimal Join Order: ['keyword', 'movie_keyword', 'title', 'cast_info', 'name'] 
+Cost: 60.970767933999994 
+Iteration: 3 
+Optimal Join Order: ['keyword', 'movie_keyword', 'title', 'cast_info', 'name'] 
+Cost: 60.970767933999994 
+Iteration: 4 
+Optimal Join Order: ['keyword', 'movie_keyword', 'title', 'cast_info', 'name'] 
+Cost: 60.970767933999994 
+Iteration: 5 
+Optimal Join Order: ['keyword', 'movie_keyword', 'title', 'cast_info', 'name'] 
+Cost: 60.970767933999994 
+Iteration: 6 
+Optimal Join Order: ['keyword', 'movie_keyword', 'title', 'cast_info', 'name'] 
+Cost: 60.970767933999994 
+Iteration: 7 
+Optimal Join Order: ['name', 'cast_info', 'title', 'movie_keyword', 'keyword'] 
+Cost: 60.97076793400001 
+Iteration: 8 
+Optimal Join Order: ['keyword', 'movie_keyword', 'title', 'cast_info', 'name'] 
+Cost: 60.970767933999994 
+Iteration: 9 
+Optimal Join Order: ['keyword', 'movie_keyword', 'title', 'cast_info', 'name'] 
+Cost: 60.970767933999994 
+Iteration: 10 
+Optimal Join Order: ['keyword', 'movie_keyword', 'title', 'cast_info', 'name'] 
+Cost: 60.970767933999994 
+Iteration: 11 
+Optimal Join Order: ['keyword', 'movie_keyword', 'title', 'cast_info', 'name'] 
+Cost: 60.970767933999994 
+Iteration: 12 
+Optimal Join Order: ['name', 'cast_info', 'title', 'movie_keyword', 'keyword'] 
+Cost: 60.97076793400001 
+Iteration: 13 
+Optimal Join Order: ['keyword', 'movie_keyword', 'title', 'cast_info', 'name'] 
+Cost: 60.970767933999994 
+Iteration: 14 
+Optimal Join Order: ['keyword', 'movie_keyword', 'title', 'cast_info', 'name'] 
+Cost: 60.970767933999994 
+Iteration: 15 
+Optimal Join Order: ['keyword', 'movie_keyword', 'title', 'cast_info', 'name'] 
+Cost: 60.970767933999994 
+Iteration: 16 
+Optimal Join Order: ['keyword', 'movie_keyword', 'title', 'cast_info', 'name'] 
+Cost: 60.970767933999994 
+Iteration: 17 
+Optimal Join Order: ['keyword', 'movie_keyword', 'title', 'cast_info', 'name'] 
+Cost: 60.970767933999994 
+Iteration: 18 
+Optimal Join Order: ['keyword', 'movie_keyword', 'title', 'cast_info', 'name'] 
+Cost: 60.970767933999994 
+Iteration: 19 
+Optimal Join Order: ['keyword', 'movie_keyword', 'title', 'cast_info', 'name'] 
+Cost: 60.970767933999994 
+Iteration: 20 
+Optimal Join Order: ['keyword', 'movie_keyword', 'title', 'cast_info', 'name'] 
+Cost: 60.970767933999994 
+Iteration: 21 
+Optimal Join Order: ['keyword', 'movie_keyword', 'title', 'cast_info', 'name'] 
+Cost: 60.970767933999994 
+Iteration: 22 
+Optimal Join Order: ['keyword', 'movie_keyword', 'title', 'cast_info', 'name'] 
+Cost: 60.970767933999994 
+Iteration: 23 
+Optimal Join Order: ['keyword', 'movie_keyword', 'title', 'cast_info', 'name'] 
+Cost: 60.970767933999994 
+Iteration: 24 
+Optimal Join Order: ['keyword', 'movie_keyword', 'title', 'cast_info', 'name'] 
+Cost: 60.970767933999994 
+Iteration: 25 
+Optimal Join Order: ['keyword', 'movie_keyword', 'title', 'cast_info', 'name'] 
+Cost: 60.970767933999994 
+Iteration: 26 
+Optimal Join Order: ['keyword', 'movie_keyword', 'title', 'cast_info', 'name'] 
+Cost: 60.970767933999994 
+Iteration: 27 
+Optimal Join Order: ['keyword', 'movie_keyword', 'title', 'cast_info', 'name'] 
+Cost: 60.970767933999994 
+Iteration: 28 
+Optimal Join Order: ['keyword', 'movie_keyword', 'title', 'cast_info', 'name'] 
+Cost: 60.970767933999994 
+Iteration: 29 
+Optimal Join Order: ['keyword', 'movie_keyword', 'title', 'cast_info', 'name'] 
+Cost: 60.970767933999994 
+Query: ./ENGR489-Project/TestQueries/16a.sql
+Iteration: 0 
+Optimal Join Order: ['cast_info', 'name', 'aka_name', 'keyword', 'company_name', 'movie_companies', 'movie_keyword', 'title'] 
+Cost: 2077243.8718353538 
+Iteration: 1 
+Optimal Join Order: ['keyword', 'aka_name', 'name', 'cast_info', 'title', 'movie_keyword', 'movie_companies', 'company_name'] 
+Cost: 1501943.4272367158 
+Iteration: 2 
+Optimal Join Order: ['keyword', 'movie_keyword', 'title', 'movie_companies', 'company_name', 'aka_name', 'name', 'cast_info'] 
+Cost: 1631766.101355848 
+Iteration: 3 
+Optimal Join Order: ['name', 'aka_name', 'cast_info', 'title', 'movie_companies', 'company_name', 'keyword', 'movie_keyword'] 
+Cost: 575390.521312398 
+Iteration: 4 
+Optimal Join Order: ['keyword', 'movie_keyword', 'movie_companies', 'title', 'cast_info', 'name', 'aka_name', 'company_name'] 
+Cost: 1631784.689357407 
+Iteration: 5 
+Optimal Join Order: ['movie_keyword', 'keyword', 'company_name', 'movie_companies', 'title', 'cast_info', 'aka_name', 'name'] 
+Cost: 575390.5213123979 
+Iteration: 6 
+Optimal Join Order: ['keyword', 'aka_name', 'name', 'cast_info', 'title', 'movie_keyword', 'movie_companies', 'company_name'] 
+Cost: 1501943.4272367158 
+Iteration: 7 
+Optimal Join Order: ['keyword', 'company_name', 'movie_companies', 'movie_keyword', 'title', 'cast_info', 'aka_name', 'name'] 
+Cost: 575378.6949643769 
+Iteration: 8 
+Optimal Join Order: ['company_name', 'movie_companies', 'title', 'cast_info', 'name', 'aka_name', 'keyword', 'movie_keyword'] 
+Cost: 1501955.253584737 
+Iteration: 9 
+Optimal Join Order: ['name', 'aka_name', 'cast_info', 'title', 'movie_keyword', 'movie_companies', 'company_name', 'keyword'] 
+Cost: 575378.694964377 
+Iteration: 10 
+Optimal Join Order: ['name', 'aka_name', 'cast_info', 'title', 'movie_keyword', 'movie_companies', 'company_name', 'keyword'] 
+Cost: 575378.694964377 
+Iteration: 11 
+Optimal Join Order: ['title', 'cast_info', 'name', 'aka_name', 'keyword', 'movie_keyword', 'movie_companies', 'company_name'] 
+Cost: 1501974.2792117628 
+Iteration: 12 
+Optimal Join Order: ['cast_info', 'name', 'aka_name', 'keyword', 'movie_keyword', 'title', 'movie_companies', 'company_name'] 
+Cost: 1501943.101355848 
+Iteration: 13 
+Optimal Join Order: ['keyword', 'movie_keyword', 'title', 'movie_companies', 'company_name', 'aka_name', 'cast_info', 'name'] 
+Cost: 1631774.924438616 
+Iteration: 14 
+Optimal Join Order: ['name', 'cast_info', 'title', 'movie_keyword', 'movie_companies', 'company_name', 'keyword', 'aka_name'] 
+Cost: 2077257.2255452438 
+Iteration: 15 
+Optimal Join Order: ['company_name', 'movie_companies', 'title', 'cast_info', 'name', 'aka_name', 'keyword', 'movie_keyword'] 
+Cost: 1501955.253584737 
+Iteration: 16 
+Optimal Join Order: ['company_name', 'movie_companies', 'movie_keyword', 'title', 'cast_info', 'name', 'aka_name', 'keyword'] 
+Cost: 1501943.427236716 
+Iteration: 17 
+Optimal Join Order: ['movie_keyword', 'keyword', 'company_name', 'movie_companies', 'title', 'cast_info', 'aka_name', 'name'] 
+Cost: 575390.5213123979 
+Iteration: 18 
+Optimal Join Order: ['keyword', 'company_name', 'movie_companies', 'movie_keyword', 'title', 'cast_info', 'name', 'aka_name'] 
+Cost: 575379.4272367159 
+Iteration: 19 
+Optimal Join Order: ['company_name', 'movie_companies', 'title', 'movie_keyword', 'keyword', 'aka_name', 'name', 'cast_info'] 
+Cost: 1501943.101355848 
+Iteration: 20 
+Optimal Join Order: ['name', 'cast_info', 'aka_name', 'company_name', 'movie_companies', 'title', 'movie_keyword', 'keyword'] 
+Cost: 1631774.924438616 
+Iteration: 21 
+Optimal Join Order: ['keyword', 'company_name', 'movie_companies', 'movie_keyword', 'title', 'cast_info', 'aka_name', 'name'] 
+Cost: 575378.6949643769 
+Iteration: 22 
+Optimal Join Order: ['name', 'aka_name', 'cast_info', 'title', 'movie_keyword', 'movie_companies', 'company_name', 'keyword'] 
+Cost: 575378.694964377 
+Iteration: 23 
+Optimal Join Order: ['cast_info', 'name', 'aka_name', 'keyword', 'company_name', 'movie_companies', 'title', 'movie_keyword'] 
+Cost: 2077224.846208328 
+Iteration: 24 
+Optimal Join Order: ['keyword', 'movie_keyword', 'title', 'movie_companies', 'company_name', 'aka_name', 'cast_info', 'name'] 
+Cost: 1631774.924438616 
+Iteration: 25 
+Optimal Join Order: ['movie_keyword', 'keyword', 'company_name', 'movie_companies', 'title', 'cast_info', 'aka_name', 'name'] 
+Cost: 575390.5213123979 
+Iteration: 26 
+Optimal Join Order: ['name', 'aka_name', 'cast_info', 'title', 'movie_keyword', 'movie_companies', 'company_name', 'keyword'] 
+Cost: 575378.694964377 
+Iteration: 27 
+Optimal Join Order: ['name', 'aka_name', 'cast_info', 'title', 'movie_companies', 'company_name', 'keyword', 'movie_keyword'] 
+Cost: 575390.521312398 
+Iteration: 28 
+Optimal Join Order: ['name', 'aka_name', 'cast_info', 'title', 'movie_keyword', 'keyword', 'company_name', 'movie_companies'] 
+Cost: 575390.977263147 
+Iteration: 29 
+Optimal Join Order: ['keyword', 'movie_keyword', 'title', 'cast_info', 'name', 'aka_name', 'company_name', 'movie_companies'] 
+Cost: 1631778.709535486 
