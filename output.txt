@@ -1,0 +1,2 @@
+Query: TestQueries\10a.sql
+Iteration: 0 
