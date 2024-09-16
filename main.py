@@ -2,7 +2,7 @@ import sys
 import os
 from SQLParser import parse_sql
 from SQLGenAlg import genetic_algorithm
-from SQLCostCalculator import read_join_stats_from_excel
+from SQLCostCalculator import JoinStats
 from validate import calculate_all_permutations_cost
 
 def main():
@@ -18,7 +18,7 @@ def main():
         SQLfiles.append(abs_file_path)
 
     #load table sizes and join selectivities
-    join_stats = read_join_stats_from_excel(join_selectivity_file)
+    join_stats = JoinStats(join_selectivity_file)
 
     for f in SQLfiles: 
         result_file.write("Query: %s\n" % f)
