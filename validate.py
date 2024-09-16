@@ -12,7 +12,7 @@ def calculate_all_permutations_cost(strings, join_stats):
 
     # Iterate over all permutations and calculate their cost
     for perm in all_permutations:
-        cost = evaluate(perm, join_stats)[0]  # Evaluate returns a tuple, so take the first element
+        cost = evaluate(perm, join_stats)
         if cost < min_cost:
             min_cost = cost
             best_permutation = perm

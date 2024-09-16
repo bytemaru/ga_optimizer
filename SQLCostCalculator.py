@@ -63,7 +63,6 @@ def get_lowest_selectivity(left_set, right_set, join_stats):
             selectivity = join_stats.get_selectivity(left, right)
             if selectivity < best_selectivity: 
                 best_selectivity = selectivity
-                print(left, right)
     return best_selectivity
 
 
@@ -93,15 +92,12 @@ def evaluate(joins, join_stats):
 
     selectivity = get_lowest_selectivity(left_set, right_set, join_stats)
     cost = (left_size + right_size) * selectivity
-    print(left_set)
-    print(right_set)
-    print(left_size, right_size, selectivity)
 
     return cost
 
 
 
-stats = JoinStats('Join-Selectivities.xlsx')
-joins = ['company_name', 'role_type', 'company_type', 'movie_companies', '?', 'title', 'cast_info', 'char_name']
+# stats = JoinStats('Join-Selectivities.xlsx')
+# joins = ['company_name', 'role_type', 'company_type', 'movie_companies', '?', 'title', 'cast_info', 'char_name']
 
-print("COST: ",evaluate(joins, stats))
+# print("COST: ",evaluate(joins, stats))

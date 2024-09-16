@@ -101,7 +101,7 @@ def genetic_algorithm(joins, join_stats):
         invalid_ind = [ind for ind in offspring if not ind.fitness.valid]
         fitnesses = list(map(toolbox.evaluate, invalid_ind))
         for ind, fit in zip(invalid_ind, fitnesses):
-            ind.fitness.values = fit
+            ind.fitness.values = (fit, )
 
         # Select the best individuals to be preserved
         elites = tools.selBest(population, elitism_size)
@@ -118,5 +118,5 @@ def genetic_algorithm(joins, join_stats):
     best_ind = tools.selBest(population, 1)[0]
     best_seq = convert_permutation_to_original(best_ind, joins)
     result = (f"Optimal Join Order: {best_seq} \n")
-    result += (f"Cost: {evaluate(best_ind, join_stats, joins)[0]} \n")
+    result += (f"Cost: {evaluate(best_ind, join_stats, joins)} \n")
     return result
