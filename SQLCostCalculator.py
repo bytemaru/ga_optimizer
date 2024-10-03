@@ -106,13 +106,10 @@ def evaluate(joins, join_stats):
 
 
         if (index == len(joins)-1): 
-            print(left_set, right_set)
             right_size = calculate_sequence_cost(right_set, join_stats)
-            print(left_size, right_size)
 
 
     selectivity = get_lowest_selectivity(left_set, right_set, join_stats)
-    print(selectivity)
     cost = (left_size + right_size) * selectivity
 
     return cost
