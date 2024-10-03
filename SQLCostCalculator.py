@@ -49,15 +49,8 @@ class JoinStats:
         except KeyError as e:
             selectivity = 1 # Selecticity = 1 if no join is found - KeyError occurs
 
-def calculate_sequence_size(joins, join_stats): 
-    total_size= 0
-    explored_joins = []
-    for join in joins:
-        total_size += join_stats.get_size(join)
-    return total_size
-
 def get_lowest_selectivity(left_set, right_set, join_stats): 
-    best_selectivity = 10000
+    best_selectivity = 1.0
     for left in left_set: 
         for right in right_set: 
             selectivity = join_stats.get_selectivity(left, right)
@@ -65,6 +58,30 @@ def get_lowest_selectivity(left_set, right_set, join_stats):
                 best_selectivity = selectivity
     return best_selectivity
 
+def calculate_sequence_cost(joins, join_stats): 
+    cost = 0
+    explored_joins = []
+
+    if len(joins) == 1:
+        return join_stats.get_size(joins[0])
+
+    for i in range(len(joins)):
+        if not explored_joins:
+            cost += (join_stats.get_size(joins[i]) + join_stats.get_size(joins[i+1])) * join_stats.get_selectivity(joins[i], joins[i+1])
+            explored_joins.append(joins[i])
+            explored_joins.append(joins[i+1])
+        else: 
+            min_selectivity = 1.0
+            min_size = ''
+            for expl_join in explored_joins: 
+                selectivity = join_stats.get_selectivity(joins[i], expl_join)
+                if selectivity <= min_selectivity: 
+                    min_selectivity = selectivity
+                    min_size = expl_join
+            cost += (join_stats.get_size(joins[i]) + join_stats.get_size(min_size)) * min_selectivity
+            explored_joins.append(joins[i])
+
+    return cost
 
 def evaluate(joins, join_stats): 
     left_parsed = False
@@ -77,20 +94,25 @@ def evaluate(joins, join_stats):
         join = joins[index]
         if join != '?':
             if not left_parsed:
-                if (index == len(joins)-2):
+                if (index == len(joins)-1):
                     right_set.append(join)
                 else: 
                     left_set.append(join)
             else: 
                 right_set.append(join)
         else:
-            left_size = calculate_sequence_size(left_set, join_stats)
+            left_size = calculate_sequence_cost(left_set, join_stats)
             left_parsed = True
 
+
         if (index == len(joins)-1): 
-            right_size = calculate_sequence_size(right_set, join_stats)
+            print(left_set, right_set)
+            right_size = calculate_sequence_cost(right_set, join_stats)
+            print(left_size, right_size)
+
 
     selectivity = get_lowest_selectivity(left_set, right_set, join_stats)
+    print(selectivity)
     cost = (left_size + right_size) * selectivity
 
     return cost
@@ -98,6 +120,6 @@ def evaluate(joins, join_stats):
 
 
 # stats = JoinStats('Join-Selectivities.xlsx')
-# joins = ['company_name', 'role_type', 'company_type', 'movie_companies', '?', 'title', 'cast_info', 'char_name']
+# joins = ['company_name', 'role_type', 'company_type', 'movie_companies', 'title', 'cast_info', 'char_name']
 
 # print("COST: ",evaluate(joins, stats))
