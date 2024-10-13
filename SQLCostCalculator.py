@@ -116,7 +116,3 @@ def evaluate(joins, join_stats):
 
 
 
-# stats = JoinStats('Join-Selectivities.xlsx')
-# joins = ['company_name', 'role_type', 'company_type', 'movie_companies', 'title', 'cast_info', 'char_name']
-
-# print("COST: ",evaluate(joins, stats))

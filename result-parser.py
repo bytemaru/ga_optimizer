@@ -10,7 +10,7 @@ cost_re = re.compile(r'Cost: ([\d.]+)')
 join_order_re = re.compile(r"Optimal Join Order: \[(.*?)\]")
 
 # Read the file
-with open('results\output1.txt', 'r') as file:
+with open('results/improved-cost-calc-nosplit.txt', 'r') as file:
     current_query = None
     for line in file:
         query_match = query_re.search(line)
