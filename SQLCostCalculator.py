@@ -85,10 +85,14 @@ def calculate_sequence_cost(joins, join_stats):
 
 def evaluate(joins, join_stats): 
     left_parsed = False
+    middle_parsed = False
+
     left_size = 0
+    middle_size = 0
     right_size = 0
 
     left_set = []
+    middle_set = []
     right_set = []
     for index in range(len(joins)): 
         join = joins[index]
@@ -98,20 +102,31 @@ def evaluate(joins, join_stats):
                     right_set.append(join)
                 else: 
                     left_set.append(join)
-            else: 
+            elif not middle_parsed:
+                middle_set.append(join)
+            elif middle_parsed:
                 right_set.append(join)
-        else:
+        elif not left_parsed:
             left_size = calculate_sequence_cost(left_set, join_stats)
             left_parsed = True
-
-
-        if (index == len(joins)-1): 
+        elif left_parsed and not middle_parsed:
+            middle_size = calculate_sequence_cost(middle_set, join_stats)
+            middle_parsed = True
+        if (index == len(joins)-1):
+            if len(right_set) == 0 and len(middle_set)!=0:
+                right_set = middle_set.copy()
+                middle_set.clear()
+                middle_size = 0
             right_size = calculate_sequence_cost(right_set, join_stats)
 
 
-    selectivity = get_lowest_selectivity(left_set, right_set, join_stats)
-    cost = (left_size + right_size) * selectivity
-
+    if len(middle_set)!=0:
+        selectivity_right_left = get_lowest_selectivity(left_set, right_set, join_stats)
+        selectivity_right_middle = get_lowest_selectivity(middle_set, right_set, join_stats)
+        selectivity = min(selectivity_right_middle, selectivity_right_left)
+    else:
+        selectivity = get_lowest_selectivity(left_set, right_set, join_stats)
+    cost = (left_size + middle_size + right_size) * selectivity
     return cost
 
 
