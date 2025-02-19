@@ -58,6 +58,38 @@ def evaluate(sequence, join_stats, original_sequence):
     return SQLCostCalculator.evaluate(joins, join_stats)
 
 
+# Initialize stagnation counter as a global variable
+stagnation_counter = 0
+prev_best_fitness = float('inf')
+
+def adaptive_crossover_rate(gen, max_gen, prev_best_fitness, current_best_fitness,
+                            base_rate=0.9, min_rate=0.4, stagnation_boost=0.1, patience=5):
+    """
+    Adapt crossover rate based on:
+    - Generation progress (linear decay)
+    - Stagnation detection (if no improvement for 'patience' generations)
+
+    Returns: Updated crossover probability.
+    """
+    global stagnation_counter
+
+    # Linear decay
+    crossover_rate = base_rate - (base_rate - min_rate) * (gen / max_gen)
+
+    # Detect stagnation (if best fitness hasn't improved)
+    if current_best_fitness >= prev_best_fitness:
+        stagnation_counter += 1
+    else:
+        stagnation_counter = 0  # Reset counter if improvement occurs
+
+    # If stagnation persists, increase crossover rate slightly
+    if stagnation_counter >= patience:
+        crossover_rate = min(0.9, crossover_rate + stagnation_boost)
+        stagnation_counter = 0  # Reset counter after adjustment
+
+    return crossover_rate
+
+
 def genetic_algorithm(joins, join_stats):
 
     # DEAP setup
@@ -74,15 +106,20 @@ def genetic_algorithm(joins, join_stats):
     toolbox.register("mutate", swapmut)
     toolbox.register("select", tools.selTournament, tournsize=3)
 
+    global prev_best_fitness
+
     population = toolbox.population(n=100)
     ngen = 40
-    cxpb = 0.8
+    cxpb = 0.9
     mutpb = 0.4
-    elitism_size = 5 
+    elitism_size = 5
+
+    convergence_data = []
 
     for gen in range(ngen):
 
         #print("Generation: ", gen)
+
         # Select the next generation individuals
         offspring = toolbox.select(population, len(population) - elitism_size)
         # Clone the selected individuals
@@ -95,7 +132,8 @@ def genetic_algorithm(joins, join_stats):
                 del child1.fitness.values
                 del child2.fitness.values
 
-            toolbox.mutate(offspring, mutpb)
+            if random.random() < mutpb:
+                toolbox.mutate(offspring, mutpb)
 
         # Evaluate the individuals with an invalid fitness
         invalid_ind = [ind for ind in offspring if not ind.fitness.valid]
@@ -111,6 +149,16 @@ def genetic_algorithm(joins, join_stats):
         # The population is entirely replaced by the offspring + elites
         population[:] = offspring
 
+        # Store best fitness for convergence curve
+        best_sample = tools.selBest(population, 1)[0]
+        best_sample_cost = evaluate(best_sample, join_stats, joins)
+        convergence_data.append(best_sample_cost)
+
+        # Update mutation rate
+        cxpb = adaptive_crossover_rate(gen, ngen, prev_best_fitness, best_sample_cost)
+
+        prev_best_fitness = best_sample_cost
+
     del creator.Individual
     del creator.FitnessMin
 
@@ -119,4 +167,5 @@ def genetic_algorithm(joins, join_stats):
     best_seq = convert_permutation_to_original(best_ind, joins)
     result = (f"Optimal Join Order: {best_seq} \n")
     result += (f"Cost: {evaluate(best_ind, join_stats, joins)} \n")
+    result += (f"Convergence curve: {convergence_data} \n")
     return result
