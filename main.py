@@ -26,6 +26,7 @@ def main():
         SQLJoins = parse_sql(f)
         joins = SQLJoins["FROM"]
         joins.append('?')
+        joins.append('?')
         for i in range(30):
             result_file.write("Iteration: %d \n" % i)
             #run GA on joins
